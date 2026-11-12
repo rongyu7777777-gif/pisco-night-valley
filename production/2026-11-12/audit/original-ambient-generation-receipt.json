@@ -1,0 +1,22 @@
+{
+  "provider": "TapNow desktop",
+  "title": "PISCO · Night Valley Motion · 2026-11-11",
+  "video_node": "01 · Private Club · Ambient Loop",
+  "model": "Hailuo-2.3 Fast",
+  "requested_seconds": 6,
+  "observed_seconds": 5.875,
+  "resolution": [
+    1918,
+    1080
+  ],
+  "credits_spent": 40,
+  "user_spending_limit": 40,
+  "generated_count": 1,
+  "source_reference": "references/private-club.png",
+  "historicalOutputBasename": "private-club-tapnow-20261111.mp4",
+  "sha256": "65224fdc73f202edc526fcaf46bdddcea0e157282a18a9b1615637fd49101900",
+  "inspection": "Inspected first, middle 2.8s and last 5.875s frames. Face and hands stable in sampled frames; final smile differs from first frame. Ambient pilot, not a generated traversal clip.",
+  "sanitization": "Account balances, project/canvas/node identifiers, remote media URLs/query tokens, download/contact-sheet paths and local Mac paths removed. Historical costs and generation details retained.",
+  "packageUsage": "Audit provenance only; not current production inputs or new spending authorization.",
+  "generation_date": "2026-11-11"
+}

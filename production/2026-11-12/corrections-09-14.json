@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "type": "static-keyframe-corrections",
+  "range": "09-14",
+  "status": "prepared_for_review_not_user_approved",
+  "tool": "built-in image_gen.imagegen only; generated PNGs copied byte-for-byte; no raster postprocessing",
+  "restrictions": {
+    "originalsPreserved": true,
+    "websiteChanged": false,
+    "tapNowUsed": false,
+    "videoGenerated": false,
+    "logosBakedIn": false,
+    "transitionTearsBakedIn": false
+  },
+  "continuity": {
+    "sceneAnchors": [
+      "references/midnight-garage.png",
+      "references/elven-court.png",
+      "references/roommates.png"
+    ],
+    "invitation": "keyframes-r2/03-private-club.png",
+    "mapAnchor": "keyframes-r2/11-elven-court.png",
+    "route": "Same pale blue-green mountain/coastline parchment with one burgundy path; round mirror at lower left -> white two-arch bridge -> wide rectangular warm window, three plate symbols underneath.",
+    "invitationDesign": "Small black matte folded cover with gold crescent; black interior/right leaf with gold outline, rectangular warm grid window and three dinner-setting symbols."
+  },
+  "shots": [
+    {
+      "id": "09",
+      "path": "keyframes-r2/09-midnight-garage.png",
+      "source": "provenance-not-packaged:exec-c48b9b6b-c840-4be9-ae14-c2c09e562ffa.png",
+      "generation": [
+        {
+          "prompt": "Use case: precise-object-edit / identity-preserve. Image1 (original garage with man) is the EDIT TARGET. Preserve exact photograph: same adult man's face, stubble, hair, grin, skin, white tank top, dark jeans and boots, bracelet, necklace, attached hands, seated pose on stationary black motorcycle, same physical motorcycle tank, dashboard, TWO small round mirrors on thin stems, black leather jacket draped over handlebar. Keep exact camera angle, framing, lens, background blue rainy entrance, tool wall, amber lamps, gray towel, black helmet and workbench. Do NOT beautify or redesign scene. Make ONLY TWO localized changes: (1) Remove the FIRST-PERSON viewer hand/forearm touching his shoulder in right foreground; reconstruct his existing shoulder and tank-top outline naturally. Keep all man's OWN attached arms/hands unchanged. (2) Add a single clearly visible flat antique PAPER ROUTE MAP on the existing workbench beside the original helmet at upper-right. Image2 provides ONLY the shared map prop: reuse its pale blue-green illustrated coastlines and mountains, thin burgundy route, same small round-mirror symbol at lower-left leading to white TWO-ARCH BRIDGE symbol in middle-right then WIDE RECTANGULAR WARM GRID WINDOW with THREE small plate symbols at right. Same physical map artwork and route shape as image2, placed with correct workbench perspective and warm light. Do not import woman/elf/architecture from image2. No other changes. Single fullframe same16:9 landscape, no composition crop, no new doors or portals, no baked tear, no captions/logo/UI/number. No viewer body parts or reflected photographer. Keep natural photographic realism, preserve the original blue night and amber work lights.",
+          "references": [
+            "references/midnight-garage.png",
+            "keyframes-r2/11-elven-court.png"
+          ],
+          "output": "provenance-not-packaged:exec-c48b9b6b-c840-4be9-ae14-c2c09e562ffa.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_main_continuity",
+        "observed": [
+          "Original man face, hair, white tank, jeans, seated bike pose and original garage framing retained.",
+          "Viewer shoulder-touch hand removed.",
+          "Shared map visible on real workbench beside helmet; original small round mirrors retained."
+        ],
+        "limitations": [
+          "Minor workbench clutter changed to accommodate map; visual identity preservation is not a pixel-equality guarantee."
+        ]
+      },
+      "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    },
+    {
+      "id": "10",
+      "path": "keyframes-r2/10-mirror-crossing.png",
+      "source": "provenance-not-packaged:exec-82fd0eab-cbf7-4d50-ba93-eac50ea84bfd.png",
+      "generation": [
+        {
+          "prompt": "Create a single full-frame16:9 PHOTO INSERT SHOT that is the next camera view within image1, the corrected garage. Image1 is the binding original set, motorcycle and real physical mirror reference. Image2 is the corrected elf room and its ORIGINAL city view and shared MAP; reference ONLY that actual blue moonlit white-bridge waterfall city and exact map. The camera has moved close to the SAME small ROUND motorcycle rear-view mirror visible on the left handlebar in image1. Keep this exact small circular chrome rim with thin dark stem and physical handlebar mounting; do not turn it into a large oval gold mirror or a freestanding object. The polished mirror naturally frames a strange reflection of the precise distant white bridges, blue waterfall valley, dark green forests and moonlit pale spires visible through image2's windows. NOT purple wisteria/gold castle. Keep the GARAGE outside the mirror: same blurred amber work lamps and black motorcycle edges, dark rainy blue entrance in distance. The SAME flat cream blue-green illustrated route map from image1 is on the existing workbench behind/below mirror, perspective-correct and legible enough to recognize identical coastlines/mountains, single thin burgundy route from small round mirror symbol at lower-left to white TWO-ARCH BRIDGE symbol near center-right then wide RECTANGULAR grid WARM WINDOW above exactly THREE tiny plates at far right. Same route design as image2, not a new random mountain map. Viewpoint is a realistic close camera shot from near the real handlebar toward the existing workbench; no changing room architecture. No people or hands needed, no duplicated man. No visible photographic tear, split screen, door, portal, floating ring, glow around mirror or new physical frame. This is the clean precursor frame before the website performs the tear. No numbers, text, logo, UI, watermark or borders. Natural cinematic optics and same original amber/blue garage grade; realistic material, not a fantasy redesign.",
+          "references": [
+            "keyframes-r2/09-midnight-garage.png",
+            "keyframes-r2/11-elven-court.png"
+          ],
+          "output": "provenance-not-packaged:exec-82fd0eab-cbf7-4d50-ba93-eac50ea84bfd.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_main_continuity",
+        "observed": [
+          "Actual physical round motorcycle mirror with thin rim/stem rather than prior large oval gold mirror.",
+          "Reflection links to original blue moonlit elf white bridges and waterfalls.",
+          "Shared route map remains visible; amber/blue garage scene, no baked tear."
+        ],
+        "limitations": [
+          "New close camera view extrapolates mechanical details and workbench perspective; not an exact 3D reconstruction."
+        ]
+      },
+      "sha256": "02c1ae172732dfd82ebe001cdca498b09a24b450a661b9215e28a2f54710cc51",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    },
+    {
+      "id": "11",
+      "path": "keyframes-r2/11-elven-court.png",
+      "source": "provenance-not-packaged:exec-77ddee28-fab1-4d36-aaf9-782b61dfd980.png",
+      "generation": [
+        {
+          "prompt": "Use case: precise-object-edit / identity-preserve. This supplied full-frame original image is the EDIT TARGET, not a loose mood reference. Keep its exact photograph: same adult elf queen's face, facial proportions, expression, freckles, long pale blonde hair, hair parting, ears, central pale jewel gold leaf crown, high neckline long-sleeve ivory-and-gold leaf embroidered gown, gold belt and pendant; same seated pose at dark wooden map table; same camera lens, perspective, crop and body scale; same private room, bookshelves and dim sofa on LEFT, ivy-white-flowers on pale stone arches, moon and blue waterfall valley with white suspension bridges on RIGHT, same lamp, armillary globe, chair drape and leather guard gloves on table. Do not restyle anything. Make ONLY two localized changes: (1) remove ALL first-person visitor body from the bottom foreground: the visitor's hand and sleeve touching the queen's outstretched hand. Reconstruct the hidden gown/table naturally. Retract the queen's own outstretched forearm only enough for her hand to rest naturally on her own lap or table edge, anatomically attached, without changing her torso, head or face. (2) Keep the EXISTING antique illustrated map on the same table, preserving its blue-green coastlines, mountain ranges and parchment texture. Add a thin muted burgundy route with exactly three clearly distinct reference markers: a SMALL BLACK CIRCULAR MIRROR symbol near map's lower left visible area, a WHITE TWO-ARCH BRIDGE symbol toward map's middle-right, and a WIDE RECTANGULAR WARM FOUR-PANE APARTMENT WINDOW plus exactly THREE tiny dinner-plate symbols toward the far-right area. The three markers are connected by a single subtle winding red line; these will be reused as the same map in later shots. No text on markers. Keep the scene quiet blue-moonlit and amber-lamplit, not pink or purple, no added candles, wisteria, gold ornate table, earrings, exposed shoulders or new costume. Single full-frame landscape same16:9. No tears or transitions baked in, no viewer hands/arms/legs/body/reflection, no caption, logo, UI, borders, number or watermark. Do not beautify or change the woman; do not move furniture.",
+          "references": [
+            "references/elven-court.png"
+          ],
+          "output": "provenance-not-packaged:exec-77ddee28-fab1-4d36-aaf9-782b61dfd980.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_main_continuity",
+        "observed": [
+          "Original elf queen face, freckles, crown, long blonde hair, high neckline, long sleeves and original gown retained.",
+          "Original private room, bookshelves/sofa left, moon/waterfall/white bridges right retained.",
+          "Viewer hand removed, own hand rests naturally; existing map augmented with shared route."
+        ],
+        "limitations": [
+          "Route markers have a slightly illustrative raised-symbol appearance."
+        ]
+      },
+      "sha256": "7e7899536617f8c1cc1579ed21a1b3e2ee45eb60f54d96255e93fba60b959dc8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    },
+    {
+      "id": "12",
+      "path": "keyframes-r2/12-map-crossing.png",
+      "source": "provenance-not-packaged:exec-be837f60-aa59-489f-8489-26ab4709ab4b.png",
+      "generation": [
+        {
+          "prompt": "Use case: compositing / same-prop continuity. Image1 is the corrected ELF ROOM and binding MAP PROP; Image2 is the corrected REAL ROOMMATES APARTMENT; Image3 is a larger view of the SAME MAP in garage. Create a single close insert shot of the SAME antique map from image1 on the SAME original dark wooden table in that private elf room. Keep recognizable pale blue-green illustrated coastline and mountain design, same one winding fine burgundy line and same three markers in same order: small round-mirror symbol at lower-left, white TWO-ARCH BRIDGE marker middle-right, wide RECTANGULAR WARM GRID WINDOW with THREE tiny plate symbols at route endpoint. Now camera pushes toward the last window marker, which occupies the right half of the closeup. The tiny destination window has become a highly detailed photographic RECTANGULAR inset image of the actual apartment in image2, like a living picture embedded flat in the map: the exact two clearly adult women with original down golden-brown hair / dark tied-back hair, cream V-neck sweater / dark buttoned shirt and jeans, gray sofa, kitchen, original round dining table with exactly THREE served dinner plates and small black-gold invitation. All THREE dinners must be separately visible in this small destination image, no fourth plate, no empty plates. Match image2's actual wide rectangular multi-pane black window frame and warm room, not arched window, wood cottage, palace, or redesigned red sofa. Image1 queen's ivory embroidered sleeve or goldguardgloves may be blurred at extreme edge only, no face changes. The map itself and its original route remain dominant at left; destination is a flat rectangular map illustration revealing next room, not a standing frame or a door. Clean image before website transition: NO baked tear, split screen, glowing ring, physical portal, floating map, new windowarchitecture or surreal scenery outside the destination illustration. Preserve original elfroom blue/amber lighting and original map parchment. Single16:9 landscape, no text labels, UI, numbers, logo, border, watermark, no viewer arms/hands/body.",
+          "references": [
+            "keyframes-r2/11-elven-court.png",
+            "keyframes-r2/13-roommates.png",
+            "keyframes-r2/10-mirror-crossing.png"
+          ],
+          "referenceNote": "Confirmed exact three referenced_image_paths against the actual image_gen tool call at 2026-11-12T13:30:42.201Z.",
+          "output": "provenance-not-packaged:exec-17f9343d-2665-4402-9ab3-21bba7d53d7b.png"
+        },
+        {
+          "prompt": "Minimal targeted edit of Image1. Preserve the SAME map parchment and blue-green coastline/mountain drawing, SAME burgundy route line, mirror/white TWO-ARCH bridge/THREE small plate markers, SAME dark elfroom wood table and blue/amber surroundings. Only edit the large rectangular destination picture on the RIGHT of the map. It should read as a warm rectangular WINDOW destination, not a framed photograph: replace the thin gold photo border with the slim BLACK metal frame and simple vertical mullion spacing of the REAL apartment window in Image2. One understated horizontal transom may cross the top band; avoid covering either woman's face. Keep the exact original room/people already visible inside this rectangle: long down brownhaired woman in cream V-neck, tiedback darkhaired woman in dark buttoned long sleeve top, blue jeans, graysofa, kitchen LEFT, round table behind, EXACTLY THREE served meals and original black-gold invitation, citynight on right. Do NOT restage or make new faces. Image2 is only continuity reference. This is a flat enchanted map destination viewed at the same oblique angle as parchment; it shows a window view of the next room before the web transition. No freestanding door, arch window, portal ring, torn paper, glow, split screen, UI or added labels. Keep map left two-thirds unchanged. No viewer body parts.",
+          "references": [
+            "provenance-not-packaged:exec-17f9343d-2665-4402-9ab3-21bba7d53d7b.png",
+            "keyframes-r2/13-roommates.png"
+          ],
+          "output": "provenance-not-packaged:exec-be837f60-aa59-489f-8489-26ab4709ab4b.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_story_transition_with_limitation",
+        "observed": [
+          "Same route/map links bridge to black-framed rectangular warm destination.",
+          "Same two roommates and original clothes/gray sofa, kitchen left, window right in destination.",
+          "Exactly three served meals visible on destination table; no baked tear or portal."
+        ],
+        "limitations": [
+          "Destination is an enchanted flat map inset with a black window grid, not a literal exterior camera shot through the apartment's physical window.",
+          "Map markers are visually consistent but not pixel-identical between perspectives."
+        ]
+      },
+      "sha256": "6e00a22fb0137f0f133d2741513f450ae0039d2317aeed9a3ad64ed55c7760a2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    },
+    {
+      "id": "13",
+      "path": "keyframes-r2/13-roommates.png",
+      "source": "provenance-not-packaged:exec-6013fb7d-6ae7-4f4d-aef9-4091a2af876d.png",
+      "generation": [
+        {
+          "prompt": "Use case: precise-object-edit / identity-preserve. Image1, the ORIGINAL ROOMMATES PHOTO, is the sole SCENE EDIT TARGET, not a mood reference. Image2 provides ONLY the BLACK-AND-GOLD INVITATION PROP in its lower-right; ignore that man's appearance and club room. Preserve image1's exact two clearly adult women, their exact faces, freckles, expressions, hair (left long golden-brown hair DOWN; right dark hair TIED BACK with loose front strands), existing cream V-neck long-sleeve knit sweater and dark brown/charcoal buttoned long-sleeve top, blue jeans, same poses, gray sofa, cushions and cream blanket, camera viewpoint and scale. Preserve exact background: bookcase and trailing plant left, kitchen and fridge center-left, original round WOOD DINING TABLE behind sofa with THREE served dinner plates containing food, chairs, vase of small white flowers/candles, wide rectangular multi-pane city-night window and lamp at far right. Do not change wardrobe to off-shoulder or add new flowers, burgundy sofa or coffee table. Make only localized edits: (1) Remove visitor forearm and knees/legs from bottom foreground. Reconstruct gray sofa. Left woman's hand currently on visitor forearm should rest naturally on her own jean-clad knee, still attached. Right woman's palm reaching toward viewer should rest naturally on her own knee/cushion, still attached; preserve torso/head position. (2) On the existing BACKGROUND DINING TABLE, next to its nearest THIRD served plate, place the SAME small open invitation from image2: black matte left cover with small gold crescent; right leaf fine gold outline framing a WIDE RECTANGULAR warm window with grid and THREE place settings below. Preserve exact prop shape/colors/illustration design from image2, no arched windows. The invitation must already be visible at third seat in this wide shot so it will not materialize in the closeup. Keep all three existing plates of food, table flowers/candles in original positions. It can be small but identifiable as a black/gold folded invitation. Nothing else changes. No viewer arms/hands/legs/body/reflections, no extra people, no text/UI/labels/logo/watermark. Same16:9 landscape photograph. No baked transition or tear.",
+          "references": [
+            "references/roommates.png",
+            "keyframes-r2/03-private-club.png"
+          ],
+          "output": "provenance-not-packaged:exec-5f6ea08e-5ac6-49ff-add4-c768de560e29.png",
+          "qa": "Rejected initial output: invitation displaced third food plate; corrected below."
+        },
+        {
+          "prompt": "Edit ONLY the small round dining table in the BACKGROUND of this exact image. Everything outside that table must remain unchanged, especially both women's exact faces, hair, clothes, hands, gray sofa, kitchen, bookcase, lighting and window. There are currently only TWO visible food plates on that background dining table, but the story needs EXACTLY THREE clearly visible served dinner plates. Keep existing left plate and nearest/front plate. Restore a THIRD white dinner plate WITH FOOD at the BACK-RIGHT dining position, immediately in front of the right dining chair. Move the small open black/gold invitation only a little toward the table's BACK EDGE, between the front dinner plate and right dinner plate, so it does not replace or cover any plate. Preserve invitation design, black cover with gold crescent and rectangular warm window above THREE dinner-setting symbols. Keep candles and white flower vase in their existing positions. The result must visibly show three distinct separate plated dinners, and the invitation on the SAME table, nothing floating. No extra person, no viewer body, no redesign, no fourth plate, no text. Same full16:9 image.",
+          "references": [
+            "provenance-not-packaged:exec-5f6ea08e-5ac6-49ff-add4-c768de560e29.png"
+          ],
+          "output": "provenance-not-packaged:exec-6013fb7d-6ae7-4f4d-aef9-4091a2af876d.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_main_continuity",
+        "observed": [
+          "Original two women with down brown hair/tied-back dark hair and cream V-neck/dark buttoned top/jeans retained.",
+          "Original gray sofa, bookshelf, kitchen left and rectangular window right retained.",
+          "Viewer foreground arm/knees removed; own hands naturally resting.",
+          "Exactly three separate plates with food and the shared black/gold invitation already present on actual background dining table."
+        ],
+        "limitations": [
+          "Invitation is small at this original wide framing."
+        ]
+      },
+      "sha256": "313e8426cdab106be4574bd6c7cef09f4bd78f9d64bf4c7c022bae63c03f7a35",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    },
+    {
+      "id": "14",
+      "path": "keyframes-r2/14-reserved-place.png",
+      "source": "provenance-not-packaged:exec-aabec21e-6cae-48a6-8e4f-9af65d5ea384.png",
+      "generation": [
+        {
+          "prompt": "Use case: identity-preserve / shot continuity. Image1 is the binding original APARTMENT SET after correction. Image2 is ONLY a close reference of the same black-gold INVITATION on the lower-right table. Create the NEXT CAMERA SHOT in the very same apartment, NOT a new staged room. Only the camera changes: move around the right side of the gray sofa toward the actual round wooden DINING TABLE behind it, slightly elevated and looking diagonally down across the nearest THIRD dining place. Show the empty original wooden third chair in the lower foreground, its served plate of food immediately beyond it, and the small open invitation standing beside that plate. Keep EXACTLY THREE original separate white plates of food, original simple wood chairs, white-flower vase and candle glasses on the real table. The invitation was already there in image1: same small black matte folded left cover, tiny gold crescent, right leaf fine gold frame, WIDE RECTANGULAR grid warm window above THREE dinner settings, identical design to image2. Do not put invitation on food or suddenly add a new one. Same two adult women remain seated on the SAME gray sofa in the same spatial relation to dining table; they may appear softly out of focus at LEFT SIDE of the frame due to changed camera position, not moved behind a new coffee table. Preserve exact faces/hair/clothes: left long down golden-brown wavy hair and cream V-neck fullsleeve sweater with bluejeans; right dark tied-back hair, dark buttoned fullsleeve top, bluejeans. Same bookcase/kitchen/fridge and wide rectangular multi-pane city-night window; keep their relative placement, no burgundy sofa or purple city. Do not move furniture, white flowers, candles, or tableware to redesign composition. Make invitation/emptythirdchair/servedthirdplate the foreground focus with realistic depth of field, original warm low-key ambient light. NO viewer body parts, no people added, no warm arched window, no roses/lilies, no goldornatechairs, no empty plates. No source-image tear, door, magic portal or transition baked in. One clean full16:9 movie still, no text/logo/UI/caption/border/watermark. This is the payoff of a third dining place already reserved in the original room.",
+          "references": [
+            "keyframes-r2/13-roommates.png",
+            "keyframes-r2/03-private-club.png"
+          ],
+          "output": "provenance-not-packaged:exec-78412777-aa46-4d1e-9c21-f33b9c21d6ed.png",
+          "qa": "Rejected: changed kitchen/window spatial order to include both women."
+        },
+        {
+          "prompt": "Use case: identity-preserve and same-set camera insert. Image1 is the binding source APARTMENT. Image2 is ONLY the exact small invitation design, ignore that man's room. Generate the immediate next shot by making a very small camera crane-up and forward dolly from the same camera position in Image1, continuing to face the SAME direction toward the dining table which is already in the background. Do NOT rotate around the room. The KITCHEN, fridge and warm undercabinet lights stay in the LEFT background; the large rectangular BLACK-FRAMED city-night window and clocktower stay in the RIGHT background. The original small white flowers, three candles, three plates of actual dinner food, invitation and round honey-brown dining table stay in their exact positions relative to one another. Camera is now just above and beyond the back of the original gray sofa, looking slightly down onto the nearest THIRD dining place of that existing table. Make the table fill center of frame, nearest empty wooden chair and a substantial served third dinner plate visible at bottom. Left and right dinner plates remain visible and also served. Invitation remains at back/right side of table beside the same candle glasses, NOT suddenly next to another plate. Original exact invitation from image2: black matte folded left cover with small gold crescent; black right page with thin gold border, wide rectangular grid warm window above three small gold dinner setting symbols. It should be readable in the slightly closer image without enlarging it unnaturally. Keep the original vase and delicate tiny white flowers, not roses. Keep original chair design, original kitchen cabinets/fridge and window grid. The two adult women remain seated on the sofa below and behind the camera, so they may be naturally OUT OF FRAME; do not reposition them to the far side of the table, do not force their faces into this insert. A little gray sofa edge/cream blanket may remain at very bottom foreground only. This is an insert of the original third place, not a redesign of a dining room. Exact original warm evening exposure and color grade. No additional people, viewer hands/arms/body, text, logos, UI, title, magical glow, portal, tears or fake transitions. Clean single 16:9 cinematic photograph.",
+          "references": [
+            "keyframes-r2/13-roommates.png",
+            "keyframes-r2/03-private-club.png"
+          ],
+          "output": "provenance-not-packaged:exec-1ab891f7-eb8f-4015-933e-5369c90df5ca.png",
+          "qa": "Preserved original camera axis; lacked one small candle cup."
+        },
+        {
+          "prompt": "Minimal local edit. Keep Image1 exactly as it is: same framing, camera, room, table, all chairs, THREE served plates, identical black/gold invitation, flower vase and lighting. Restore just ONE missing small faceted glass candle cup immediately behind and to left of the existing small candle cup, in front of the vase's right edge. The table in source scene had THREE candles: two small cups and one tall cup. Currently Image1 has only one small and one tall. Add the missing second small lit cup at natural tabletop scale. Do not change anything else, especially invitation, window grid, food, fridge, table or camera. Full frame same16:9. No people, text, logos, arms or hands.",
+          "references": [
+            "provenance-not-packaged:exec-1ab891f7-eb8f-4015-933e-5369c90df5ca.png"
+          ],
+          "output": "provenance-not-packaged:exec-aabec21e-6cae-48a6-8e4f-9af65d5ea384.png"
+        }
+      ],
+      "qa": {
+        "status": "passes_main_continuity_with_camera_extrapolation",
+        "observed": [
+          "Camera advances over sofa toward existing dining table; kitchen left and rectangular city window right retained.",
+          "Third empty wooden chair, three served meals, white flowers, two small and one tall candle cup visible.",
+          "Same black/gold invitation with rectangular window and three dinner symbols visible.",
+          "Women naturally outside frame behind camera rather than being moved to a new seat."
+        ],
+        "limitations": [
+          "Closer perspective extrapolates previously occluded chair/furniture detail; not strict pixel-identical furniture geometry.",
+          "Individual food plating and fine tabletop spacing vary from the small background table in shot13."
+        ]
+      },
+      "sha256": "4ce2d38ed67e21673c630dd7eca560f78258f59c2689862a266e14225b4eb2f5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byteIdenticalToGeneratedSource": true
+    }
+  ],
+  "verification": {
+    "method": "Every output visually inspected via generated-image display and/or view_image. Scene identity compared to originals; counts checked manually.",
+    "automatic": "PNG dimensions and SHA-256 populated after writing.",
+    "approval": "No user approval claimed."
+  },
+  "files": {
+    "provenance-not-packaged:exec-17f9343d-2665-4402-9ab3-21bba7d53d7b.png": {
+      "exists": true,
+      "sha256": "8e75914ed7825b123d4556f6cb533892fc93c1deeafd6ca0268aa2104e7ad634",
+      "bytes": 2934723,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-1ab891f7-eb8f-4015-933e-5369c90df5ca.png": {
+      "exists": true,
+      "sha256": "5eeb0536d981b38e843d10d97cd5b2de7525b97b0a1d1a8e51d7775aa9bb4c36",
+      "bytes": 1914618,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-5f6ea08e-5ac6-49ff-add4-c768de560e29.png": {
+      "exists": true,
+      "sha256": "e2d104db982eeea1ce98bfe7a342748715fd620548183d642b455daa17f16c95",
+      "bytes": 2640473,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-6013fb7d-6ae7-4f4d-aef9-4091a2af876d.png": {
+      "exists": true,
+      "sha256": "313e8426cdab106be4574bd6c7cef09f4bd78f9d64bf4c7c022bae63c03f7a35",
+      "bytes": 2418666,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-77ddee28-fab1-4d36-aaf9-782b61dfd980.png": {
+      "exists": true,
+      "sha256": "7e7899536617f8c1cc1579ed21a1b3e2ee45eb60f54d96255e93fba60b959dc8",
+      "bytes": 2579724,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-78412777-aa46-4d1e-9c21-f33b9c21d6ed.png": {
+      "exists": true,
+      "sha256": "7899e8bf37b80fc9be0d9200e57869841a0641a433df6354b8d5d2798a355b02",
+      "bytes": 2062254,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-82fd0eab-cbf7-4d50-ba93-eac50ea84bfd.png": {
+      "exists": true,
+      "sha256": "02c1ae172732dfd82ebe001cdca498b09a24b450a661b9215e28a2f54710cc51",
+      "bytes": 2159109,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-aabec21e-6cae-48a6-8e4f-9af65d5ea384.png": {
+      "exists": true,
+      "sha256": "4ce2d38ed67e21673c630dd7eca560f78258f59c2689862a266e14225b4eb2f5",
+      "bytes": 1871899,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-be837f60-aa59-489f-8489-26ab4709ab4b.png": {
+      "exists": true,
+      "sha256": "6e00a22fb0137f0f133d2741513f450ae0039d2317aeed9a3ad64ed55c7760a2",
+      "bytes": 2763598,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-c48b9b6b-c840-4be9-ae14-c2c09e562ffa.png": {
+      "exists": true,
+      "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9",
+      "bytes": 2166718,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/03-private-club.png": {
+      "exists": true,
+      "sha256": "cd24e4a9570201e2ac37c8b40796446de1a0c34996fc0c3728531bac5072d144",
+      "bytes": 1954987,
+      "dimensions": [
+        1671,
+        941
+      ]
+    },
+    "keyframes-r2/09-midnight-garage.png": {
+      "exists": true,
+      "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9",
+      "bytes": 2166718,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/10-mirror-crossing.png": {
+      "exists": true,
+      "sha256": "02c1ae172732dfd82ebe001cdca498b09a24b450a661b9215e28a2f54710cc51",
+      "bytes": 2159109,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/11-elven-court.png": {
+      "exists": true,
+      "sha256": "7e7899536617f8c1cc1579ed21a1b3e2ee45eb60f54d96255e93fba60b959dc8",
+      "bytes": 2579724,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/12-map-crossing.png": {
+      "exists": true,
+      "sha256": "6e00a22fb0137f0f133d2741513f450ae0039d2317aeed9a3ad64ed55c7760a2",
+      "bytes": 2763598,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/13-roommates.png": {
+      "exists": true,
+      "sha256": "313e8426cdab106be4574bd6c7cef09f4bd78f9d64bf4c7c022bae63c03f7a35",
+      "bytes": 2418666,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/14-reserved-place.png": {
+      "exists": true,
+      "sha256": "4ce2d38ed67e21673c630dd7eca560f78258f59c2689862a266e14225b4eb2f5",
+      "bytes": 1871899,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "references/elven-court.png": {
+      "exists": true,
+      "sha256": "0eff68ac9422faa57fbafcae90bbf25f3a87938145adbebda01e855ea8ab3e43",
+      "bytes": 2553747,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "references/midnight-garage.png": {
+      "exists": true,
+      "sha256": "4da40e8b11a45a730c31219b83e1f54ddb9c4912a9a9b3794cb4e95829e88f7a",
+      "bytes": 2190522,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "references/roommates.png": {
+      "exists": true,
+      "sha256": "8c896cb1e18da320aa6da58ccee80e43489e5c74dbcfd1bf61a284e2f9421714",
+      "bytes": 2376956,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  }
+}

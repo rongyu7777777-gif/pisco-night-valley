@@ -1,0 +1,45 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-12",
+  "status": "visually checked static candidates; not user approved; no new video generation",
+  "shots": [
+    {
+      "shot": "01",
+      "output": "keyframes-r2/01-door-ajar.png",
+      "method": "reused existing near-closed door frame",
+      "qa": "Preserves approved narrow gap direction. Original image reused, not regenerated."
+    },
+    {
+      "shot": "02",
+      "output": "keyframes-r2/02-door-open.png",
+      "prompt": "Use case: identity-preserve. Production shot02 end-frame of a door opening, one cinematic 16:9 photograph. Image1 is the AUTHORITY for the entire room and exact man, clothes, face, tattoos, furniture and lighting. Image2 is ONLY the existing solid walnut door, carved brass lever, frame and sconce hardware reference for shot01. Image3 is only a rough indication of looking through an opened walnut door, NOT its face, curtains, sofa arrangement, flowers or decor.\nRecreate image1 viewed from about two metres farther back, through the doorway on the left. Preserve the original dark modern club: rainy city window on left, little amber lamp at left, brown leather sofa/chair, black marble low table on right, black glass partition and blurred gala on right. The EXACT same moustached wavy-haired man in black rolled shirt and GREY loose tie, left leaf tattoo, other compass tattoo and watch is in the SAME POSITION leaning by the marble table looking at us, now medium-wide/full upper body rather than close. The black invitation and small castle-gold eye mask are already on the right table as in image1. Do not move props or change the set.\nThe SAME single wooden door as image2 has rotated inward on hinges at left; its carved brass handle and panel edge are visible on extreme left. Mostly unobstructed view inside now, with the original frame/sconce retained on far right edge. Match door's brownwood and bronze hardware, physically plausible hinge rotation. NO viewer hand/arm. No character doorway duplication. One principal man. No flowers, red tie, new red curtains, no giant beige sofa, no fog portal, no tears, no text/logo/UI. Identity and original low-key amber exposure take precedence over restyling.",
+      "references": [
+        "keyframes-r2/03-private-club.png",
+        "keyframes/01-door-ajar.png",
+        "keyframes/02-door-open.png"
+      ],
+      "qa": "Visually checked: grey tie, moustache, tattoo placement, lamp/rain/glass divider and props match shot03 substantially better. Generated wider perspective is not a pixel exact reconstruction; hinge interpolation still requires video QA."
+    },
+    {
+      "shot": "03",
+      "output": "keyframes-r2/03-private-club.png",
+      "prompt": "Use case: identity-preserve / precise-object-edit. Edit Image 1, the original private-club film still. This is a strict continuity repair, NOT a redesign. Preserve exactly this man's facial geometry, moustache, stubble, dark wavy hair, grey loose necktie, black rolled-sleeve shirt, leaf tattoo on near arm, compass tattoo on other forearm, watch, leaning pose and expression. Preserve the same camera, natural dark exposure, lighting, rainy windows on left, amber tablelamp, leather couch, black glass divider with defocused gala at right. DO NOT use the person, curtains, flowers, lighting or camera in Image 2.\nChange only two local areas: (1) remove the first-person hand grasping his tie at bottom center, complete the hanging grey tie and black trousers naturally; no viewer limbs. Keep his own hand on the table. (2) On the existing black marble table at lower right, add TWO small physical story props beside his own hand: a black folded invitation with small gold crescent cover, propped partly open showing a simple GOLD DRAWING of ONE wide RECTANGULAR mullioned warm window above exactly THREE dinner place settings; and a small antique gold and black masquerade eye mask with castle arches engraved on its brow.\nImage 2 supplies ONLY the mask object design and black/gold invitation material, NOT its arched window drawing: replace that drawing with rectangular warm window and three dishes. Image3 supplies ONLY the real destination's wide rectangular window, three dinner settings and homely warm light to depict in the invitation; do not insert its people into this room.\nDo not move or redesign furniture. No roses, red tie, extra people in foreground, new hand, UI, text, typography, border or watermark. Exactly one principal adult man. Match original photo quality and 16:9 full-frame composition. Output a single revised photograph.",
+      "references": [
+        "references/private-club.png",
+        "keyframes/03-private-club.png",
+        "references/roommates.png"
+      ],
+      "qa": "Visually checked: original face, clothing, pose, lighting, background retained; viewer hand removed; invitation explicitly rectangular warm window and3 dishes, castle mask added. Static candidate, not user approved."
+    },
+    {
+      "shot": "04",
+      "output": "keyframes-r2/04-mask-crossing.png",
+      "prompt": "Use case: precise-object-edit / compositing. Production shot04, one clean full-frame 16:9 photoreal film still. Image1 is the preceding frame03 and authoritative physical set; move its camera smoothly DOWN and RIGHT toward the small castle-engraved gold and black masquerade mask on its black marble table. Show a close-up of EXACTLY that mask, same crown castle relief, eye-hole outlines, scrolling embossed leaves, dark backing, scale relative to nearby black invitation. It remains resting on the SAME black marble tabletop, no hand touching it. The invitation is partially visible at left and whisky glass further right, keeping their placement from Image1. The grey-tied man/room is very softly out of focus in background, only part of him, no new face or body. Depth of field makes mask crisp.\nOnly supernatural detail: in its near eye opening/glossy inner dark surface, a small coherent reflection previews the moonlit stone balustrade/castle and candles in Image2. This is a reflection within the existing physical mask, NOT a giant standing portal or separate object. Keep original club's dark amber natural exposure, not bright ornate redesign. Image2 supplies only destination environment, no additional vampire inserted in this club.\nNo image tear baked in, no split panels, no seam, no circular gateway, no door, no viewer limbs, no text/logo/UI. Preserve continuous camera approach and same prop geometry. Single photograph, not storyboard collage.",
+      "references": [
+        "keyframes-r2/03-private-club.png",
+        "keyframes-r2/05-vampire-castle.png"
+      ],
+      "qa": "Visually checked same mask family/material/castle brow and invitation, coherent tabletop camera approach. Fine relief details are generative approximation; reflection shows next castle. No baked tear. Static candidate, not user approved."
+    }
+  ]
+}

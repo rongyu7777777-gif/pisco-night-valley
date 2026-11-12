@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-12",
+  "tool": "builtin image_gen.imagegen",
+  "scope": "single localized exterior motorcycle clue",
+  "prompt": "Use case: precise localized object addition with strict identity preservation. Image1 is the exact photo to EDIT. Image2 is ONLY a reference for the black motorcycle object, not its man, garage or lighting. Make ONE localized addition in Image1: a SMALL realistic parked black classic road motorcycle on the outdoor terrace/balcony visible beyond the FAR-RIGHT WINDOW, behind the right-hand man's shoulder, next to the existing outside railing. Its two wheels, black teardrop fuel tank, silver engine and small round mirror/handlebars should be recognizable at distant scale. Match the motorcycle shape in image2. Natural sunset rim light, believable terrace ground contact and distance; approximately a tenth of image width or smaller, naturally partly occluded by the existing window mullion/foreground shoulder as needed. Keep it clearly OUTSIDE the glass, never inside the kitchen or living room. Do not add a rider, helmet wearer, person, text or logos. Crucial: every existing pixel's visual content outside that tiny terrace region must stay as close to Image1 as possible. Preserve ALL THREE adult men's exact faces, hair, expressions, clothes, hands, bodies, seated poses and gaze. Preserve the original gray sofa, center stool, floor, jerseys, sports equipment, bags, kitchen, indoor dining table, room layout, original far-right window frame, ocean horizon, sunset position and lighting. Preserve the EXISTING glossy black helmet and key on the original small wooden table between the center and right man exactly. No crop, no camera move, no redesign, no recoloring, no additional props, no source-image tear or portal. Keep original 16:9 landscape photographic framing and resolution. This is only the small exterior motorcycle clue for the next story scene.",
+  "references": [
+    "keyframes-r2/07-athlete-house.png",
+    "keyframes-r2/09-midnight-garage.png"
+  ],
+  "source": "provenance-not-packaged:exec-92034e49-6d11-4638-bb12-850c4e15e104.png",
+  "output": "keyframes-r2/07-athlete-house-bike.png",
+  "qa": {
+    "status": "passes main clue and scene identity",
+    "observed": [
+      "Exactly three original men with preserved faces, hair, clothes and seated poses.",
+      "Original room, camera, sunset, helmet and key retained.",
+      "Small black motorcycle clearly recognizable outside far-right window; two wheels, engine, tank, handlebars visible; no rider.",
+      "No new interior props, viewer hands, logos or baked transitions."
+    ],
+    "limitation": "Small background motorcycle is crisp relative to some distant scenery; original scene identity and story clue take priority. Not a pixel-equality claim."
+  },
+  "original07Preserved": true,
+  "packageUpdated": false,
+  "files": {
+    "keyframes-r2/07-athlete-house.png": {
+      "sha256": "8e07a93f06db64b1cab18b88d63356d9de8510fb60a09bd8c39fb97f44f959d2",
+      "bytes": 2378120,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/09-midnight-garage.png": {
+      "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9",
+      "bytes": 2166718,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "provenance-not-packaged:exec-92034e49-6d11-4638-bb12-850c4e15e104.png": {
+      "sha256": "c6e69c1c2cc9f41bb21010466a3bb5b3f72d5b72b5b0bf87dd25a1a6051bd79e",
+      "bytes": 2265044,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "keyframes-r2/07-athlete-house-bike.png": {
+      "sha256": "c6e69c1c2cc9f41bb21010466a3bb5b3f72d5b72b5b0bf87dd25a1a6051bd79e",
+      "bytes": 2265044,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  }
+}

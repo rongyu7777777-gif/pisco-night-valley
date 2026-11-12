@@ -1,0 +1,771 @@
+{
+  "revision": "r2",
+  "created": "2026-11-12",
+  "status": "technical production draft only; no video generation, spend or publication authorized by this file",
+  "productionRoot": ".",
+  "storyboardSource": "storyboard-and-prompts.json",
+  "sourceState": "Original JSON is a storyboard proposal for review; preserve its 14 shots and six dialogues verbatim. Added connective fiction is not represented as original Feishu text.",
+  "requiredOrder": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+  ],
+  "authorization": {
+    "priorOpeningPilotSpentTapies": 40,
+    "newGenerationAuthorized": false,
+    "remainingAuthorizationTapies": 0,
+    "note": "Previous 40-Tapies authorization was consumed by the first opening pilot. No re-generation or new clip submission follows from this planning file."
+  },
+  "evidence": [
+    {
+      "file": "audit/original-ambient-generation-receipt.json",
+      "fact": "Original private-club ambient video used Hailuo-2.3 Fast, requested 6 seconds/1080P, cost 40; exact source still is recorded."
+    },
+    {
+      "file": "audit/original-five-scenes-generation-receipt.json",
+      "fact": "Other five original ambient clips use same model, 40 each; traversal is website-rendered."
+    },
+    {
+      "file": "audit/opening-pilot-request.json",
+      "fact": "Bad opening pilot used same Fast model and 40 credits, but only firstFrame 01 and null lastFrame."
+    },
+    {
+      "file": "storyboard-and-prompts.json",
+      "fact": "Near-closed opening, no viewer limbs, reversible scroll narrative, independent ambient life, webpage tear, English/Inria Serif Regular and no invented CTA."
+    },
+    {
+      "file": "storyboard-and-prompts.json",
+      "fact": "Authoritative 14 shot order and verbatim six dialogues."
+    }
+  ],
+  "diagnosis": {
+    "verified": "Original ambient and opening pilot used the same Hailuo-2.3 Fast model. The pilot had no ending image.",
+    "visualAudit": "Old keyframes/03-private-club.png already changed original face styling, stubble, hair and tie color; 02 also recomposed the room and actor. Thus static input drift preceded video generation.",
+    "inference": "Generating a nearly occluded room from a door-only first frame plus prose encourages invented interior/actor content; endpoint and identity control should precede another paid run."
+  },
+  "method": {
+    "recommended": "Correct and compare all 14 full-resolution stills first. Then use a video mode verified to accept both exact first and last frames for each narrative pair. Keep cast/props constrained in those stills; keep extra identity references when supported. Keep ambient loops separate, using the proven single-image locked-camera workflow.",
+    "doNotAssume": "First/last-frame support does not guarantee identity, intermediate anatomy or geometric continuity. Models can morph unrelated endpoints; inspect endpoints and intermediate frames before accepting.",
+    "fallbackIfNoVerifiedTailControl": "Do not use Hailuo-2.3 Fast first-frame-only to invent the opening interior. Use deterministic layered door/camera composition with the exact approved interior, or select a separately verified first/last-frame mode after price and authorization confirmation.",
+    "sourceQuality": "Use corrected original high-resolution single images, not storyboard contact-sheet crops, browser screenshots or the bad pilot."
+  },
+  "staticQAGate": {
+    "status": "pending; this manifest does not approve any current or future r2 asset",
+    "checks": [
+      "All 14 distinct narrative states exist at consistent 16:9 resolution.",
+      "Original actor identity/costume/light retained by direct reference; no unintended cast replacement.",
+      "No viewer hands, arms, body or reflection; characters’ own hands anatomically attached and natural.",
+      "01 has only a narrow light slit; 02 is the same physical door revealing the exact club.",
+      "Shared props match across every relevant shot, including mask/invitation/helmet/bike/map/window.",
+      "Exactly three athletes, two roommates and three dinner settings in relevant frames.",
+      "04/06/08/10/12 provide clean source-scene closeups and next-scene clues; no burned-in tear, portal or new door.",
+      "No baked logo, dialogue, subtitles, watermark, UI or CTA in source video frames."
+    ]
+  },
+  "brandAndDialogue": {
+    "logo": "brand/pisco-r5.svg",
+    "font": "Inria Serif Regular 400",
+    "rendering": "Logo and English text are separate deterministic web/edit layers, never generated inside video. Dialogue placement and progressive reveal follow gesture and scene negative space.",
+    "originalDialogues": [
+      {
+        "shot": "03",
+        "quote": "You love it when I get jealous, don’t you?"
+      },
+      {
+        "shot": "05",
+        "quote": "You know vampires don’t need sleep. Still want me in your bed?"
+      },
+      {
+        "shot": "07",
+        "quote": "Who do you wanna spend the night with?"
+      },
+      {
+        "shot": "09",
+        "quote": "How wild do you wanna get tonight?"
+      },
+      {
+        "shot": "11",
+        "quote": "It’s just you and me. Say my name."
+      },
+      {
+        "shot": "13",
+        "quote": "Her or me? Or do you want us both?"
+      }
+    ],
+    "newDialogueAllowed": false
+  },
+  "narrativeSegments": [
+    {
+      "id": "N01",
+      "shots": [
+        "01",
+        "02"
+      ],
+      "purpose": "The physical opening door reveals the established private club.",
+      "references": [
+        "references/private-club.png",
+        "keyframes-r2/03-private-club.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            1
+          ],
+          "action": "Keep the same nearly closed walnut door and thin warm sliver; no new room is invented."
+        },
+        {
+          "seconds": [
+            1,
+            4.8
+          ],
+          "action": "One door rotates smoothly on its existing hinges; modest forward camera movement progressively reveals exactly the supplied ending interior and actor."
+        },
+        {
+          "seconds": [
+            4.8,
+            6
+          ],
+          "action": "Settle into the exact shot 02 composition, preserving the visible doorway, original man, wardrobe and club geography."
+        }
+      ],
+      "locks": [
+        "Same handle, hinges, door panels and frame in 01 and 02.",
+        "Shot 02 must be approved against original private-club actor before generation. The man must not be synthesized solely from prose.",
+        "No hand pushes the door; no duplicate doorway, sudden room materialization, tear or portal."
+      ],
+      "dialogue": null,
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/01-door-ajar.png",
+      "requiredLastFrame": "keyframes-r2/02-door-open.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N02",
+      "shots": [
+        "03",
+        "04"
+      ],
+      "purpose": "The private-club encounter directs attention to the invitation and castle-engraved mask.",
+      "references": [
+        "references/private-club.png",
+        "keyframes-r2/02-door-open.png",
+        "keyframes-r2/05-vampire-castle.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.2
+          ],
+          "action": "Hold seated eye level with the original black-shirt man; retain natural small eye/face movement and exact established pose."
+        },
+        {
+          "seconds": [
+            2.2,
+            5.2
+          ],
+          "action": "A controlled camera tilt and push follows the tabletop to the same mask; invitation remains a planted clue rather than moving into the viewer’s hand."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Finish on the exact mask insert with the supplied castle terrace reflection already legible; retain intact image surface."
+        }
+      ],
+      "locks": [
+        "Same man as published private-club image; same hair, stubble, dark tie, tattoo and watch.",
+        "Mask engraving, metal finish, scale and tabletop location match 03/04/05/06.",
+        "Invitation is the identical black-and-gold warm-window/three-place design used in 14.",
+        "No new torn edge in generated video; browser owns the crossing."
+      ],
+      "dialogue": {
+        "shot": "03",
+        "quote": "You love it when I get jealous, don’t you?"
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/03-private-club.png",
+      "requiredLastFrame": "keyframes-r2/04-mask-crossing.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N03",
+      "shots": [
+        "05",
+        "06"
+      ],
+      "purpose": "The vampire encounter leads to the mask’s coastal-house reflection.",
+      "references": [
+        "references/vampire-castle.png",
+        "keyframes-r2/04-mask-crossing.png",
+        "keyframes-r2/07-athlete-house.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.2
+          ],
+          "action": "Keep the original vampire’s close gaze, plain burgundy velvet lapel jacket and black shirt."
+        },
+        {
+          "seconds": [
+            2.2,
+            5.2
+          ],
+          "action": "Camera moves toward the same mask already resting on the existing stone railing; actor remains spatially stable."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Settle on the supplied polished-inner-surface view showing the exact next coastal house and lit window."
+        }
+      ],
+      "locks": [
+        "Original vampire face, hair, red irises and costume retained; no elaborate replacement costume.",
+        "Same physical mask and railing before and after camera move; mask is not carried by a new hand.",
+        "Coastal architecture/horizon/lighting must derive from 07, not an invented generic house.",
+        "Reflection is the narrative clue; no baked portal or tear."
+      ],
+      "dialogue": {
+        "shot": "05",
+        "quote": "You know vampires don’t need sleep. Still want me in your bed?"
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/05-vampire-castle.png",
+      "requiredLastFrame": "keyframes-r2/06-coastal-reflection.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N04",
+      "shots": [
+        "07",
+        "08"
+      ],
+      "purpose": "The three-athlete scene plants a night ride and follows the helmet visor.",
+      "references": [
+        "references/athlete-house.png",
+        "keyframes-r2/09-midnight-garage.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.5
+          ],
+          "action": "Keep exactly three original adult athletes in their established left/center/right positions with separate understated reactions."
+        },
+        {
+          "seconds": [
+            2.5,
+            5.2
+          ],
+          "action": "Camera travels toward the already visible entry-console helmet and keys; people remain in the background without merging."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Finish on the exact helmet and keys insert; the visor shows the supplied garage work lamps and parked motorcycle."
+        }
+      ],
+      "locks": [
+        "Exactly three adults; original faces, hair, clothing, seated positions and glasses retained.",
+        "Identical helmet, visor contour, keys and parked bike across 07/08/09.",
+        "Garage reflection uses 09 room geometry, light direction and motorcycle.",
+        "No helmet hand-off or viewer limbs; no new door."
+      ],
+      "dialogue": {
+        "shot": "07",
+        "quote": "Who do you wanna spend the night with?"
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/07-athlete-house.png",
+      "requiredLastFrame": "keyframes-r2/08-helmet-crossing.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N05",
+      "shots": [
+        "09",
+        "10"
+      ],
+      "purpose": "The garage encounter reveals the map and the elven city in the existing rearview mirror.",
+      "references": [
+        "references/midnight-garage.png",
+        "keyframes-r2/08-helmet-crossing.png",
+        "keyframes-r2/11-elven-court.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.2
+          ],
+          "action": "Keep the original white-tank man on the stationary black motorcycle, both feet down, his own arms naturally supported."
+        },
+        {
+          "seconds": [
+            2.2,
+            5.2
+          ],
+          "action": "Push past the bike toward the existing rearview mirror and workbench map, without starting the motorcycle or changing the actor."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Land on the precise mirror/map insert with white arches matching the supplied elven-court environment."
+        }
+      ],
+      "locks": [
+        "Original actor, white tank, jeans and parked bike geometry; no viewer hand on shoulder.",
+        "Same helmet from 08 remains where established.",
+        "Mirror is attached to the existing bike, not a floating portal frame.",
+        "Same map marks, route and white-arch endpoint across 09/10/11/12."
+      ],
+      "dialogue": {
+        "shot": "09",
+        "quote": "How wild do you wanna get tonight?"
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/09-midnight-garage.png",
+      "requiredLastFrame": "keyframes-r2/10-mirror-crossing.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N06",
+      "shots": [
+        "11",
+        "12"
+      ],
+      "purpose": "The queen’s map resolves the warm-window destination planted at the club.",
+      "references": [
+        "references/elven-court.png",
+        "keyframes-r2/10-mirror-crossing.png",
+        "keyframes-r2/13-roommates.png",
+        "keyframes-r2/14-reserved-place.png",
+        "keyframes-r2/03-private-club.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.2
+          ],
+          "action": "Retain the original adult queen, side-seated pose, pale hair, thin crown and white-stone setting."
+        },
+        {
+          "seconds": [
+            2.2,
+            5.2
+          ],
+          "action": "Follow the already unfolded map route with a gentle camera push; retain attached natural hands without gesturing to viewer."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Reach the exact warm-window insert that visibly contains the same two roommates and three dinner settings."
+        }
+      ],
+      "locks": [
+        "Exact original queen identity, hair, crown and wardrobe; no recast.",
+        "Map is the continuation of garage map, with the same route geometry and endpoint icon.",
+        "Window architecture, lighting, two women and three dinner places come from 13/14.",
+        "No literal animated tear in model output; browser reveals next world."
+      ],
+      "dialogue": {
+        "shot": "11",
+        "quote": "It’s just you and me. Say my name."
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/11-elven-court.png",
+      "requiredLastFrame": "keyframes-r2/12-map-crossing.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    },
+    {
+      "id": "N07",
+      "shots": [
+        "13",
+        "14"
+      ],
+      "purpose": "The two-roommate encounter resolves into the visitor’s reserved third place.",
+      "references": [
+        "references/roommates.png",
+        "keyframes-r2/12-map-crossing.png",
+        "keyframes-r2/03-private-club.png"
+      ],
+      "timing": [
+        {
+          "seconds": [
+            0,
+            2.5
+          ],
+          "action": "Keep the same two original adult roommates at sofa height, warmly facing the viewer without touching them."
+        },
+        {
+          "seconds": [
+            2.5,
+            5.2
+          ],
+          "action": "Camera looks toward the already established dinner table; no new furniture, people or place settings appear."
+        },
+        {
+          "seconds": [
+            5.2,
+            6
+          ],
+          "action": "Settle on the empty third chair, third place setting and exact invitation from 03; final composition remains still except ambient life."
+        }
+      ],
+      "locks": [
+        "Exactly two adult women, original distinct identities, hair, casual clothes and relative seating.",
+        "Exactly three dinner settings and one empty visitor chair; no fourth setting.",
+        "Same room, warm window, lamp, blanket and table layout across 12/13/14.",
+        "Same invitation design as 03; no invented words, choice buttons or ending CTA."
+      ],
+      "dialogue": {
+        "shot": "13",
+        "quote": "Her or me? Or do you want us both?"
+      },
+      "requestedDurationSeconds": 6,
+      "requiredFirstFrame": "keyframes-r2/13-roommates.png",
+      "requiredLastFrame": "keyframes-r2/14-reserved-place.png",
+      "status": "planned; endpoint assets require continuity QA; not submitted",
+      "referenceDelivery": "Use references to correct stills first. Extra reference-image slots on the eventual video model are not assumed or verified."
+    }
+  ],
+  "crossPairContinuity": [
+    {
+      "from": "02",
+      "to": "03",
+      "type": "same-location continuity",
+      "implementation": "Match the original actor, doorway/sofa/table/window layout and screen direction. Use an explicit spatially coherent dolly/edit into seated height; do not use a magical tear here. Seven paired clips do not themselves generate this missing camera move. If seamless travel is required, budget a separately controlled bridge or author a deliberate match cut, subject to review.",
+      "anchor": [
+        "original club actor",
+        "sofa",
+        "low table",
+        "rain window",
+        "lamp"
+      ]
+    },
+    {
+      "from": "04",
+      "to": "05",
+      "type": "prop-led cross-world reveal",
+      "implementation": "Browser expands the castle-terrace reflection from the mask into shot 05; same mask reappears on the matching stone railing. The model does not generate the ripping edge.",
+      "anchor": [
+        "castle engraving",
+        "same mask",
+        "moonlit stone balustrade",
+        "candlelit ballroom"
+      ]
+    },
+    {
+      "from": "06",
+      "to": "07",
+      "type": "reflection-led cross-world reveal",
+      "implementation": "Browser expands the specific coastal-house reflection into the same horizon/window/interior geometry of 07; no unrelated residence or new entrance door.",
+      "anchor": [
+        "coastal house window",
+        "ocean horizon",
+        "sunset direction"
+      ]
+    },
+    {
+      "from": "08",
+      "to": "09",
+      "type": "reflection-led cross-world reveal",
+      "implementation": "Browser reveals 09 through the helmet visor contour; helmet, work lamps and motorcycle position establish the shared ride clue.",
+      "anchor": [
+        "same helmet and keys",
+        "same motorcycle",
+        "garage lamps"
+      ]
+    },
+    {
+      "from": "10",
+      "to": "11",
+      "type": "reflection-and-map cross-world reveal",
+      "implementation": "Browser expands mirror-contained white arches into shot 11; map route continues on queen’s table.",
+      "anchor": [
+        "white arches and bridge",
+        "same map route",
+        "matching endpoint"
+      ]
+    },
+    {
+      "from": "12",
+      "to": "13",
+      "type": "destination-window reveal",
+      "implementation": "Browser reveals the exact apartment from its already visible warm window; preserve two women, furniture and three-place dinner layout.",
+      "anchor": [
+        "same warm window",
+        "same two roommates",
+        "exactly three place settings"
+      ]
+    }
+  ],
+  "ambientLoops": [
+    {
+      "shot": "03",
+      "firstFrame": "keyframes-r2/03-private-club.png",
+      "originalIdentityReference": "references/private-club.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    },
+    {
+      "shot": "05",
+      "firstFrame": "keyframes-r2/05-vampire-castle.png",
+      "originalIdentityReference": "references/vampire-castle.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    },
+    {
+      "shot": "07",
+      "firstFrame": "keyframes-r2/07-athlete-house.png",
+      "originalIdentityReference": "references/athlete-house.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    },
+    {
+      "shot": "09",
+      "firstFrame": "keyframes-r2/09-midnight-garage.png",
+      "originalIdentityReference": "references/midnight-garage.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    },
+    {
+      "shot": "11",
+      "firstFrame": "keyframes-r2/11-elven-court.png",
+      "originalIdentityReference": "references/elven-court.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    },
+    {
+      "shot": "13",
+      "firstFrame": "keyframes-r2/13-roommates.png",
+      "originalIdentityReference": "references/roommates.png",
+      "purpose": "Independent locked-camera dwelling loop; tiny blinking/breathing plus scene-native rain/flame/hair only.",
+      "requestedDurationSeconds": 6,
+      "candidateModel": "Hailuo-2.3 Fast, subject to live availability/price check",
+      "constraints": [
+        "Begin/end close to the exact same resting frame.",
+        "No camera motion, narrative gesture, dialogue mouth movement, new prop or viewer limb.",
+        "Do not reuse older published loops if their old viewer-touch hands remain or if their composition disagrees with the corrected still."
+      ],
+      "status": "unsubmitted; no new credit authorization"
+    }
+  ],
+  "ambientAtOtherStates": {
+    "opening": "Subtle ambient light/rain overlay only; do not open the door while the user is idle.",
+    "final14": "Optional independent loop from corrected 14, separately scoped and priced; otherwise gentle environmental overlays.",
+    "midTransition": "Freeze narrative seek time at the exact user position and run only environment overlays. Do not jump to the nearest character loop or let the action keep playing."
+  },
+  "runtime": {
+    "progress": "Six seconds per pair is a source-animation range, not a timer imposed on visitors. Browser scroll maps monotonically and reversibly to the narrative clip’s time.",
+    "crossings": "Five world changes at 04→05/06→07/08→09/10→11/12→13 use browser-composited irregular image tears. Door is used only for 01→02.",
+    "seeking": "Measure forward/backward seeking after encoding; all-intra encodes or predecoded frame sequences may be required. Do not promise smooth reversibility solely from receiving an MP4.",
+    "totalNarrativeSourceDurationEstimateSeconds": 42,
+    "totalDurationNote": "7 × 6 seconds is requested source footage only, excluding six cross-pair joins and optional holds/ambient loops."
+  },
+  "modelAndCostStatus": {
+    "liveVerificationPerformedForThisPlan": false,
+    "observationsReportedByParent": [
+      {
+        "mode": "Hailuo-2.3 Fast",
+        "observedTapiesPerClip": 40,
+        "observedSettings": "1080P, 6 seconds",
+        "tailFrameSupport": "not supported in observed workflow; unsuitable as a claimed 40-credit first+last-frame solution"
+      },
+      {
+        "mode": "Hailuo 02",
+        "observedTapiesPerClip": 74,
+        "observedSettings": "1080P, 6 seconds",
+        "tailFrameSupport": "must verify actual selected mode and populated first/last frame inputs before submission"
+      },
+      {
+        "mode": "Hailuo 02",
+        "observedTapiesPerClip": 36,
+        "observedSettings": "768P, 6 seconds",
+        "tailFrameSupport": "must verify actual selected mode and populated first/last frame inputs before submission"
+      },
+      {
+        "mode": "Seedance",
+        "observedTapiesPerClip": 120,
+        "observedSettings": "auto setting seen previously; exact mode/duration/resolution not verified",
+        "tailFrameSupport": "unresolved; not a priced recommendation"
+      }
+    ],
+    "historicalArithmeticOnly": {
+      "sevenNarrativeAt74": 518,
+      "sevenNarrativeAt36": 252,
+      "sixAmbientAt40": 240,
+      "sevenNarrative1080AndSixAmbient": 758,
+      "sevenNarrative768AndSixAmbient": 492,
+      "excludes": [
+        "retries",
+        "six cross-pair bridging clips if separately generated",
+        "optional final 14 ambient loop",
+        "encoding/editorial work"
+      ],
+      "warning": "These are multiplications of previously observed UI numbers, not current quotes, a 280-credit offer, or authorization. Verify live price per selected node and total before any new request for approval."
+    }
+  },
+  "acceptanceBeforeAnySubmission": [
+    "Approve corrected 14-image visual/prop continuity first.",
+    "Verify chosen video model truly accepts both supplied endpoint images and preserves selected settings after switching modes.",
+    "Verify live per-clip credit display and exact total.",
+    "Obtain a new explicit spending cap; previous 40 is already consumed."
+  ],
+  "videoQACriteria": [
+    "Check first/mid/end and any fast movement for identity, hands, hair, props, geometry and exposure.",
+    "Compare each generated endpoint directly to intended r2 still and to its cross-pair neighbor.",
+    "Reject invented room/face/door, sudden emergence, melting objects, mask/helmet/map redesigns, unsupported camera jumps or auto narrative advancement.",
+    "Test narrative seek forward/backward, idle at intermediate positions, and transition-to-ambient handoff without snapping."
+  ],
+  "pathConvention": {
+    "base": "directory containing this manifest",
+    "format": "relative forward-slash paths; resolve locally on Windows, macOS or Linux",
+    "repositoryPackage": "production/2026-11-12",
+    "review": "review.html",
+    "handoff": "PC-HANDOFF.md"
+  },
+  "handoff": {
+    "repository": "https://github.com/rongyu7777777-gif/pisco-night-valley",
+    "branch": "codex/storyboard-r2-20261112",
+    "scope": "Independent production handoff branch. This manifest does not assert push completion, merge, pull-request creation or site publication.",
+    "deliverableStatus": "14-shot corrected static proposal and video production plan; not 7 generated narrative videos or user-approved final frames.",
+    "firstNextVideo": "N01, exact 01-door-ajar first frame plus 02-door-open last frame, after static review, supported endpoint-mode verification and a new explicit spending cap.",
+    "badPilot": "Existing first-frame-only opening pilot is rejected as a final asset; retain its audit receipt, not as an approved video input."
+  },
+  "reviewDecisions": [
+    {
+      "id": "static-r2",
+      "status": "user review pending",
+      "scope": "All 14 corrected static proposals; agent checks do not equal user approval."
+    },
+    {
+      "id": "opening-endpoints",
+      "status": "pending visual and technical confirmation",
+      "scope": "Same nearly closed door, hinge/handle geometry, exact club reveal and original actor across 01/02/03."
+    },
+    {
+      "id": "cross-shot-continuity",
+      "status": "pending final QA and user selection where alternatives remain",
+      "scope": "Actor identities, mask/invitation/helmet/bike/map/window continuity, exactly three athletes and two roommates."
+    },
+    {
+      "id": "video-mode-and-budget",
+      "status": "unresolved; no remaining spending authorization",
+      "scope": "Verify true first+last-frame support and live price for the chosen model before a new paid request."
+    },
+    {
+      "id": "07-08-staging-variation",
+      "status": "unresolved; user review pending",
+      "scope": "Helmet remains on original low table, not entrance; outside motorcycle/rain were not established. Current14-file completeness is not a strict14-shot acceptance result. See stagingVariations."
+    }
+  ],
+  "stagingVariations": [
+    {
+      "shots": [
+        "07",
+        "08"
+      ],
+      "status": "user review pending; not strict storyboard compliance",
+      "originalRequirement": "07 plants helmet at entrance and a motorcycle outside side window;08 includes the already visible motorcycle and rainy night before entering garage.",
+      "candidateState": "07 now includes the black motorcycle outside the far-right window, while preserving original cast/room/sunset. Helmet and key remain on original small wood table.08 follows an arc around the table with side/back views; rain and garage appear only within visor.",
+      "decisionNeeded": "Review camera arc and small-table position instead of literal entry hall. Exterior motorcycle foreshadow is now present."
+    },
+    {
+      "shots": [
+        "06"
+      ],
+      "status": "user review pending; angle variation documented",
+      "originalRequirement": "Camera looks into the mask inner reflection.",
+      "candidateState": "To preserve the exact mask silhouette, current06 keeps its front orientation and shows next room through dark eye openings.",
+      "decisionNeeded": "Review front-aperture glimpse versus original inner-surface reflection; neither wording is silently substituted into the original storyboard."
+    }
+  ],
+  "currentPreparation": {
+    "date": "2026-11-12",
+    "staticCount": 14,
+    "newVideoCount": 0,
+    "modelPriceObserved": {
+      "model": "Hailuo-02",
+      "resolution": "1080P",
+      "seconds": 6,
+      "variations": 1,
+      "displayedTapies": 74
+    },
+    "tapnowDraft": {
+      "title": "01–02 · R2 DRAFT · TAIL NOT LOADED",
+      "firstFrame": "01 near-closed door present",
+      "lastFrame": "not loaded",
+      "blocker": "Native file picker selected corrected02 but Open remained disabled; cancelled without uploading or generating.",
+      "promptUpdated": true,
+      "generated": false
+    },
+    "remainingSpendAuthorization": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "rejected_by_user",
+  "approvedLimitTapies": 40,
+  "displayedPrice": 40,
+  "model": "Hailuo-2.3 Fast",
+  "resolution": "1080P",
+  "durationSeconds": 6,
+  "variations": 1,
+  "firstFrame": "keyframes/01-door-ajar.png",
+  "lastFrame": null,
+  "prompt": "A continuous cinematic first-person shot, six seconds. Start exactly from this nearly closed walnut door and its narrow amber sliver. Hold for 0.5 seconds. The same solid door slowly rotates inward on its LEFT hinges; the brass handle stays attached and travels leftward and away. Reveal a warm modern private club: brown leather sofa, red cushions, amber lamps, rainy city window, and an adult dark-haired man standing at the right in a black rolled-sleeve shirt and loose tie. Gently dolly forward only after the door is sufficiently open. Consistent wooden panels, door frame and wall lamp throughout; subtle ambient light movement. Natural physical opening, one uninterrupted take. NO viewer hands, arms, body or reflection. No touching, teleportation, dissolves, morphing architecture, portals, new doors, foreground people, text or logos.",
+  "logo": "brand/pisco-r5.svg",
+  "logoAppliedBy": "local postproduction after generation",
+  "actualSpentTapies": 40,
+  "rawVideo": "audit/rejected-opening-pilot.mp4",
+  "measuredDurationSeconds": 5.875,
+  "measuredResolution": [
+    1918,
+    1080
+  ],
+  "fps": 24,
+  "audio": false,
+  "reviewNotes": [
+    "Near-closed initial door and progressive opening verified in five extracted frames.",
+    "No first-person viewer limbs in sampled frames.",
+    "Interior and character differ from planned ending keyframe; motion pilot only.",
+    "Original r5 SVG verified byte-for-byte; rendered logo inspected at beginning and ending."
+  ],
+  "currentDisposition": "rejected_by_user",
+  "rejectionReason": "Only door first frame was supplied; character and interior were invented rather than constrained by storyboard tail frame. Do not use as production final.",
+  "sanitization": "Account balances, project/canvas/node identifiers, remote media URLs/query tokens, download/contact-sheet paths and local Mac paths removed. Historical costs and generation details retained.",
+  "packageUsage": "Audit provenance only; not current production inputs or new spending authorization.",
+  "generation_date": "2026-11-12",
+  "rawVideoNote": "Rejected single-first-frame pilot only; no r5 overlay, not a final or approved input.",
+  "rawVideoSha256": "57e3c01fe3ed396822237148791bde1a2af2c76fc8a147fcc120c6cf65a87e8b",
+  "rawVideoBytes": 1547897
+}

@@ -1,0 +1,86 @@
+{
+  "mode": "built-in image_gen",
+  "status": "static corrections for review; not video or publication",
+  "shots": [
+    {
+      "shot": "05",
+      "prompt": "EDIT IMAGE 1 DIRECTLY, minimal localized changes. This is not a new casting or restyling request. Preserve the EXACT SAME photographic image everywhere except the two hand/prop areas described: same adult vampire's exact face identity, facial proportions, jaw/nose/eyes/lips, black tousled hair strand arrangement, red irises, pallid skin, expression, head tilt and close leaning camera distance; same plain burgundy VELVET LAPEL JACKET over BLACK BUTTONED SHIRT; same cinematic warm-left/cool-right light. Preserve all background stone columns, room, candles, forest, moon, framing, colors and photographic texture. Do not add embroidered jacket, ivory shirt, elaborate costume, curls or new expression. TWO localized edits only: (1) completely remove the viewer's pale foreground arm, lace cuff and pointing finger touching the vampire's lips; reconstruct the black shirt, burgundy jacket and background naturally behind that arm. Keep the original lips, fangs and face unchanged after removal. No replacement viewer limb. (2) replace the small mask being held at lower-right with the ornate black-and-antique-gold castle-engraved mask from Image2, now resting physically on the EXISTING stone balustrade at right, approximately normal face-mask size. Lower the vampire's own holding hand naturally out of frame; no hand on the mask, no new fingers. Image2 is PROP REFERENCE ONLY, do not transfer its large scale, camera, man, warm color grade or tear. Maintain sufficient railing under the mask; do not add tables/furniture. The mask is a continuity object for next shot, not a dominant foreground sculpture. Deliver one seamless16:9 photograph at original quality. No text, logo, shot number, collage, border, watermark, tear, portal, new doorway, extra person, or viewer body.",
+      "referencePaths": [
+        "references/vampire-castle.png",
+        "keyframes/04-mask-crossing.png"
+      ],
+      "generatedSource": "provenance-not-packaged:exec-5b521a76-c482-4008-b0ca-33013a45c530.png",
+      "asset": "keyframes-r2/05-vampire-castle.png",
+      "qa": {
+        "observed": "Original face, dark hair, red eyes, black shirt, plain burgundy lapel jacket, moon/forest and candle interior visually closely retained. Viewer arm/finger removed. Character hand lowered out of view. Castle-engraved mask rests on existing stone railing.",
+        "limit": "Generative edit, not pixel-identical; neckline/shirt and formerly occluded jacket reconstructed. Mask is an inserted continuity prop."
+      },
+      "sha256": "4eaba10d4abb7e3bcf6e1692e892bbbcbe78b8b5080d4fa9922a84c132598387",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot": "06",
+      "prompt": "Production shot06, matching shot05 without changing its object. Image1 is the EXACT source scene and mask. Move the camera naturally forward-right toward the ornate black-and-antique-gold mask resting on the existing stone balustrade at the right of Image1. Keep the mask in the SAME upright FRONT-FACING ORIENTATION on the SAME stone ledge: do not turn it around or expose a newly invented back. Aggressively preserve the original mask's exact silhouette, central raised castle-engraved brow, left curled rim, two eyehole shapes, right nose extension, black enamel and gold scrollwork. It must look like a closer view of this very object, not another butterfly mask. The new frame is a medium-close prop shot: mask fills approximately the middle half of the 16:9 frame, with stone ledge below, the same cool moonlit forest behind right and blurred candlelit original Gothic ballroom at left. A tiny blurred burgundy-jacket shoulder edge may remain far left, no face and no hands. The camera is still on the viewer's side of the railing, not behind or through it. Magical story clue ONLY: inside the existing dark glossy eyeholes and in a limited section of the black enamel reflect a warm glimpse of the EXACT MODERN COASTAL LIVING ROOM from Image2 and Image3: gray sofa, open white kitchen with metal pendant lamps, wooden table, tall rectangular sliding-glass windows and orange sunset SEA HORIZON beyond. Image2 is original room geometry reference; Image3 is its current hand-free production version. Show architecture/light/sea as the small reflection, not distorted faces or hands. This is a visual reflection clue only; keep the entire OUTER castle environment intact and cool night. Do not transform the outside into sunset, don't add a different grand villa. No tear/crack/portal frame in the rendered image: that will be an independent compositing transition later. Keep mask geometry unchanged even while impossible room is glimpsed in its dark openings. Photoreal cinematic light and materials matching Image1, no added graphic glow, no newprop. NO viewer hands, arms, body, legs, reflections, no other people in foreground, no holding mask, no lettering, logos, shot numbers, UI, collage, border or watermark.",
+      "referencePaths": [
+        "keyframes-r2/05-vampire-castle.png",
+        "references/athlete-house.png",
+        "keyframes-r2/07-athlete-house.png"
+      ],
+      "generatedSource": "provenance-not-packaged:exec-97c4506e-7020-491f-aad5-08ff4b99f79a.png",
+      "asset": "keyframes-r2/06-coastal-reflection.png",
+      "qa": {
+        "observed": "Front-facing castle-engraved blackgold mask retained as closeup on stoneledge; no backside butterfly redesign. Original castle room candles/forest/moon remain behind. Eyeholes show recognisable original athlete room: jerseys,kitchen,gray sofa, sunset slidingwindows. No viewerhands or new outside portal; clean plate with no baked tear.",
+        "limit": "Generative geometry and fine filigree are close but not pixel-identical. Eyeholes function as magical glimpse/aperture rather than physically ordinary reflection; final transition still needs controlled compositing and angle-match. No athletes visible within reflection; they appear at next encounter."
+      },
+      "sha256": "c0069d7550cc9eb6660bf1315930828a0a4053fad17aa03e8b44fa2cef303ec8",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot": "07",
+      "prompt": "EDIT IMAGE1 DIRECTLY with very small localized corrections; DO NOT redesign, recast or restyle it. Preserve the exact three adult men, all three original faces, facial features, hair, skin tones, expressions and original camera framing. Preserve EXACT clothing: left man's plain dark charcoal tank top WITHOUT logo; centre man's dark forest-green V-neck long-sleeve sweater with cream striped neckline/cuffs and gray trousers; right man's cream cable-knit sweater with navy striped V-neck and dark trousers. Preserve the right man's tortoiseshell eyeglasses HELD in his own raised hand near his mouth, NOT worn on face. Keep original separate sofa/stool positions, body sizes, and original natural golden-orange sunset lighting. Keep all existing room geometry, kitchen, white cabinets, metal pendant lamps, hanging jerseys23/17/9, sports bags, gray sofa, low wooden table, balcony and sea. Allowed localized changes ONLY: (1) Remove the foreground viewer's cream-sleeved arm/hand at bottom centre entirely; the centre man now rests both his OWN hands naturally on his OWN knees in the same leaning posture, instead of clasping visitor's hand. (2) Lower only the right man's empty offered palm so it rests naturally on his own thigh, while his OTHER hand continues holding the glasses in its original pose. (3) Add one normal-size glossy BLACK FULL-FACE MOTORCYCLE HELMET with closed dark reflective visor matching the helmet prop in Image2. Put it on the ALREADY EXISTING low wooden table visible between the green-sweater man and cream-sweater man, behind them, alongside the existing books/cup. Do NOT add new furniture or move a man. A small motorcycle key can rest directly beside it. Keep helmet clearly readable through that gap so the following shot can track forward-right to this same table. Image2 is HELMET PROP reference only: do not transfer its man, garage, motorbike, darkness or blue rain into this warm room. No new character, no visitor body/reflection, no extra arms/fingers, no helmet in anyone's hands. No gray sleeveless hoodie, blackT-shirt, worn glasses, added tattoo, makeup or changed hair. One seamless landscape16:9 photograph, no text except existing unchanged jersey numerals, no added logo/captions/shot numbers/UI/border/tear/portal.",
+      "referencePaths": [
+        "references/athlete-house.png",
+        "references/midnight-garage.png"
+      ],
+      "generatedSource": "provenance-not-packaged:exec-bca55b41-4821-4a0e-8d96-c1e9ef314552.png",
+      "asset": "keyframes-r2/07-athlete-house.png",
+      "qa": {
+        "observed": "Three original-looking faces, hair, wardrobe and positions closely retained. Centre forest-green Vneck, right cream cableknit and glasses held in hand, left unbranded tank. Viewer sleeve/hand removed; centre hands on knees and right empty hand on thigh. Original golden sunset, kitchen and jersey positions retained. Black fullface helmet and key on existing table behind gap between centre and right.",
+        "limit": "Generative edit not pixel-identical. Helmet is a newly inserted prop; original14table said entrance, but this follows original furniture geometry and now provides a clear forward-right camera target. No distant motorcycle added to originalroom."
+      },
+      "sha256": "8e07a93f06db64b1cab18b88d63356d9de8510fb60a09bd8c39fb97f44f959d2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "followUp": "correction-07-bike.json",
+      "finalOutput": "keyframes-r2/07-athlete-house.png",
+      "finalSha256": "c6e69c1c2cc9f41bb21010466a3bb5b3f72d5b72b5b0bf87dd25a1a6051bd79e"
+    },
+    {
+      "shot": "08",
+      "prompt": "Production shot08, a coherent camera move in the SAME apartment from Image1. Image1 is corrected07 and is the authority for EVERY person, costume, room object and light; Image2 is GARAGE REFLECTION REFERENCE ONLY. Create ONE seamless16:9 closeup of the SAME glossy black full-face motorcycle helmet and SAME small key on the SAME existing low light-brown wooden table that is behind the gap between the forest-green sweater and cream sweater men in Image1. Preserve helmet design: compact rounded black shell, narrow upper vents, dark closed visor, subtle gold sunset reflections, small side visor hinge, no logos. Preserve the nearby original stack of books and white cup so this table is identifiable. Camera path is natural: track forward-right from original seated viewpoint to that table, continue just beyond the table then look back diagonally toward original seating. The helmet becomes foreground centre/right, normal tabletop scale, sharp focus. Since camera now looks back, the THREE original men remain at their EXACT seats and appear at distance as defocused SIDE/BACK views on the far side of the table, not all front-on staring at lens: left tank-top man still on gray sofa, centre green long-sleeve Vneck man on stool, right cream cable-knit man beside him still holding glasses. Camera angle changes, not furniture/people positions. Show shoulders and profiles only, no new/different faces, no fourth man. Keep background tightly framed on the same gray sofa/seating area and only room surfaces already in reference; do not invent fireplaces, a second kitchen, new door or furniture. Warm natural golden-orange sunset from existing windows; stay inside the same DRY comfortable room, no rain/waterdrops anywhere outside visor. Narrative clue confined strictly to glossy visor reflection: warm amber GARAGE WORK LIGHT and recognisable pegboard tools/red toolbox from Image2, perhaps a little blue rain background IN REFLECTION ONLY, without visible rider or external hand. This is a small image-to-video clean plate: NO tear/crack, neon portal, glowing edge or added window; source-image split is postproduction. No damp leather jacket unless already present in Image1 (it is not). NO viewer hands/arms/body/legs/reflection; no hands holding helmet. Characters' distant own hands remain naturally attached and relaxed. No text, subtitles, numbers, logos, collage, split-screen, border or watermark. Favor physical spatial continuity over copying the previous rejected front-on three-men helmet composition.",
+      "referencePaths": [
+        "keyframes-r2/07-athlete-house.png",
+        "references/midnight-garage.png"
+      ],
+      "generatedSource": "provenance-not-packaged:exec-1e85a901-9333-4799-b7a9-218f9a12391b.png",
+      "asset": "keyframes-r2/08-helmet-crossing.png",
+      "qa": {
+        "observed": "Closeup normal-size black fullfacehelmet, same lightwood table, key, stackofbooks and whitecup. Three original wardrobe identities remain as cream-sweater sideback left, green-sweater back centre, tanktop sideprofile right, consistent with camera advancing beyond table and looking diagonally back. Room stays warm/dry. Visor shows ambergarage lamp, pegboardtools, redtoolbox and rainyopening; no rider or viewerhand. No baked tear/portal.",
+        "limit": "New camera-angle rendering cannot guarantee surveyed metric roomgeometry or pixel-identical helmet. It intentionally requires an arc past the table and turnback, not straight zoom. Exact three faces not verifiable because defocused side/back views. Original table/sofa furnishings inferred in reverse view; production video must follow that camera path rather than arbitrary morph."
+      },
+      "sha256": "e48004a1d23ab74deea5255c1f2e127c8e9c89722fefbed0f7449d477d3e67cf",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

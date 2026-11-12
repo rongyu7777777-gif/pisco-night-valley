@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "packageDate": "2026-11-12",
+  "revision": "r2 static candidates / exact r5 logo",
+  "status": "complete files; user visual review pending",
+  "pathBase": ".",
+  "expectedCoreAssetCount": 21,
+  "expectedCurrentFrames": 14,
+  "expectedOriginalReferences": 6,
+  "currentFrameCount": 14,
+  "assets": [
+    {
+      "path": "keyframes-r2/01-door-ajar.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 1837873,
+      "sha256": "829122f7a70acac7e18334e083085d7452800aa975b5248b97b5aa29baa8e1b4"
+    },
+    {
+      "path": "keyframes-r2/02-door-open.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 1999849,
+      "sha256": "1636b3e1c63d9157f9f94dc0e8874aa8c8b328b7c2622a64b39aa15c0c08351b"
+    },
+    {
+      "path": "keyframes-r2/03-private-club.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 1954987,
+      "sha256": "cd24e4a9570201e2ac37c8b40796446de1a0c34996fc0c3728531bac5072d144"
+    },
+    {
+      "path": "keyframes-r2/04-mask-crossing.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2243068,
+      "sha256": "32e5eca1013a399cac6de892d38d51585ce0d50e1b81b02f5bd371b78f7cf995"
+    },
+    {
+      "path": "keyframes-r2/05-vampire-castle.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2063844,
+      "sha256": "4eaba10d4abb7e3bcf6e1692e892bbbcbe78b8b5080d4fa9922a84c132598387"
+    },
+    {
+      "path": "keyframes-r2/06-coastal-reflection.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2385194,
+      "sha256": "c0069d7550cc9eb6660bf1315930828a0a4053fad17aa03e8b44fa2cef303ec8"
+    },
+    {
+      "path": "keyframes-r2/07-athlete-house.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2265044,
+      "sha256": "c6e69c1c2cc9f41bb21010466a3bb5b3f72d5b72b5b0bf87dd25a1a6051bd79e"
+    },
+    {
+      "path": "keyframes-r2/08-helmet-crossing.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 1987349,
+      "sha256": "e48004a1d23ab74deea5255c1f2e127c8e9c89722fefbed0f7449d477d3e67cf"
+    },
+    {
+      "path": "keyframes-r2/09-midnight-garage.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2166718,
+      "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9"
+    },
+    {
+      "path": "keyframes-r2/10-mirror-crossing.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2159109,
+      "sha256": "02c1ae172732dfd82ebe001cdca498b09a24b450a661b9215e28a2f54710cc51"
+    },
+    {
+      "path": "keyframes-r2/11-elven-court.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2579724,
+      "sha256": "7e7899536617f8c1cc1579ed21a1b3e2ee45eb60f54d96255e93fba60b959dc8"
+    },
+    {
+      "path": "keyframes-r2/12-map-crossing.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2763598,
+      "sha256": "6e00a22fb0137f0f133d2741513f450ae0039d2317aeed9a3ad64ed55c7760a2"
+    },
+    {
+      "path": "keyframes-r2/13-roommates.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 2418666,
+      "sha256": "313e8426cdab106be4574bd6c7cef09f4bd78f9d64bf4c7c022bae63c03f7a35"
+    },
+    {
+      "path": "keyframes-r2/14-reserved-place.png",
+      "role": "current static candidate",
+      "present": true,
+      "bytes": 1871899,
+      "sha256": "4ce2d38ed67e21673c630dd7eca560f78258f59c2689862a266e14225b4eb2f5"
+    },
+    {
+      "path": "references/private-club.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 1905875,
+      "sha256": "79e431b1e94b27c42a06ec6d1240bd5aec5c726fb393fe21c0235876f11b9a4b"
+    },
+    {
+      "path": "references/vampire-castle.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 2104067,
+      "sha256": "19a78607eb6d1ec7ccb33a04555a5c148e671ede777fbef8b90298da8e297df8"
+    },
+    {
+      "path": "references/athlete-house.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 2325291,
+      "sha256": "3454ec227a70a07a6b09c9e13a3e357311107f7fbb2fc48934846eb086bd1e24"
+    },
+    {
+      "path": "references/midnight-garage.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 2190522,
+      "sha256": "4da40e8b11a45a730c31219b83e1f54ddb9c4912a9a9b3794cb4e95829e88f7a"
+    },
+    {
+      "path": "references/elven-court.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 2553747,
+      "sha256": "0eff68ac9422faa57fbafcae90bbf25f3a87938145adbebda01e855ea8ab3e43"
+    },
+    {
+      "path": "references/roommates.png",
+      "role": "original identity reference",
+      "present": true,
+      "bytes": 2376956,
+      "sha256": "8c896cb1e18da320aa6da58ccee80e43489e5c74dbcfd1bf61a284e2f9421714"
+    },
+    {
+      "path": "brand/pisco-r5.svg",
+      "role": "exact supplied current logo",
+      "present": true,
+      "bytes": 6386,
+      "sha256": "d690daac8282e6f298348c53cc4fad6f835b262e8d2fee3105cb95d5e882e1db"
+    }
+  ],
+  "supportAssets": [
+    {
+      "path": "brand/inria-serif-400.ttf",
+      "role": "local font",
+      "present": true,
+      "bytes": 99808,
+      "sha256": "576ba277e3ea1bb7de43724d14c989de92e35eeae204210b0c2a9e7b10dc23fc"
+    },
+    {
+      "path": "brand/inria-serif-OFL.txt",
+      "role": "font license",
+      "present": true,
+      "bytes": 4398,
+      "sha256": "17ce133cf770fd000edafa607ae2a41dc6ce5a4f30fe82f777fa242929e76714"
+    }
+  ],
+  "missing": [],
+  "note": "Hash checks verify file integrity only, not creative approval, video generation, or publication."
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-12",
+  "status": "Production keyframes generated for requested storyboard video; no TapNow generation by this agent",
+  "assets": [
+    {
+      "shot": "07",
+      "file": "keyframes/07-athlete-house.png",
+      "reference": [
+        "archive/source-storyboard/02-shots-07-10.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: a single full-frame 16:9 cinematic image-to-video keyframe. Input image is a FOUR-PANEL STORYBOARD REFERENCE. Recreate ONLY its TOP-LEFT panel, shot07, as one independent high-resolution landscape frame with no grid, no text, no number, no black gutters, no UI, no watermark or logo. Preserve the exact three distinct adult men (all25+), faces, hair and wardrobe in top-left panel: left dark-haired athletic man in charcoal tank top with own arm along sofa back; middle wavy brown-haired athletic man in grey sleeveless hoodie seated on a low stool leaning slightly forward and smiling; right curly brown-haired man with black-rim glasses, black long-sleeve shirt and grey trousers. Maintain natural anatomically correct attached arms and hands resting on own knees/lap/sofa. All three looking warmly at unseen visitor, not touching or reaching toward viewer. Scene: warm modern coastal shared house at sunset; dark sofa, burgundy cushions, open kitchen and bar, hanging sports jerseys and sports bags, wide glass windows revealing pink orange ocean horizon. A glossy black full-face motorcycle helmet with smoked visor rests on entry console at left, small parked black motorcycle visible through distant right glass; these are story continuity props. Preserve relative scene placement and camera seated eye-level medium-wide composition from reference. Photorealistic cinematic editorial look, nuanced natural skin texture, amber lamps against magenta blue sunset; clean detailed image, movie still. No first-person viewer hands, arms, legs, body or reflections. Do not add people, costumes, fantasy creatures, candles near faces, extra limbs, text, logos, nude figures, or sexually explicit action.",
+      "generatedSource": "provenance-not-packaged:exec-66489f87-e1ab-4cf2-9401-477cb4cfaa9a.png",
+      "qa": "Exactly three adult athletes; no viewer hands/body; planted helmet and parked bike."
+    },
+    {
+      "shot": "08",
+      "file": "keyframes/08-helmet-crossing.png",
+      "reference": [
+        "archive/source-storyboard/02-shots-07-10.png",
+        "keyframes/07-athlete-house.png"
+      ],
+      "prompt": "Use case: compositing. Asset: one single full-frame16:9 cinematic image-to-video keyframe, no collage or panels. Image1 is a four-panel storyboard; recreate ONLY TOP-RIGHT shot08 as a standalone high-resolution film still. Image2 is the immediately preceding full-frame athlete house scene: preserve its room, sunset palette, three adult men blurred in background, exact glossy black full-face helmet as the continuity prop. Camera now close on that helmet resting on entry console/wood table, silver motorcycle keys and simple black leather fob on table in foreground, a damp black leather jacket draped next to helmet. Glossy smoked helmet visor reflects the specific warm industrial work-lamp and toolboard of the garage in bottom-left panel of image1. A narrow irregular photographic source-image tear begins across right edge of the visor reflection and exposes a sliver of blue rainy garage outside, exactly like storyboard top-right panel; this is an organic image-layer tear, NOT an object doorway or magic portal. Keep main frame dominated by real helmet and tabletop, sharp details/rain droplets and warm reflections. The athletes' modern coastal living room and sunset window stay soft-focus behind helmet, the three grown male hosts only small blurred background figures, no duplicate clear faces, no added body parts. Warm amber light, blue rainy reflections, filmic shallow depth of field. No hands anywhere in foreground, no viewer arms/body/reflection. No floating rings, doors, glowing portal frames, opaque geometry, huge glowing line, fantasy character, text, labels, shot numbers, borders, logo, UI or watermark. No nudity or sexual acts.",
+      "draftSource": "provenance-not-packaged:exec-2e48eea4-a893-4707-8a56-335dd92c02be.png",
+      "revisionPrompt": "Use case: precise-object-edit. Edit this single cinematic image with ONE correction only: remove the partial person at the extreme LEFT EDGE in the foreground (the black sleeveless shoulder/upper arm, from top-left down to around mid-left), and reconstruct that area as the same soft-focus empty sofa upholstery / warm living-room background. Preserve exactly THREE small blurred adult men already sitting together in the distant background. Do not remove them. Preserve the helmet, visor reflection, jacket, keys, wood surface, rain, photographic tear, camera, crop, colors and all other pixels/composition as closely as possible. NO extra people, no foreground body parts, no viewer arms/hands, no text, no logo. Output same16:9 landscape frame.",
+      "generatedSource": "provenance-not-packaged:exec-a1ae0edc-5984-4a12-b5e2-95193b70f26e.png",
+      "qa": "Removed partial foreground extra shoulder; exactly three blurred athletes in background; helmet, keys, worklamp reflection and photographic tear."
+    },
+    {
+      "shot": "10",
+      "file": "keyframes/10-mirror-crossing.png",
+      "reference": [
+        "archive/source-storyboard/02-shots-07-10.png",
+        "provenance-not-packaged:03-garage-no-viewer-hand.png"
+      ],
+      "prompt": "Use case: compositing. Asset: single full-frame16:9 high-resolution cinematic image-to-video keyframe. Image1 is a four-panel storyboard reference: recreate ONLY its BOTTOM-RIGHT panel, shot10, as one independent landscape still. Image2 is the preceding garage scene and defines the SAME black motorcycle, rain, warm workshop lighting and metal details. The main subject is the motorcycle's realistic round chrome-rimmed rear-view mirror, attached by its stem to the same bike in a real amber-lit garage. Very close view, with part of shiny black motorcycle tank blurred at lower-left. A cream paper route map sits on nearby wood workbench below the mirror, fine hand-drawn mountain contours and a dark red route ending at a tiny drawing of white arches, no legible words. Mirror reflection contains a luminous ivory elven city with slender white stone bridges, spires, deep blue-violet valleys and hanging lilac wisteria, matching the fantasy city in storyboard. At right of the mirror, a small irregular photographic tear in the garage image starts revealing the SAME white stone balcony and arches beneath, a tactile thin torn image-layer edge. It is not a free-standing door, floating frame or glowing ring. The mirror remains a clear physical real object and the map anchors the clue. Composition near-identical to storyboard bottom-right but expanded full16:9, rich shallow focus, amber metal and violet reflections, realistic photographic materials. No people in this shot, no viewer hand, arm, body or reflection, no floating body parts. No collage, borders, shot number10, text, captions, logos, UI or watermark. No new doors or giant portal frame.",
+      "generatedSource": "provenance-not-packaged:exec-158f6e7a-e1de-4dfd-ac1a-93c4ff68c406.png",
+      "qa": "Physical attached mirror, route map, elven arches and bridges; no people or viewer body."
+    }
+  ],
+  "packageUsage": "Historical keyframes generation provenance only. Current video inputs are keyframes-r2/ and video-input-plan-r2.json. Original generated sources not included are labelled provenance-not-packaged."
+}

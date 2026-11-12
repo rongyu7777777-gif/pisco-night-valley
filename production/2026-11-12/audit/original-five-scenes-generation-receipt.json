@@ -1,0 +1,131 @@
+{
+  "provider": "TapNow desktop",
+  "title": "PISCO · Night Valley Motion · 2026-11-11",
+  "generation_date": "2026-11-11",
+  "model": "Hailuo-2.3 Fast",
+  "requested_seconds": 6,
+  "requested_resolution": "1080P",
+  "generated_count_this_batch": 5,
+  "credits_spent_this_batch": 200,
+  "credits_per_clip": 40,
+  "credit_evidence": "Historical generation settings and cost observed in TapNow native UI; account state omitted.",
+  "generated_count_total": 6,
+  "credits_spent_total_including_pilot": 240,
+  "verification_engine": "macOS AVFoundation actual decode; ffprobe/ffmpeg unavailable on host",
+  "sampled_seconds": [
+    0,
+    3,
+    5
+  ],
+  "inspection_limit": "Three sampled frames per clip; no assertion of frame-by-frame defect absence or seamless loop endpoints. No generated traversal videos; traversal is rendered by the website.",
+  "files": [
+    {
+      "bytes": 1079140,
+      "duration_seconds": 5.875,
+      "height": 1080,
+      "nominal_fps": 24,
+      "historicalOutputBasename": "vampire-castle-tapnow-20261111.mp4",
+      "sampled_seconds": [
+        0,
+        3,
+        5
+      ],
+      "scene": "vampire-castle",
+      "sha256": "db9282dab5ec1cc0102e42dd82667f5dfaa6c45cb3e252fa85aa44bfa5ff8172",
+      "verification_engine": "macOS AVFoundation",
+      "width": 1918,
+      "source_reference": "references/vampire-castle.png",
+      "inspection": "Same fictional adult character, mask and fingertip contact remain consistent across sampled frames; subtle expression change, no obvious face or hand deformation in the sampled frames.",
+      "credits_spent": 40,
+      "model": "Hailuo-2.3 Fast",
+      "status": "downloaded, decoded, sampled frames inspected, integrated into source manifest"
+    },
+    {
+      "bytes": 1347185,
+      "duration_seconds": 5.875,
+      "height": 1080,
+      "nominal_fps": 24,
+      "historicalOutputBasename": "athlete-house-tapnow-20261111.mp4",
+      "sampled_seconds": [
+        0,
+        3,
+        5
+      ],
+      "scene": "athlete-house",
+      "sha256": "d417d128eedc94d7d9ca90f4e804dd67c5862cb9847814c381395208947b21ec",
+      "verification_engine": "macOS AVFoundation",
+      "width": 1918,
+      "source_reference": "references/athlete-house.png",
+      "inspection": "All three fictional adults remain distinct and correctly positioned; central head lowers slightly at 5 seconds, hands and offered palm remain coherent in the sampled frames.",
+      "credits_spent": 40,
+      "model": "Hailuo-2.3 Fast",
+      "status": "downloaded, decoded, sampled frames inspected, integrated into source manifest"
+    },
+    {
+      "bytes": 1409066,
+      "duration_seconds": 5.875,
+      "height": 1080,
+      "nominal_fps": 24,
+      "historicalOutputBasename": "midnight-garage-tapnow-20261111.mp4",
+      "sampled_seconds": [
+        0,
+        3,
+        5
+      ],
+      "scene": "midnight-garage",
+      "sha256": "3b8d392d2e369a3843b396137227a0c07c2a068069e77e8fa658e5a8fcc72a8e",
+      "verification_engine": "macOS AVFoundation",
+      "width": 1918,
+      "source_reference": "references/midnight-garage.png",
+      "inspection": "Same fictional adult, motorcycle and shoulder contact remain coherent; smile changes slightly at 3 seconds and returns by 5 seconds. No obvious gross deformation in the sampled frames.",
+      "credits_spent": 40,
+      "model": "Hailuo-2.3 Fast",
+      "status": "downloaded, decoded, sampled frames inspected, integrated into source manifest"
+    },
+    {
+      "bytes": 1431574,
+      "duration_seconds": 5.875,
+      "height": 1080,
+      "nominal_fps": 24,
+      "historicalOutputBasename": "elven-court-tapnow-20261111.mp4",
+      "sampled_seconds": [
+        0,
+        3,
+        5
+      ],
+      "scene": "elven-court",
+      "sha256": "4d7772b4c5a9352834016e78044e5c3bc26af170469b54601772792ddcbb197d",
+      "verification_engine": "macOS AVFoundation",
+      "width": 1918,
+      "source_reference": "references/elven-court.png",
+      "inspection": "Same fictional adult elf, crown, gown and hand contact remain coherent; closed-eye blink visible at 3 seconds, eyes open at 5 seconds. No obvious gross deformation in the sampled frames.",
+      "credits_spent": 40,
+      "model": "Hailuo-2.3 Fast",
+      "status": "downloaded, decoded, sampled frames inspected, integrated into source manifest"
+    },
+    {
+      "bytes": 1468119,
+      "duration_seconds": 5.875,
+      "height": 1080,
+      "nominal_fps": 24,
+      "historicalOutputBasename": "roommates-tapnow-20261111.mp4",
+      "sampled_seconds": [
+        0,
+        3,
+        5
+      ],
+      "scene": "roommates",
+      "sha256": "250f8b343346916c75253c9c2755ffa7a2b2c0e3294e2d425883fda9072e8296",
+      "verification_engine": "macOS AVFoundation",
+      "width": 1918,
+      "source_reference": "references/roommates.png",
+      "inspection": "Both fictional adults remain distinct; a blink is visible at 5 seconds. The right offered hand shifts slightly but remains coherent in the sampled frames.",
+      "credits_spent": 40,
+      "model": "Hailuo-2.3 Fast",
+      "status": "downloaded, decoded, sampled frames inspected, integrated into source manifest"
+    }
+  ],
+  "publication_status": "source ready; build and deployment owned by root agent",
+  "sanitization": "Account balances, project/canvas/node identifiers, remote media URLs/query tokens, download/contact-sheet paths and local Mac paths removed. Historical costs and generation details retained.",
+  "packageUsage": "Audit provenance only; not current production inputs or new spending authorization."
+}

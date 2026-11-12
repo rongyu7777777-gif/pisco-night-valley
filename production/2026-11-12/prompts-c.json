@@ -1,0 +1,55 @@
+{
+  "provider": "built-in image_gen",
+  "purpose": "Independent production keyframes for user-requested storyboard video; not published",
+  "date": "2026-11-12",
+  "assets": [
+    {
+      "shot": "11",
+      "file": "keyframes/11-elven-court.png",
+      "generatedSource": "provenance-not-packaged:exec-9a8d4151-7a69-4f7b-a240-af867af9d900.png",
+      "references": [
+        "archive/source-storyboard/03-shots-11-14.png"
+      ],
+      "prompt": "Use case: identity-preserve. Production image-to-video keyframe. The input is a four-panel storyboard reference, NOT the requested output layout. Recreate ONLY its upper-left scene, shot 11, as ONE full-bleed 16:9 landscape photoreal cinematic still, high detail. No collage, panels, borders, gutters, numbers, lettering, logo, subtitle, UI, watermark.\nPreserve precisely the upper-left adult elven queen's identity, delicate facial structure, long pale-blond wavy hair, pointed ears, thin gold branch crown, ivory/gold embroidered fully clothed long royal dress. Clearly adult age 22+. She sits sideways on the edge of an ornate gold map table, looking back toward unseen visitor with warm playful confident eye contact. Her own left palm rests naturally flat on the table with attached arm; her own right hand on her lap. No hand reaching at lens, no viewer hand or arm, no touching anyone. Complete natural anatomy.\nThe same parchment route map stretches across the table, sketched mountains and forest, winding red route; ivory guard gloves lie on the right. Preserve reference's wisteria, antique brass globe, warm candles on left, white stone arches, blue-violet night mountains and luminous elven bridges/city beyond. The city is real environment, not a portal or screen. High-end live-action fantasy photography, amber candlelight and cool blue-violet background, subtle rich burgundy accents. Frame queen medium-wide with her face and map both readable; reserve space to show the map. No additional characters."
+    },
+    {
+      "shot": "12",
+      "file": "keyframes/12-map-crossing.png",
+      "generatedSource": "provenance-not-packaged:exec-aa751650-b8e7-4627-8759-c608346996eb.png",
+      "references": [
+        "archive/source-storyboard/03-shots-11-14.png",
+        "keyframes/11-elven-court.png",
+        "keyframes/13-roommates.png"
+      ],
+      "prompt": "Use case: identity-preserve. SINGLE production image-to-video transition keyframe, full-bleed 16:9 landscape cinematic photoreal still. Image1 is storyboard reference: recreate its UPPER RIGHT SHOT12 only, not collage. Image2 locks actual queen/map-table/gold decoration from preceding shot11. Image3 locks the modern apartment, warm window, two adult women and exact THREE white gold-rimmed dinner places at destination.\nClose angled macro photograph of SAME parchment map spread on ornate polished gold table. Delicate ink topography, winding burgundy route through mountains ending beside a small architectural drawing of a warm lit modern apartment window and three plate-place icons. No readable words or labels, only map symbols. At left edge a soft out-of-focus partial profile and blond hair/pointed ear of the SAME adult queen22 from image2, belonging to a complete off-frame person; no hands or arms in image. Map and gold table are dominant foreground.\nAt the map endpoint, the OUTGOING photographic image itself is starting to split irregularly, revealing a real modern brick apartment window in blue-violet university city night beneath. The torn shape follows the parchment region, fine natural paper/fiber edge, no beam or neon. The inside destination shows recognizable same warm shaded lamp, burgundy sofa, two adult roommates from image3, and exactly three dinner settings; small because seen through apartment window at distance. Camera not inside apartment yet. Keep visual progression from drawn route destination to real window obvious. No freestanding door or portal, magic ring, new frame, floating architecture, white smoke, bright energy effect, montage or cut-up collage. This is one continuous cinematic composition where paper image peels into real depth. Preserve amber candlelight on map and blue-violet night beyond, rich photographic details, no modern UI, text, watermark, subtitles or logo."
+    },
+    {
+      "shot": "13",
+      "file": "keyframes/13-roommates.png",
+      "generatedSource": "provenance-not-packaged:exec-c5c6a2bf-03fd-4f2f-bd84-596f93d5be55.png",
+      "references": [
+        "archive/source-storyboard/03-shots-11-14.png"
+      ],
+      "prompt": "Use case: identity-preserve. Production image-to-video keyframe. Input is a four-panel storyboard reference, NOT the output layout. Recreate ONLY its lower-left scene, shot 13, as ONE full-bleed 16:9 landscape cinematic live-action still, high detail. No collage, border, gutters, shot numbers, labels, logo, subtitle, UI, watermark.\nPreserve exactly the two adult roommates from the lower-left reference: left golden-brown wavy loosely tied hair, ivory knitted cardigan over taupe top, dark trousers, small gold jewelry; right long dark-brown nearly black wavy hair with bangs, burgundy long-sleeved top and dark trousers, small gold necklace. Clearly adult women ages 22 and 24, natural attractive faces and warm knowing welcoming eye contact toward unseen visitor. Both sit naturally on same burgundy sofa, arms relaxed with own hands on lap/cushion, not reaching toward lens, no viewer hands, arms, legs, body or reflections, no third person.\nCozy modern university-city apartment at blue-violet evening. Preserve warm shaded lamp left, rich knitted throw, small red flowers, gold candleholder, city window behind, hanging plants and subtle warm fairy lights. Foreground oval polished dinner table has exactly THREE white plates with gold rims and THREE places for dinner, one reserved empty place nearest camera. Natural not forced food commercial staging. Emotional warm welcome. Photograph at seated sofa height, medium-wide to include both faces and all three table settings. Same warm amber and cool blue palette, real skin texture and restrained film grain. No gowns, crowns, fantasy additions or new doors."
+    },
+    {
+      "shot": "14",
+      "file": "keyframes/14-reserved-place.png",
+      "generatedSource": "provenance-not-packaged:exec-7977e378-9f8e-43e8-ac4e-2dadc4f573c8.png",
+      "references": [
+        "keyframes/13-roommates.png",
+        "keyframes/03-private-club.png",
+        "archive/source-storyboard/03-shots-11-14.png"
+      ],
+      "prompt": "Use case: identity-preserve and compositing continuity. SINGLE 16:9 landscape production video ending keyframe, photoreal cinematic still. Image1 is the actual modern apartment and two adult women from preceding shot13. Image2 is the actual opening private club: use ONLY its black-and-gold invitation as prop reference, NOT its man, mask, ballroom, furniture or rain. Image3 is storyboard context: its lower-right shot14 shows intended reserved-chair camera staging. Output one scene, no collage, borders, panel divisions or text.\nCamera has glanced down and forward from the same burgundy sofa toward the polished round/oval dinner table. Show the empty THIRD visitor chair prominent across bottom foreground, with upholstered back and warm wood detail. Third white gold-rimmed place setting immediately beyond the chair is sharp, a linen napkin and gold fork to its left, gold knife to its right, crystal goblet near right. Exactly THREE dinner places total; the other two settings remain subtly visible farther back on the same table. No fourth place.\nOn the foreground plate rests the SAME open black invitation from image2, facing camera. Preserve exact black leather-like folding card: plain left flap with single gold crescent in middle, right flap with thin gold rectangular border around a warm amber tall divided window above exactly THREE white plates and three sets of glass/candle places. It is a printed graphic, not a screen. No words, letters or logo. The physical warm window behind now echoes invitation image. Leave the invitation readable as the quiet story payoff.\nThe SAME two clearly adult roommates from image1 stay softly out of focus behind the table on same burgundy sofa: golden-brown-haired woman in ivory cardigan/taupe top at left, dark-haired woman with bangs in burgundy top right. Warm relaxed faces turned toward unseen visitor; their own hands rest naturally in lap, no reaching. Preserve same left lamp, knitted throw, red flowers, golden candleholder, modern university-city night window and plants. No viewer hand, arm, leg, body, reflection, no additional human. Rich amber candlelight and blue-violet exterior, realistic textures, quiet sense of arrival and welcome. No portal, new door, floating limbs, nudity or explicit activity. No caption, number, subtitle, watermark, UI or text."
+    }
+  ],
+  "visualQA": {
+    "all": "Single 16:9 photoreal full-frame images, no numbers/gutters/logo or viewer limbs; role identity/clothing and amber/blue-violet palette retained",
+    "shot11": "Queen attached hands natural, map/gloves/white arches visible",
+    "shot12": "Three-place map icon and same roommates seen through warm apartment window; outgoing image has paper tear, no magic portal",
+    "shot13": "Two adult roommates and exactly three dinner plates visible",
+    "shot14": "Third chair foreground, invitation matched to newly generated shot03 blackcard/crescent/window/threeplates, same roommates behind"
+  },
+  "packageUsage": "Historical keyframes generation provenance only. Current video inputs are keyframes-r2/ and video-input-plan-r2.json. Original generated sources not included are labelled provenance-not-packaged."
+}

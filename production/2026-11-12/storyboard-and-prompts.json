@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-12",
+  "status": "storyboard proposal for review; no approval or publication",
+  "title": "寻找为你留着的位置",
+  "premise": "你在私人会所收到一封未署名的邀请，函上只有一扇暖窗与三份晚餐。你循着异常倒影、夜骑线索与路线图穿过六个世界，最终抵达真正为你留着的位置。",
+  "source": "https://xgenlabs.feishu.cn/wiki/OBXhw6nafi6cyikWZTAcpJETnEh",
+  "sourceRetained": "六幕人物、场景设定与原对白；以用户最新意见替换第一人称触碰动作。",
+  "newConnectiveFiction": "未署名邀请、暖窗与三份晚餐图案、城堡纹样假面、异常倒影、夜骑线索和跨世界路线图均为本次待确认新增过场，不声称来自飞书原稿。",
+  "opening": "采用01-door-ajar-v2.png的近乎关闭、仅一线光状态；用户继续滚动才打开。",
+  "handConstraint": "不出现画面外伸入的用户手臂、搭肩、牵领带、抵唇或托下巴；只保留角色自身自然姿态。",
+  "interactionRules": [
+    "叙事动作直接由滚动位置决定，可停、可逆；不给场景设自动倒计时。",
+    "静止时只有独立环境微动，例如火焰、雨、头发与呼吸；不偷偷推进剧情。",
+    "每次转场先露出下一站线索，再推进特写，再撕开当前图像；门仅用于开场。",
+    "标题按画面留白排布；对白以场景中的轻微位移和裁切推进，不统一居中、也不只做淡入淡出。",
+    "保留新logo、Inria Serif Regular400、英文网站文案；分镜说明用中文便于确认。",
+    "不增加不存在的进入故事/选项功能。"
+  ],
+  "shots": [
+    {
+      "shot": "01",
+      "title": "门缝",
+      "frame": "停在只透一线暖光的门前，保留把手和真实门框。",
+      "purpose": "先产生想推门的意图；尚未展开人物。",
+      "gesture": "向下滚动才开始开门；静止时门不自动打开。"
+    },
+    {
+      "shot": "02",
+      "title": "推门进入",
+      "frame": "门扇沿真实铰链缓慢打开，镜头前进，显露私人会所。",
+      "purpose": "开门动作直接兑现为进入第一幕。",
+      "gesture": "门扇角度与前进距离跟随滚动，可原路倒回。"
+    },
+    {
+      "shot": "03",
+      "title": "私人会所",
+      "frame": "镜头降低到坐在沙发上的视线。黑衬衫男站在近前，俯身撑桌。低桌上有黑金邀请函，图案是暖窗与三份餐具；旁边放城堡纹样假面。",
+      "purpose": "收到一份没有署名的赴约线索；眼前的人想让你留下，但这里与目的地图案不同。",
+      "gesture": "走近时出现原对白；继续滑，镜头视线转向桌面的假面。"
+    },
+    {
+      "shot": "04",
+      "title": "假面里的古堡",
+      "frame": "假面特写；反光中先看见月下城堡露台，随后当前图像沿假面边缘不规则撕开。",
+      "purpose": "下一站提前可见，观众是追随已发现的线索进入。",
+      "gesture": "前半段推进特写，后半段扩大裂口；不用突然出现的门。"
+    },
+    {
+      "shot": "05",
+      "title": "吸血鬼古堡",
+      "frame": "露台上，酒红外套的吸血鬼看向你；假面落在石栏，后方仍是烛光舞会、月亮和森林。",
+      "purpose": "同一件假面把前后画面接上；他提出第二次留下的邀约。",
+      "gesture": "人物靠近幅度与对白跟随滚动，停下保持当前距离。"
+    },
+    {
+      "shot": "06",
+      "title": "海岸的异常倒影",
+      "frame": "镜头转向假面内侧的倒影，看到一栋海边住宅与亮灯窗；住宅在裂口中逐渐具有真实纵深。",
+      "purpose": "发现新的等候者；这是跨世界的线索，不声称古堡与住宅在同一条现实街道。",
+      "gesture": "倒影扩大、旧场景退开，景深从石栏转移到海岸。"
+    },
+    {
+      "shot": "07",
+      "title": "运动员合租住宅",
+      "frame": "原设定三位成年运动员分别位于沙发和矮凳，球衣、开放厨房、海景保留。玄关提前出现头盔，侧窗外可见摩托。",
+      "purpose": "三位主人各自争取你的注意；这里有三位主人加来访者，仍不是邀请函的三人晚餐。",
+      "gesture": "镜头先观察三人的不同反应，再沿视线转向玄关。"
+    },
+    {
+      "shot": "08",
+      "title": "头盔与车库",
+      "frame": "头盔和钥匙特写，面罩反射车库工作灯；外面的摩托和雨夜已经出现。",
+      "purpose": "上一幕埋下的夜骑线索，让车库成为有来由的下一站。",
+      "gesture": "镜头贴近面罩，场景沿反射区域撕开，车库展开。"
+    },
+    {
+      "shot": "09",
+      "title": "午夜车库",
+      "frame": "男主穿白背心与深色牛仔裤，跨坐停稳的机车、双脚落地，转身看你。自己的手臂自然靠在车上。",
+      "purpose": "他邀请你继续冒险；工作台路线图为旅程提供新方向。",
+      "gesture": "先呈现人物与原对白，再把关注点移到后视镜和路线图。"
+    },
+    {
+      "shot": "10",
+      "title": "后视镜里的白色拱城",
+      "frame": "镜面出现精灵城的白色拱桥，和下方地图终点对应；镜面内外的画面逐渐撕开。",
+      "purpose": "地图给出目的地，倒影给出可见证据；明确进入奇幻世界。",
+      "gesture": "镜头逼近反射，白色建筑从倒影变成可进入的真实景深。"
+    },
+    {
+      "shot": "11",
+      "title": "精灵王庭",
+      "frame": "女王侧坐地图桌沿，尖耳、细冠、淡金长发、近卫手套和白石拱窗保留。车库中的地图在此完整展开。",
+      "purpose": "她所处的地图桌承接上一幕路线；地图中出现开场那扇暖窗所在的城市。",
+      "gesture": "人物对视与原对白之后，镜头沿地图线路移动。"
+    },
+    {
+      "shot": "12",
+      "title": "地图变成暖窗",
+      "frame": "地图上的终点放大为现代城市窗口；窗内已经可见两位室友与三份晚餐。",
+      "purpose": "第一次明确看到与邀请函图案一致的目的地。",
+      "gesture": "纸面纹理裂开为真实窗景，进入公寓，避免纯淡入淡出。"
+    },
+    {
+      "shot": "13",
+      "title": "双女室友公寓",
+      "frame": "回到原设定沙发视角，两位成年室友自然朝向你；背景有薄毯、暖灯、大学城夜景和三份晚餐。",
+      "purpose": "终于抵达有人共同为你留位置的房间，保留原人物关系与对白。",
+      "gesture": "对白随靠近显现，随后镜头视线落向餐桌。"
+    },
+    {
+      "shot": "14",
+      "title": "为你留下的位置",
+      "frame": "餐桌第三个座位与第三套餐具成为前景；旁边是开场同一封邀请函，真实窗景与图案对应。",
+      "purpose": "完成开场的视觉悬念：一路寻找的位置在这里兑现。",
+      "gesture": "滚动到终点停留；烛光、窗外光点和人物微动作继续，不出现剧情选择按钮。"
+    }
+  ],
+  "originalDialogues": [
+    {
+      "shot": "03",
+      "quote": "You love it when I get jealous, don’t you?"
+    },
+    {
+      "shot": "05",
+      "quote": "You know vampires don’t need sleep. Still want me in your bed?"
+    },
+    {
+      "shot": "07",
+      "quote": "Who do you wanna spend the night with?"
+    },
+    {
+      "shot": "09",
+      "quote": "How wild do you wanna get tonight?"
+    },
+    {
+      "shot": "11",
+      "quote": "It’s just you and me. Say my name."
+    },
+    {
+      "shot": "13",
+      "quote": "Her or me? Or do you want us both?"
+    }
+  ],
+  "generation": {
+    "mode": "built-in image_gen",
+    "prompts": {
+      "pageA": "Purpose: a DIRECTOR'S STORYBOARD for an interactive roleplay teaser, not another character moodboard. Use reference images as character, wardrobe, lighting and original-setting guides, never copy their contact-sheet layout. Photorealistic cinematic stills with readable staging and deliberate varied shot sizes: doorway wide, character medium, prop extreme closeup, transition mid-state. Rich wine-red, amber and blue-violet film look. All cast clearly adult. Preserve modern scenes as modern; only vampire and elven scenes are fantasy. Subjective journey across separate worlds, not one physically contiguous palace. NO FIRST-PERSON VIEWER HANDS, ARMS, LEGS, BODY or reflections in any shot. Characters' own hands only when naturally attached and not reaching at lens. No touching viewer, no floating hands, no nudity or sex. No new witches, demons, wolf costumes or brides. No invented doors after opening. No magical rings/portal frames. Transitions use a progressive irregular split of the outgoing scene itself, like a photographic layer opening to the next world; thin fibers/edges derived from the source image, no sci-fi effects, no sudden opaque new geometry.\nImportant: Each frame is a distinct camera shot/action state, not six posed portraits. No text inside the scene except a very small clear SHOT NUMBER outside each frame in the gutter. Do not add captions, logos, UI buttons, arrows or watermark.\nCreate STORYBOARD PAGE A: exactly SIX wide landscape 16:9 panels in TWO columns and THREE rows, row-major reading order, narrow dark gutters and a small legible number in each frame's lower-left corner: 01,02,03,04,05,06. The first input shows the six original story worlds/cast; second input is the corrected near-closed door.\n01 EXTREME FOREGROUND DOOR: match input2, nearly shut carved dark walnut door, ornate brass handle, only a hairline/sliver of warm light along jamb about 2-3% of image width, interior person only faintly glimpsed. No hand. Mystery, before visitor acts.\n02 SAME DOOR OPENING: identical physical doorway now wide open from the viewer's push, no body parts shown. Small forward camera travel reveals modern private club, rain-city glass, leather sofa, amber lamp and gala guests. The same dark-haired man28 in black rolled-sleeve shirt and loose tie stands inside looking toward viewer. Keep visible doorframe so action 01→02 is legible, but do not zoom straight to his face.\n03 PRIVATE CLUB ENCOUNTER: viewer's camera has lowered to seated sofa height. Same man stands close, leans lightly with his own hand on low table, tattoo and watch visible, loose tie freely hanging, direct restrained teasing eye contact. On the low table, an unsigned black invitation with a gold crescent and a small simple illustration of a warm window and THREE dinner places is visible beside a black-and-gold masquerade mask. This introduces the journey's destination question, no visible words on invitation.\n04 FIRST CROSSING / PROP CLOSEUP: extreme closeup of the SAME black-and-gold mask on the SAME club table. Engraved castle arches in its gold decoration align with the next world's real castle terrace. Show a MID-TRANSITION composition: outgoing club image opening in a small irregular tear around the mask's edge, revealing moonlit stone balustrade and candles beneath. This is a camera push through a source-image tear, not a freestanding door or glowing ring. Black shirt remains only a blurred edge, no new face portrait. Clear scale difference from03.\n05 VAMPIRE ENCOUNTER: camera now on that moonlit stone terrace. Same dark-haired pale vampire appearing28 as ref panel2, subtle dark red irises, burgundy velvet coat, hint of a fang, relaxed close direct gaze. Own removed black-and-gold mask sits on rail beside him, so prop continuity from04 is unmistakable. Candlelit ballroom behind, moonlit forest beyond. No finger touching lips.\n06 NEXT-WORLD PREVIEW: closeup of the SAME mask's polished inner surface on stone rail, moonlit vampire and forest blurred at one edge; in its reflection a small SUNSET COASTAL HOUSE with a lit window becomes visible, the next destination. The reflected image starts widening at an irregular photographic fracture into an ocean horizon, while stone rail remains at edges. This is intentionally a magical cross-world clue, not a geographically contiguous building or an extra door. No invitation here.",
+      "pageB": "Purpose: a DIRECTOR'S STORYBOARD for an interactive roleplay teaser, not another character moodboard. Use reference images as character, wardrobe, lighting and original-setting guides, never copy their contact-sheet layout. Photorealistic cinematic stills with readable staging and deliberate varied shot sizes: doorway wide, character medium, prop extreme closeup, transition mid-state. Rich wine-red, amber and blue-violet film look. All cast clearly adult. Preserve modern scenes as modern; only vampire and elven scenes are fantasy. Subjective journey across separate worlds, not one physically contiguous palace. NO FIRST-PERSON VIEWER HANDS, ARMS, LEGS, BODY or reflections in any shot. Characters' own hands only when naturally attached and not reaching at lens. No touching viewer, no floating hands, no nudity or sex. No new witches, demons, wolf costumes or brides. No invented doors after opening. No magical rings/portal frames. Transitions use a progressive irregular split of the outgoing scene itself, like a photographic layer opening to the next world; thin fibers/edges derived from the source image, no sci-fi effects, no sudden opaque new geometry.\nImportant: Each frame is a distinct camera shot/action state, not six posed portraits. No text inside the scene except a very small clear SHOT NUMBER outside each frame in the gutter. Do not add captions, logos, UI buttons, arrows or watermark.\nCreate STORYBOARD PAGE B: exactly FOUR wide landscape16:9 panels in TWO columns and TWO rows, row-major, narrow dark gutters, small clear lower-left SHOT NUMBERS 07,08,09,10 only. Use input1 to keep original cast and settings; input2 is the exact garage character and no-viewer-hand constraint.\n07 ATHLETE HOUSE: arrival from ocean horizon into modern shared living room at sunset. Exactly THREE distinct adult male graduate athletes25+, dark-haired tank-top man left with arm along sofa back, playful brown-haired adult on low stool in front, curly-haired man right with glasses naturally held near his own lap. Each turns toward unseen seated visitor with different natural expressions. Jerseys, sports bags, open kitchen, sea and terrace visible. A black motorcycle helmet is already near the house entrance; through a distant side window, a parked motorcycle or garage awning is faintly visible, planting a next-scene clue. No reaching toward camera or viewer hands.\n08 DEPARTURE CLUE / INSERT SHOT: close low tabletop/console shot of that SAME black helmet and motorcycle keys, with a damp leather jacket draped nearby. The helmet visor holds a reflection of warm garage work lamps. At one edge the athletes' living room and one attached person/shoulder remains out of focus; the blue rainy garage begins to appear under an irregular source-image tear following the visor's surface. A new setting is caused by following the previously planted ride/helmet clue. No cards/envelopes; no hands carrying helmet; no new doorway.\n09 MIDNIGHT GARAGE ENCOUNTER: match input2's dark-haired man27, white tank and dark jeans on stationary black motorcycle, both feet down, own forearm rests naturally on tank/handlebar and other hand on his own thigh. Relaxed smile and direct eye contact, realistic garage tools, same helmet on workbench, warm lamps, blue rain outside. NO extra hand on his shoulder or arm entering foreground. Camera medium-wide, retain character + bike + physical environment.\n10 ROUTE INTO NEXT WORLD / CLOSEUP: extreme close view of motorcycle rearview mirror and nearby workbench route map, man's shoulder and bike body only blurred peripheral fragments. In mirror, impossible but coherent ivory arches and glowing suspension bridges of an elven city align with a white-arched endpoint sketched on the map. Garage image itself is mid-tear along the mirror reflection revealing real white stone architecture beneath. No glowing portal ring or floating framed window. Do not duplicate the whole man. Let the map and reflected arches clearly foreshadow the queen's next scene.",
+      "pageC": "Purpose: a DIRECTOR'S STORYBOARD for an interactive roleplay teaser, not another character moodboard. Use reference images as character, wardrobe, lighting and original-setting guides, never copy their contact-sheet layout. Photorealistic cinematic stills with readable staging and deliberate varied shot sizes: doorway wide, character medium, prop extreme closeup, transition mid-state. Rich wine-red, amber and blue-violet film look. All cast clearly adult. Preserve modern scenes as modern; only vampire and elven scenes are fantasy. Subjective journey across separate worlds, not one physically contiguous palace. NO FIRST-PERSON VIEWER HANDS, ARMS, LEGS, BODY or reflections in any shot. Characters' own hands only when naturally attached and not reaching at lens. No touching viewer, no floating hands, no nudity or sex. No new witches, demons, wolf costumes or brides. No invented doors after opening. No magical rings/portal frames. Transitions use a progressive irregular split of the outgoing scene itself, like a photographic layer opening to the next world; thin fibers/edges derived from the source image, no sci-fi effects, no sudden opaque new geometry.\nImportant: Each frame is a distinct camera shot/action state, not six posed portraits. No text inside the scene except a very small clear SHOT NUMBER outside each frame in the gutter. Do not add captions, logos, UI buttons, arrows or watermark.\nCreate STORYBOARD PAGE C: exactly FOUR wide landscape16:9 panels in TWO columns and TWO rows, row-major, narrow dark gutters, small clear lower-left SHOT NUMBERS 11,12,13,14 only. Preserve original elfqueen and two roommates from reference.\n11 ELVEN COURT ENCOUNTER: clearly adult pale-blond queen22 with delicate crown, pointed ears, elegant fully clothed ivory/gold royal dress, sits sideways on map table edge in private chamber. She makes playful equal eye contact with unseen visitor, own hands resting naturally on table/lap, no chin touching and no viewer body. Behind white stone arches, the SAME glowing bridges and white city glimpsed in preceding motorcycle mirror are now full real environment. The route map from garage is recognizable, now unfolded fully on table. One blank pair of guard gloves rests nearby. No invitation here.\n12 FINAL DESTINATION / MAP CLOSEUP: close angled view of SAME unfolded map on queen's table. A route ends in a small warm-window drawing with THREE tiny dinner-place symbols; this repeats the destination clue from opening invitation. Across an irregular paper/photo tear, that miniature becomes a real MODERN warm apartment window over a university-city night. Gold table edge and ivory cloth stay peripheral, not a separate magic doorway. Queen's own gaze/profile can be blurred at edge but the MAP and growing warm-window view are the main action. No hands or floating human limbs.\n13 ROOMMATES ENCOUNTER: from apartment window enter original cozy modern living room, camera seated sofa-height. Exactly two clearly adult women20 and22, one golden-brown-haired and one black-haired, natural tasteful evening casual clothes, not gowns/costumes. On opposite sides of the sofa, both oriented warmly toward unseen visitor with knowing welcoming eye contact; own hands rest on own laps or cushions, no touching viewer's arm or reaching toward lens. Warm lamp, blanket, city-night window. THREE dinner settings visible nearby, connecting to map clue12.\n14 PAYOFF / RESERVED PLACE: camera glances from sofa toward the dinner table, foreground empty THIRD chair and a carefully laid THIRD place setting prominent. Two women are softly visible behind on sofa, same room and warm window as13. On this final place setting lies the SAME unsigned black invitation with gold crescent and warm-window/three-place illustration from opening03, matching design exactly. The real window and three dinner places now complete that image. Quiet intimate ending: the visitor recognizes the place was reserved for them. No fourth dinner place, no new person, no labels, no choices or buttons, no implied sexual act, no viewer body."
+    }
+  },
+  "branding": {
+    "status": "current logo for static storyboard review; not published",
+    "source": "brand/pisco-r5.svg",
+    "copiedAsset": "brand/pisco-r5.svg",
+    "sha256": "d690daac8282e6f298348c53cc4fad6f835b262e8d2fee3105cb95d5e882e1db",
+    "artwork": "Original SVG copied byte-for-byte; no redraw, recolor, or path changes.",
+    "display": "Transparent margins clipped using CSS only in review page.",
+    "font": "Inria Serif Regular 400",
+    "appliesTo": [
+      "storyboard review branding",
+      "future scene/video production once approved"
+    ],
+    "revision": "r5",
+    "reviewPreview": "review.html"
+  }
+}
