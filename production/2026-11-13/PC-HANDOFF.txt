@@ -1,0 +1,33 @@
+PISCO — 2026-11-13 静态风格样张 / PC 交接
+
+本次是六幕人物镜头的风格提案，不是完整14镜重做，也不是视频成片。
+基于用户新提供的拼图与视频参考，增强眼神、斜肩姿态、镜头距离、烛金与紫夜光，以及服装材质层次。
+保留原人物、服装和邀请函→假面→头盔→后视镜→地图→三份晚餐的线索。
+
+个人仓库：https://github.com/rongyu7777777-gif/pisco-night-valley
+工作分支：codex/storyboard-r2-20261112
+新样张目录：production/2026-11-13/
+完整旧14镜及视频输入计划：production/2026-11-12/
+官网主分支和旧分镜未被本次样张替换。
+
+Windows PowerShell（首次下载，需要 Git 和 Python）：
+git clone --branch codex/storyboard-r2-20261112 --single-branch https://github.com/rongyu7777777-gif/pisco-night-valley.git pisco-night-valley-work
+Set-Location pisco-night-valley-work
+py -m http.server 4198 --bind 127.0.0.1
+
+浏览器打开：http://127.0.0.1:4198/production/2026-11-13/review.html
+如果已经克隆该工作分支，先保存 PC 上的改动，再在仓库目录执行 git pull --ff-only。
+Python 命令为 python 的电脑可以用 python 替代 py。
+本地地址仅用于当前电脑；GitHub 分支用于同步文件，不能当成公开网页预览地址。
+
+frames/：六张新风格样张（03/05/07/09/11/13，均1672×941）。
+originals/：六张 r2 对比原图，完整保留。
+references/style-collage.png：用户提供的摄影氛围参考，不替代原人物设定。
+prompts.json：实际生成提示词、输入/输出哈希、目视检查和待处理项；使用内置 ImageGen。
+assets-manifest.json：所有图片、Logo和字体文件的SHA256。
+brand/：原始 r5 Logo、Inria Serif Regular 400 和字体许可证。
+build_review.py：可重新生成对比页，无第三方依赖。
+
+下一步：先审阅六幕风格。选定后，将相邻的01/02/04/06/08/10/12/14衔接镜头统一光线、人物姿态和道具位置，逐对检查连续性，才可作为视频首尾帧。
+这批图片是生成式重绘，人物细节和材质存在微小变化，不是像素级锁定的原图调色。
+本次没有使用 TapNow 或新增视频消费，也没有把新图写入旧视频输入计划。

@@ -1,0 +1,228 @@
+{
+  "created": "2026-11-13",
+  "generator": "built-in image_gen",
+  "use_case": "style-transfer",
+  "status": "six static style studies for user review; not approved video endpoints",
+  "user_brief": "静态图的风格可以改成这种 有张力一点的",
+  "source_storyboard": "14-shot r2, retained separately under production/2026-11-12",
+  "direction": "Stronger camera proximity, individual expressions, diagonal poses, tactile materials, amber/violet light; preserve cast, clothes, geography and story props.",
+  "video_reference_notes": "User video was inspected at six times. Borrow close framing, oblique shoulders and restrained eye contact only. Do not import silver-haired cast, wounds, car-crash setting, subtitles or POV hands. The video itself was not supplied as an image-generation reference.",
+  "invariants": [
+    "No viewer arms/hands",
+    "Six original settings and cast counts: 1 / 1 / 3 / 1 / 1 / 2",
+    "Same invitation-mask-helmet-mirror-map-three-dinners storyline",
+    "Exact r5 SVG and Inria Serif Regular 400 used in review only, never baked into frames"
+  ],
+  "pending": [
+    "User review of visual direction",
+    "If selected, match adjacent transition shots 01/02/04/06/08/10/12/14 to these pose/lighting changes",
+    "No new TapNow video generation in this package"
+  ],
+  "assets": [
+    {
+      "shot": "03",
+      "output": "frames/03-private-club.png",
+      "prompt": "Use case: style-transfer.\nCreate a new cinematic 16:9 full-frame photographic style variant of Image 1, not a collage. Image 1 is the EDIT TARGET and strict identity/costume/location/story reference. Image 2 is ONLY a reference for charismatic character acting, rich material texture, stronger atmospheric amber-violet lighting and intimate movie-poster tension. Do not copy any character or costume from Image 2.\n\nKeep the very same adult man from Image 1: dark wavy hair, moustache and stubble, exact facial proportions; same rolled black shirt, loose grey tie, leaf and compass forearm tattoos and watch. Same private club, rainy city window left, warm lamp, brown leather seating, black glass divider and defocused gala behind. The invitation and castle-engraved masquerade mask must still be clearly visible on the lower-right black marble table. Preserve the card's gold crescent and picture of a wide rectangular warm window with THREE dinner plates.\n\nChange the acting and cinematography decisively: shoulder angled toward camera and body leaning diagonally, head slightly tilted and chin lower, direct sustained eye contact from under relaxed brows, one corner of his closed mouth raised in a knowing, testing almost-smile rather than a welcoming smile. He has just paused a private conversation, confident and magnetic. Keep natural believable anatomy, not a dramatic angry scowl. Face is the visual focal point and close enough to feel the viewer's personal space, with foreground/background depth and asymmetric framing. His own hands remain naturally supported on furniture and table, unobtrusive rather than reaching toward lens.\n\nBring the drama of the style reference into this same contemporary room: warmer candle-gold highlights on cheek and glass, deeper wine-brown leather shadows, cool muted violet-blue rim light from the rainy window, concentrated pools of practical light, glossy black marble and silky shirt highlights. Tactile pores, fine hair, filmic contrast, controlled saturation, premium photoreal cinematic editorial image. Retain legibility of key face and invitation; do not crush blacks. No fantasy costumes or new architecture. No camera shake or motion blur. NO viewer hand, no viewer arm, no touching his body or tie, no extra foreground person. No lettering, no logo, no UI, no watermark. A single landscape movie still, not a webpage.\n",
+      "qa": [
+        "More forward diagonal lean, closed-mouth knowing gaze. Grey tie, tattoos, same mask and invitation with three plates preserved.",
+        "Visually inspected. No viewer hands or arms; own hands rest on furniture or motorcycle."
+      ],
+      "limitations": [
+        "Generated style redraw; small facial and material changes remain. Adjacent shots need lighting and pose alignment before video use."
+      ],
+      "source": "originals/03-private-club.png",
+      "style_reference": "references/style-collage.png",
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/03-private-club.png",
+          "sha256": "cd24e4a9570201e2ac37c8b40796446de1a0c34996fc0c3728531bac5072d144"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ],
+      "sha256": "6c283c7ce5b99089a604b042a3deb9d4bd99d8bbd664b79c2b7b754926885f89",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2201705
+    },
+    {
+      "shot": "05",
+      "prompt": "Use case: style-transfer.\nCreate ONE finished widescreen 16:9 photorealistic cinematic still, not a collage.\nInput image 1 is the EDIT TARGET and strict identity / costume / setting / prop reference. Input image 2 is ONLY a reference for charismatic photographic attitude, dramatic color, tactile material and intimate cinematic mood. Do not copy its people or costumes.\nRevise shot 05, the vampire at the gothic ball, into a more arresting dramatic character encounter. Keep exactly the adult pale, lean, black wavy-haired man's facial identity from image 1: same bone structure, dark eyebrows, red irises and small visible fangs. Preserve his black button-up shirt and plain burgundy velvet lapel jacket, with no costume redesign. Keep him very close to the viewer, but make the pose more asymmetric: body slightly side-on, one shoulder closer to lens, chin subtly lowered, eyes meeting the lens from under the brow, a restrained one-corner half-smile. This feels like a private, knowing challenge, not a friendly greeting or toothy smile. Natural convincing anatomy, detailed skin, no retouch-plastic skin.\nKeep the original gothic candlelit hall on the left and moonlit forest terrace on the right, the SAME gold and black castle-engraved mask resting clearly visible on the right stone balustrade. Preserve all story props and the geographic relationship of hall, terrace and mask.\nUse stronger chiaroscuro and jewel tones inspired by image 2: rich wine-red velvet folds, honey amber candle highlights across one cheek and black hair, soft restrained violet-blue moon rim on the opposite side, deep textured shadows without crushing the face. Amber/violet color separation, practical candles in depth, lens falloff and cinematic microcontrast. Focus strongest on eyes and face; mask and castle engraving remain recognizable. Natural 35mm movie still with a palpable diagonal lean and emotional tension. Keep enough setting to connect this shot to the established story.\nNo viewer body, no viewer hands, no touching lips or face, no new characters, no gore, no blood, no new doors or portals, no text, logo, watermark, UI, borders or split panels. Maintain original identity and story above all.",
+      "style_reference": "references/style-collage.png",
+      "output": "frames/05-vampire-castle.png",
+      "qa": [
+        "Visually inspected generated result: one adult vampire, consistent face silhouette, black shirt and burgundy velvet jacket retained.",
+        "More pronounced diagonal shoulder, chin lowered, restrained asymmetric half-smile and direct eye contact.",
+        "Castle-engraved gold mask remains on right balustrade; candle hall left and moon forest right remain.",
+        "No viewer limbs, gore, text or UI.",
+        "This is a regenerated style exploration; precise face pixels and pose differ, so adjoining transition shots would require harmonization after user selects this direction."
+      ],
+      "sha256": "f67500e5fac91a69fc4e96b9728bd15f283efdc8fb25353179fe2664d38e295b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/05-vampire-castle.png",
+          "sha256": "4eaba10d4abb7e3bcf6e1692e892bbbcbe78b8b5080d4fa9922a84c132598387"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ],
+      "source": "originals/05-vampire-castle.png",
+      "bytes": 2177149
+    },
+    {
+      "shot": "07",
+      "output": "frames/07-athlete-house.png",
+      "source": "originals/07-athlete-house.png",
+      "prompt": "Use case: style-transfer with strict identity preservation. Asset: single 16:9 cinematic still for a roleplay story, shot 07. Image 1 is the edit target and the authoritative source of ALL three adult men, their distinct facial identities, hair, unchanged contemporary clothing, the room and story props. Image 2 is ONLY a lighting, tactile photograph and charismatic expression reference, NOT a source of people, costumes or location. Transform image 1 into a more emotionally charged intimate cinematic ensemble without changing its story. Preserve exactly three men: left black tank top on sofa with his same face and body, center deep green V-neck long-sleeve sweater and gray pants, right cream cable-knit V-neck sweater and jeans holding tortoiseshell glasses near his face, not wearing them. Faces must remain recognizably those of image 1. Give the left man a relaxed diagonal shoulder and quiet confident half-smile; center lowers his chin slightly with intent eyes up at the viewer and a tiny closed-mouth playful challenge instead of his broad toothy smile; right sits a little back with a subtle amused eyebrow, retaining his glasses gesture. Keep all three distinct positions and natural anatomy, no repeated pose, with comfortable clear silhouette separations. Slightly closer, low seated eye-level cinematic perspective but keep their faces uncut and the key props in frame. Keep exactly the same coastal modern home: framed jerseys 23/17/9 left, kitchen back, ocean sunset windows right, black helmet and keys on wooden side table between center and right, parked motorcycle outside far-right window. The helmet visor and bike must remain visible. Sculpt faces with warm amber practical light, subtle cool violet-blue shadow fill and deeper rich shadows with readable detail; tactile knit, dark cotton, skin pores, controlled film grain, strong warm and cool separation inspired by image 2. Retain outdoor sunset geography and believable practical illumination, avoid purple wash over skin. Natural alluring cinematic tension through eyes and posture, no nudity or costume changes. No viewer body, no first-person hand, no reaching hand toward lens, no floating hands, no new characters. Keep hands that belong to the three men natural and rested. No text, UI, logo, borders, panels, montage or fantasy props. One continuous photorealistic 16:9 frame.",
+      "qa": [
+        "Visually inspected generated output.",
+        "Exactly three men retained with recognizable face, hair and clothing continuity.",
+        "Center no longer broad toothy smile: lowered chin and restrained direct gaze.",
+        "Left and right retain individual relaxed expressions.",
+        "Helmet, keys and exterior motorcycle remain visible.",
+        "No viewer hand or arm. Own hands anatomically plausible.",
+        "Stronger amber rim and violet blue shadow contrast; architecture unchanged."
+      ],
+      "limitations": [
+        "Generated redraw rather than pixel-locked composite; tiny facial and texture differences remain.",
+        "Composition deliberately stays near original for continuity; strongest change is performance and lighting."
+      ],
+      "sha256": "2420e44387edb29fe1eb6bfa077ed1159306ca23ecda16056b499d41b8be9152",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2459953,
+      "style_reference": "references/style-collage.png",
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/07-athlete-house.png",
+          "sha256": "c6e69c1c2cc9f41bb21010466a3bb5b3f72d5b72b5b0bf87dd25a1a6051bd79e"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ]
+    },
+    {
+      "shot": "09",
+      "output": "frames/09-midnight-garage.png",
+      "prompt": "Use case: style-transfer.\nAsset: one landscape 16:9 photoreal cinematic roleplay storyboard still.\nInput1 is the EDIT TARGET: preserve this exact adult man's face, identity, brown tousled hair, stubble, muscular build, white cotton vest, charcoal jeans, thin chain necklace and bracelet; preserve his black motorcycle, draped black leather jacket and the SAME garage, rainy street to left, workbench/tools/warm lamp to right. Input2 is STYLE ONLY: character charisma through asymmetrical body angle, intimate framing, deep cinematic shadows and warm/cool atmospheric contrast. Do not import another face, masquerade clothing or castle.\n\nTransform the character acting away from the current broad friendly teeth-showing smile: he turns his shoulders and looks back toward the viewer from the motorcycle, chin slightly lowered, eyes steady and intent, relaxed brow with a faint confident challenge, lips nearly closed with a very subtle one-sided almost-smile. The moment feels like a private invitation to an adventure. His expression is charismatic, human and nuanced, not angry or threatening. Slightly lower and closer camera than the original, face and near shoulder larger in frame, dynamic diagonal torso rather than posed straight portrait; still include enough motorcycle and workshop for this to be the same scene. He rests his OWN arm casually over the bike, relaxed natural hands, no reaching toward the viewer.\n\nUse the style reference's richness as realistic garage photography: tungsten honey-gold lamp grazes cheek/shoulder, cool indigo-violet rainy street rim light outlines hair and leather, deep neutral blacks with detail, pinpoint chrome reflections, natural skin texture with a subtle believable sheen, tactile cotton, worn leather and metal. Strong cinematic depth, softly blurred distant street, restrained analog grain. Avoid smooth plastic skin and over-sharpened HDR.\nStory continuity is mandatory: same round rearview mirror visible on left and the parchment route map clearly recognizable on right workbench, showing a thin red route from round mirror to white arched bridge to warm rectangular window with three plates. Same black helmet on bench, no new objects. Do not crop out this map. Keep room architecture intact. No first-person viewer hand or arm, no touching his shoulder, no extra people. No wounds or blood. No visible text, watermark, logo or UI. A single full-frame movie still.\n",
+      "qa": [
+        "Closer lower camera and restrained challenge instead of broad smile. Same bike, mirror, helmet and map preserved.",
+        "Visually inspected. No viewer hands or arms; own hands rest on furniture or motorcycle."
+      ],
+      "limitations": [
+        "Generated style redraw; small facial and material changes remain. Adjacent shots need lighting and pose alignment before video use."
+      ],
+      "source": "originals/09-midnight-garage.png",
+      "style_reference": "references/style-collage.png",
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/09-midnight-garage.png",
+          "sha256": "b8e04804929189bb1b787a29a1ba059ee00876e907c7dea678b85792990f0ed9"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ],
+      "sha256": "7f019d7e16e053f0dcf9fe92389a75c949d8a001f9d45ec712fdf269e0631fad",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2269232
+    },
+    {
+      "shot": "11",
+      "prompt": "Use case: style-transfer.\nCreate ONE widescreen 16:9 photorealistic cinematic still, not a collage.\nInput image 1 is the EDIT TARGET and strict character identity, original costume, architecture and story prop reference. Input image 2 is ONLY a reference for charismatic photographic attitude, elegant dramatic body language, amber versus violet night colors and tactile materials. Do not adopt its characters or costumes.\nRevise shot 11, the elf queen beside the royal map, to feel more arresting, knowing and emotionally charged. Preserve exactly the same adult blonde queen's facial identity and recognizably same features from image 1: green-hazel eyes, freckles, naturally wavy light-blonde hair, pointed ears, original fine gold leaf crown with central pale oval jewel. Preserve her original fully dressed high-neck, long-sleeved ivory gown with intricate raised gold leaf embroidery and gold belt. No neckline or costume change.\nMake a deliberate pose change while preserving the same place and story: she is perched sideways on the SAME dark wood map table, her torso turned slightly away, near shoulder making a strong diagonal, and she turns her head back toward the lens. Her gaze is calm, assessing and commanding, with chin just slightly lowered, lips relaxed in a very small asymmetric hint of a smile; she has something the viewer wants and waits for them to come closer. Not a broad hospitality smile. Medium-close, intimate eye-level lens, face near center, enough gown and table visible to anchor her in this scene. Natural proportions and realistic skin. Her own hands relaxed and anatomically credible, one resting on the table and the other on her lap; no reaching toward viewer.\nPreserve all continuity: dark private library and sofa left, pale vine-covered arches, moonlit blue elven city with white arch bridges and waterfall on the right, golden lantern. The original large parchment map stays CLEARLY VISIBLE on the right half of the table with its thin red route connecting a round mirror symbol, small white bridge and RECTANGULAR amber window with THREE small dinner plates. Keep the original silver-gold leaf gauntlets beside it. Do not replace map with generic decoration.\nCinematic jewel-tone lighting inspired by image 2: soft honey-amber key from practical lamp sculpting her face and gold embroidery, restrained blue-violet moonlight outlining hair and shoulder, deep spacious velvety shadows, luminous but realistic skin, textured ivory fabric, refined specular gold rather than flat beige illumination. A palpable moment of expectant eye contact and elegant off-axis body language. Photographic editorial film still, shallow focus but map icon story details legible. Preserve her recognizable identity above stylistic exaggeration.\nNo viewer hands, arms or legs; no added characters; no exposed cleavage or changed neckline; no blood, new props, door, portal, text, logo, watermark, UI, borders or montage.",
+      "style_reference": "references/style-collage.png",
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/11-elven-court.png",
+          "sha256": "7e7899536617f8c1cc1579ed21a1b3e2ee45eb60f54d96255e93fba60b959dc8"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ],
+      "output": "frames/11-elven-court.png",
+      "sha256": "389af2b9551de1c5b9f82779d68b819bfaab308d117208f4d607a4955b2a9c43",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "qa": [
+        "Visually inspected generated result: one adult blonde elf queen, green-hazel eyes, freckles, leaf crown and fully covered ivory/gold gown retained.",
+        "Pose changed to a sideways seat with over-shoulder appraising gaze and restrained smile, as requested for added emotional tension.",
+        "Own hands remain on table/lap with natural placement, no viewer limbs.",
+        "Map remains on right table: mirror, white bridge, rectangular warm window and exactly three plate symbols connected by a red route. Gauntlets retained.",
+        "Library left, night city bridges and waterfall right remain. Amber key and violet moonlight are stronger.",
+        "Regenerated style exploration with changed pose and slightly reframed environment; adjoining shot12 would need continuity matching after style selection, not a claim of pixel-exact identity preservation."
+      ],
+      "source": "originals/11-elven-court.png",
+      "bytes": 2671216
+    },
+    {
+      "shot": "13",
+      "output": "frames/13-roommates.png",
+      "source": "originals/13-roommates.png",
+      "prompt": "Use case: style-transfer with strict identity preservation. Asset: single cinematic 16:9 roleplay narrative still, shot 13. Image 1 is the edit target and authoritative source for both adult women's facial identities, original contemporary clothing, apartment and all story props. Image 2 is ONLY a reference for bold cinematic lighting, rich tactile detail and charismatic eye contact/asymmetrical posing; do not copy its characters, costumes or locations. Edit image 1 to give this intimate warm welcome more dramatic, characterful cinematic tension and depth. Preserve exactly the same two adult women with recognizably identical face shape, eyes, hair and age: left long loose golden-brown hair and freckles, cream V-neck knitted sweater and blue jeans; right black hair loosely tied up, original dark brown buttoned long-sleeve top, blue jeans, original jewelry. Keep neckline, clothes coverage and contemporary styling unchanged. Create varied natural performance: left woman stays close in foreground, shoulder gently angled toward viewer, chin slightly lowered, vivid attentive eyes and a small playful asymmetric closed-mouth smile; right woman remains a little farther back and half-turned on sofa, looking back directly at viewer with a quietly knowing expression, subtly lifted eyebrow and less of a generic smile. Believable warmth with anticipation, not anger, fear or seductive costume display. Make their eye lines and shoulders feel spontaneous, not a symmetrical posed photo. Keep natural human hands belonging only to the two women resting on sofa/own legs, not reaching toward viewer. Slightly more intimate seated eye-level composition with cinematic depth but retain the original apartment layout: gray textured sofa, books and warm kitchen left, large rectangular city-night window right, and original wooden dining table clearly visible between them. On this table preserve EXACTLY THREE served dinner plates, candles, flowers, and the same upright small black/gold crescent invitation showing the warm rectangular window and three meals. This is a crucial story clue and must stay visible. Use warm amber candle/practical light sculpting their faces, subtle cool violet-blue night rim from window, deep rich shadows with detail, natural skin texture and believable fabric weave, refined film grain. Tone and contrast inspired by image 2 without changing the domestic scene into a palace, masquerade or fantasy. Keep original story continuity and identities as first priority. No third person, no first-person viewer hands/arms/legs, no extra or floating hands, no nude bodies, no new props, no text, logo, UI, collage panels or borders. One continuous high-detail photoreal 16:9 frame.",
+      "qa": [
+        "Visually inspected generated output.",
+        "Exactly two adult women with original hair, freckles, wardrobe and apartment identity.",
+        "Left foreground tilted chin and playful gaze; right farther back with restrained knowing expression.",
+        "Exactly three dinner plates remain clearly visible.",
+        "Black gold crescent invitation, candles, flowers and rectangular night window retained.",
+        "No viewer body or arm; own hands natural and rested.",
+        "More cinematic warm practical light, cool violet edges and deeper contrast."
+      ],
+      "limitations": [
+        "Generated redraw has small face and fabric variation.",
+        "Faces remain near baseline rather than importing collage cast or fantasy costume."
+      ],
+      "sha256": "efbd082dda4ae5e29cda6fcff29c6748fe7f544490c5ed966b4d4236bfbd9a0e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2706225,
+      "style_reference": "references/style-collage.png",
+      "input_references": [
+        {
+          "role": "edit_target",
+          "path": "originals/13-roommates.png",
+          "sha256": "313e8426cdab106be4574bd6c7cef09f4bd78f9d64bf4c7c022bae63c03f7a35"
+        },
+        {
+          "role": "style_only",
+          "path": "references/style-collage.png",
+          "sha256": "d7915ab26dd20acd077c7eaf2b6bd39e3eec062370585b193c4d012ca38eb0fa"
+        }
+      ]
+    }
+  ]
+}
