@@ -1,8 +1,10 @@
 # Pisco — Behind the Curtain
 
-Public cinematic roleplay preview with six ambient videos, scroll-driven image tearing, and gesture-driven typography.
+Public Pisco cinematic journey across six worlds, with seven generated TapNow clips, reversible prop-led camera travel and synchronized story choices.
 
 This repository contains the deployable static website. GitHub Pages publishes the root of the `main` branch.
+
+The complete 24-shot storyboard, seven individual clips and a full 1080p preview are available at `storyboard.html`. The current artwork includes the revised soft-CG athletes and adult female elven queen. Automatic viewing uses native video playback; manual travel holds decoded frames during seeking so idle frames stay stable.
 
 ## Update
 
