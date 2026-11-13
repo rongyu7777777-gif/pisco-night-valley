@@ -1,0 +1,52 @@
+{
+  "tool": "Built-in ImageGen",
+  "mask": {
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6c86b5a8-e8c7-4077-9376-758dbeb81c39.png",
+    "prompt": "Use case: product-mockup / romantic semi-real CG prop design. Create ONE clean 16:9 cinematic object reference image, 1920x1080. A REAL WEARABLE Venetian HALF-FACE masquerade mask for an adult man's face, two separate symmetrical almond-shaped eye holes, an anatomically sculpted curved nose bridge between them, shaped to contour eyebrows and upper cheeks. Thin delicate ivory-white lace filigree with understated antique SILVER edging, like the rightmost gentleman's mask in the supplied multi-character reference. Both eyes visibly open. Elegant understated adult masquerade accessory, no large gold scrollwork, no feathers, no jewels, NO single-eye mask, NO cyclops motif, NO big flat oval decorative plaque. Front three-quarter view with enough angle to see curved face fit, centered on dark charcoal background, side black silk ribbons visible. It should look light, fine and believable on an actual face. Restrained warm amber light from left, neutral cool fill right. No purple. No person, no text, no watermark. Fine pale filigree details clearly visible."
+  },
+  "jobs": [
+    {
+      "id": "T1-mask-v6",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6c86b5a8-e8c7-4077-9376-758dbeb81c39.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Create ONE 16:9 cinematic extreme macro video boundary frame of the provided REAL TWO-EYE IVORY-SILVER LACE MASQUERADE MASK. Zoom into its LEFT eye opening only; it must clearly be a cropped part of this two-eye wearable mask, not a newly designed single-eye object. Keep the EXACT delicate ivory leaf-lace surface and thin silver wire rim. The left almond eye-hole centered at x50%, y50%, width80% frame, height55% frame, horizontal. The curved raised nose bridge can be partly cropped at the right edge, the outside edge of the full mask falls beyond left frame. Eye opening itself is near-black with no face behind it; minuscule warm candle glow deep inside, no visible eye. Warm grazing highlight upper left, restrained charcoal shadows, no purple. NO thick gold ornament, NO burgundy opaque plaque, NO second complete eye opening within the close crop. Physically plausible magnified detail of this exact prop. Output one image, no text.",
+      "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-d9ab251b-7797-416c-b482-0b95c2048bd2.png"
+    },
+    {
+      "id": "01-arrival-club-v6",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-f3c4b720-36cb-4169-8320-d6824d4d17d5.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6c86b5a8-e8c7-4077-9376-758dbeb81c39.png"
+      ],
+      "prompt": "Edit the existing FOUR-PANEL 2x2 storyboard Image1. Preserve exact adult brown-haired male identity, all four panel sizes, first and second panels, body actions, expressions, wardrobe, club setting, warm lighting. Change ONLY the mask in third panel and the macro in fourth panel. Replace the old bizarre SINGLE-EYE gold plaque with the real wearable TWO-EYE ivory-white lace and thin silver masquerade mask from Image2, with two separate almond eye holes, sculpted nose bridge, curved face-fitting surface and thin black ribbons. In panel3 he holds the COMPLETE two-eye mask by its lower outer corner; both eye openings and nose bridge visible, believable size about face-width. In panel4 camera is extremely zoomed into ONLY its LEFT eye hole, ivory lace and thin silver wire around black opening, nose bridge cropped at right edge; do not draw a complete single-eye prop. Mask matches Image2 exactly. Keep first and second panels unchanged; no text.",
+      "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-796fd950-bdad-4af3-a151-bcad2d2dfd70.png"
+    },
+    {
+      "id": "02-vampire-v6",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-c29a03e0-69d6-4b8d-8ee0-4ac6106e822b.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6c86b5a8-e8c7-4077-9376-758dbeb81c39.png"
+      ],
+      "prompt": "Edit this existing four-panel 2x2 vampire storyboard Image1. Keep entire panels2,3,4 EXACTLY unchanged. Keep same silver-haired adult male, face, gaze, hand movement and room in panel1. Replace ONLY gold single-eye object in panel1 with real TWO-EYE wearable ivory-white leaf lace and thin silver rim masquerade mask from Image2: two almond eye holes, an anatomical nose bridge, curved cheek surfaces. He is lowering this full half-face mask out of the camera foreground. At least the near eye aperture and nose bridge are clearly visible; far eye partly visible with perspective. Thin light physical object, no thick gold plaque. Pale lace glows warm at left and silver cool at right. Do not copy Image2 background. No new people, no text.",
+      "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-c204ae1a-0aac-424e-86e9-2812b3504bb1.png"
+    },
+    {
+      "id": "KF01-curtain-start",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-f3c4b720-36cb-4169-8320-d6824d4d17d5.png"
+      ],
+      "prompt": "Use case: identity-preserve. From the supplied 2x2 storyboard, recreate ONLY TOP-LEFT PANEL as ONE independent landscape 16:9 1920x1080 full-resolution video starting frame. NO collage, no borders, no text. Preserve EXACT SAME short chestnut-haired adult man face, warm hazel eyes, loose black silk shirt, small ear stud, candlelit private club with background departing guests, rainy window, burgundy curtain, CG rendering and color. Close-up visitor POV: his face on right half partly hidden by curtain edge, his right fingers lightly gripping edge near cheek. He has just noticed viewer with a subtle half-smile. Left half shows dim blurred warm interior. Same lighting no violet. Do not include mask at all. Camera positioned just outside curtain, fully consistent with source first panel.",
+      "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-f2d348fd-e412-40b4-8dc1-f342f02645ba.png"
+    },
+    {
+      "id": "KF02-curtain-open",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-f3c4b720-36cb-4169-8320-d6824d4d17d5.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6c86b5a8-e8c7-4077-9376-758dbeb81c39.png"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE independent landscape 16:9 1920x1080 video END frame based on TOP-RIGHT PANEL of supplied 2x2 storyboard Image1. NOT a grid. Preserve EXACT same short chestnut-haired adult man identity, hazel eyes, black loose silk shirt, black tailored trousers, small ear stud, candlelit club, background departing gala guests, rainy window and burgundy curtain. Three-quarter body framing. He has stepped SIDEWAYS to the right so visitor can enter; right arm stretched toward left holding burgundy curtain open above shoulder, torso three-quarter sideways, head turned back toward lens, a knowing half-smile. His OTHER hand down beside his left hip holds the complete TWO-EYE ivory-silver lace mask from Image2 by one outer corner, both eye apertures and raised nose bridge readable, natural face-size about18cmwide. Keep anatomy natural two arms two hands. Exact room perspective consistent with source, no new doors or portal. Fine semi-real romantic character CG; warm amber and black, no purple. No text or logo.",
+      "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-afa9b76a-e455-41d9-8f7b-c17cf7983d9d.png"
+    }
+  ]
+}

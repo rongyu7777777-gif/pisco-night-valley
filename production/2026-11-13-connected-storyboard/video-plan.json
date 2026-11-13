@@ -1,0 +1,174 @@
+{
+  "status": "opening_pilot_generated_full_sequence_pending",
+  "fps": 24,
+  "linearReferenceSeconds": 48,
+  "pilot": {
+    "id": "P01-arrival",
+    "file": "video-production/P01-arrival/P01-arrival-v6-hailuo02.mp4",
+    "status": "generated_needs_motion_refinement",
+    "model": "Hailuo-02",
+    "requestedSeconds": 6,
+    "note": "5.916667 秒、1918×1080。首尾及 2 秒、4 秒画面已检查；约 2 秒帘布遮住人物，后续应缩短遮挡、强化连续让路。尚未完成逐帧连续性验收。样片独立于 48 秒静态预演。"
+  },
+  "sharedBoundaryRule": "Adjacent clips must reference the same file and SHA256. This does not alone guarantee motion continuity.",
+  "clips": [
+    {
+      "id": "01-arrival-club",
+      "referenceBoard": "scenes/01-arrival-club/storyboard-v8.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": null,
+      "endImage": {
+        "id": "T1-mask",
+        "file": "seams/T1-mask/shared-v6.png",
+        "sha256": "90d140f5e9bef20e9ab2b49d97f7d9f14e1053b73cafe05e42e7bc4284066089"
+      },
+      "shots": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "videoPrompt": "首屏即见帘后半张脸。人物从余光转为与你对视，手指轻收帘边。 Camera: 固定 POV，中近景；不先展示空门或 Logo 动画。\n他侧身、抬起帘子让出入口；你开始走进去。 Camera: 35mm 视感，沿中轴前移；帘布从近景掠过，人物与背景有真实视差。\n他瞥一眼离场宾客，再看向你，把手里的双眼面具随手放在烛台旁，倚住桌上的小盒；手松开系带。 Camera: 保持人物与桌边在同一镜头里；镜头随手的下落降低，靠近放稳的面具。\n面具留在桌上不动，镜头贴近其中一个眼孔；另一只眼与鼻梁逐渐出画。 Camera: 由中近景连续推到微距；左眼杏仁轮廓和左上高光对齐 T1，焦点由蕾丝落向眼孔深处。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    },
+    {
+      "id": "02-vampire",
+      "referenceBoard": "scenes/02-vampire/storyboard-v8.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": {
+        "id": "T1-mask",
+        "file": "seams/T1-mask/shared-v6.png",
+        "sha256": "90d140f5e9bef20e9ab2b49d97f7d9f14e1053b73cafe05e42e7bc4284066089"
+      },
+      "endImage": {
+        "id": "T2-pearl-disc",
+        "file": "seams/T2-pearl-disc/shared-v6.png",
+        "sha256": "713e253a5c394e06f77b8fd6d7d6fb92d7e8e83711c44c2f4cd02c2f77da7f75"
+      },
+      "shots": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "videoPrompt": "同一眼孔近景接入古堡；镜头向前略向右掠过床边桌上刚摘下的面具，露出斜卧的银发吸血鬼。 Camera: T1 首帧后保持前进并做小弧线侧移，近处蕾丝边向左出画；不让人物拿面具遮挡镜头。\n腿朝左、上身在右，斜卧长榻，用手肘支撑；抬眼确认你是否留下。 Camera: 低一点的访客视角，缓慢小幅侧移，保留完整身体斜线。\n他撑起上身，拉开身边毯边，眼神等你回答。月亮已在背景中出现。 Camera: 不跳轴；由人物的回望引出窗外月轮。\n镜头沿人物视线抬高，再向窗外月轮靠近。 Camera: 圆形逐渐居中放大，末帧严格使用 T2；不作突然白闪。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    },
+    {
+      "id": "03-athletes",
+      "referenceBoard": "scenes/03-athletes/storyboard-v8.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": {
+        "id": "T2-pearl-disc",
+        "file": "seams/T2-pearl-disc/shared-v6.png",
+        "sha256": "713e253a5c394e06f77b8fd6d7d6fb92d7e8e83711c44c2f4cd02c2f77da7f75"
+      },
+      "endImage": {
+        "id": "T3-visor",
+        "file": "seams/T3-visor/shared-v6.png",
+        "sha256": "50aeb68fc38c6ab76006e6dcc2505861d6da211fac0db230cde05db4168e4552"
+      },
+      "shots": [
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "videoPrompt": "从 T2 开始，圆盘成为运动员之家乳白球灯；镜头向前经过灯下并下倾。 Camera: 起始圆形尺寸、亮边、曝光完全沿用 T2，再逐步露出灯顶固定件。\n一人站着脱训练外套，一人低头系鞋带，一人在台面旁合上书；依次注意到你。 Camera: 广角中景保持三层纵深，眼神按先后顺序转来；不同时齐刷刷抬头。\n左边让出沙发；中间拎起玄关原有的头盔示意出门；右边递来饮料。 Camera: 先看清三人的不同邀约，再沿中间人的转身移向玄关；头盔一直在故事空间内。\n准备出门的人把头盔暂放在玄关凳上，转身拿外套；镜头继续接近静止的镜片。 Camera: 从人物手的落点接一次短前推；末帧对齐 T3 的轮廓和琥珀弧光，手和人物均已离开微距画面。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    },
+    {
+      "id": "04-garage",
+      "referenceBoard": "scenes/04-garage/storyboard-v8.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": {
+        "id": "T3-visor",
+        "file": "seams/T3-visor/shared-v6.png",
+        "sha256": "50aeb68fc38c6ab76006e6dcc2505861d6da211fac0db230cde05db4168e4552"
+      },
+      "endImage": {
+        "id": "T4-round-mirror",
+        "file": "seams/T4-round-mirror/shared-v6.png",
+        "sha256": "752f61981a4b66674b45e2f71fa737107eb47ff6011f70153f8ec5bcc31f902b"
+      },
+      "shots": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "videoPrompt": "T3 的黑镜片接入车库；骑手顺手把头盔挂在车把旁，镜头略向右前移，展开摩托与车库。 Camera: 镜片移出光轴时才露出环境；保持琥珀反光方向和曝光，不能让旧房间的倒影带进车库。\n他侧背对镜头，跨上静止摩托，左脚着地，发动机未启动。 Camera: 腰部高度，沿摩托右后方前移，保留空后座。\n他坐稳后回头看你，一手拍空后座，另一手留在车把；固定后视镜已映出身后的林道灯火。 Camera: 沿后座向前靠近他的肩侧，再由目光移焦到原有后视镜；不用手把镜子扭向观众。\n骑手的动作停在等待；镜头自己靠近固定的圆镜，三点金光和林径逐步占满画面。 Camera: 在接近过程中逐渐靠近镜面法线；到 T4 时圆框、林径和三灯位置匹配，再继续前推至镜框出画。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    },
+    {
+      "id": "05-queen",
+      "referenceBoard": "scenes/05-queen/storyboard-v8.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": {
+        "id": "T4-round-mirror",
+        "file": "seams/T4-round-mirror/shared-v6.png",
+        "sha256": "752f61981a4b66674b45e2f71fa737107eb47ff6011f70153f8ec5bcc31f902b"
+      },
+      "endImage": {
+        "id": "T5-flame",
+        "file": "seams/T5-flame/shared-v6.png",
+        "sha256": "89dbd7000b1c4b6ca2e4649f5c8682ac5a7a93f2be3e8bd32228315fa4e36074"
+      },
+      "shots": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "videoPrompt": "镜框随前推扩出画面，倒影里的林道成为眼前私庭；女王在右侧向前走，回头确认你跟上。 Camera: 沿同一林径继续前进，三盏灯保持位置关系；庭院不再额外摆一面圆镜。\n女王侧背走向石桌，双手取下小冠；衣摆随步伐带动，轻轻回头。 Camera: 跟随镜头前进，角色走动提供明确的前进方向。\n她把冠放在地图上，另一手护住烛火，再抬眼看你。 Camera: 半侧面中景，手、冠、地图、烛火形成连续视线路径。\n手移出画面，烛焰立稳；镜头贴近火焰。 Camera: 末帧为 T5；尖端偏向、白芯形状和琥珀色边缘锁定，保留暖黑背景。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    },
+    {
+      "id": "06-roommates",
+      "referenceBoard": "scenes/06-roommates/storyboard-v6.png",
+      "status": "storyboard_only",
+      "fps": 24,
+      "suggestedSeconds": 8,
+      "startImage": {
+        "id": "T5-flame",
+        "file": "seams/T5-flame/shared-v6.png",
+        "sha256": "89dbd7000b1c4b6ca2e4649f5c8682ac5a7a93f2be3e8bd32228315fa4e36074"
+      },
+      "endImage": null,
+      "shots": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "videoPrompt": "同形烛焰接入室友餐桌；她为放下第三份餐，把桌上蜡烛移开半掌距离，镜头顺势掠过。 Camera: 先匹配烛焰形状与摆动方向，再延续小幅向前侧移；移动蜡烛是为腾出餐位。\n红棕发室友侧身拉开空椅；黑发室友在后方放下第三份餐，暂时没有看镜头。 Camera: 访客视线跟着空椅移动，给椅子腿和座位留够画面空间。\n一人扶着椅背，一人放下水杯；她们先互相看一眼，再分别看你。 Camera: 同一空间连续推进，先拍完成动作再让两人对视，避免同时同步摆拍。\n视点降低到坐下的高度；你的餐盘位于前景，两人处在不同方向。 Camera: 完成下降后稳定成可停留的生活场景；背景微动作不带走剧情。",
+      "limitations": "Prepare standalone full-resolution character keyframes before generation. The contact sheet is not a video input frame."
+    }
+  ],
+  "production": {
+    "method": "后续分段生成视频。每个场景可拆成入场、人物动作、出场三小段；当前六块四格图是动作说明，不能把整张四格图作为视频起始帧。",
+    "continuity": "相邻场景 endImage/startImage 必须引用同一路径与 SHA256；共用单帧只锁住切点，切点前后还需匹配速度、光向、曝光与遮挡。",
+    "canonical": "seams/ 中五张交接原图锁定微距切点；四格图仅示意动作与构图。T4 出镜后的林径仍需单独做与倒影一致的全幅关键帧。",
+    "generation": "先把每镜绘制成独立高分辨率关键帧、锁定同场人物身份和道具，再生成动作视频；需要关键帧条件/首尾帧控制能力。工具不支持时应拆分并在同一边界接合，不能只靠文生视频期待匹配。",
+    "motion": "镜头推进是主线，但每一段有自己的轨迹：贴桌前推、抬头接光源、跟随到玄关、过肩移焦、越过桌边。角色不重复递物或遮挡镜头。",
+    "evaluation": "整条视频仍未完成。逐个切点检查前后各至少 12 帧：形状、方向、速度、曝光、焦点与倒影；首尾帧相同并不能保证中间运动合格。",
+    "pilot": {
+      "id": "P01-arrival",
+      "file": "video-production/P01-arrival/P01-arrival-v6-hailuo02.mp4",
+      "status": "generated_needs_motion_refinement",
+      "model": "Hailuo-02",
+      "requestedSeconds": 6,
+      "note": "5.916667 秒、1918×1080。首尾及 2 秒、4 秒画面已检查；约 2 秒帘布遮住人物，后续应缩短遮挡、强化连续让路。尚未完成逐帧连续性验收。样片独立于 48 秒静态预演。"
+    }
+  }
+}

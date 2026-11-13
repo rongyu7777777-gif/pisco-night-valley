@@ -1,0 +1,28 @@
+{
+  "version": "v8",
+  "storyboards": 24,
+  "scenes": 6,
+  "durationStaticPreview": 48,
+  "currentArt": "5 partial storyboard edits + retained roommate storyboard + 5 shared macro boundaries",
+  "visualReview": "ImageGen outputs inspected. Returned to prop push-ins; removed present-to-camera mask/helmet/mirror staging. Removed added garden mirror.",
+  "browser": {
+    "width": 1163,
+    "scrollWidth": 1163,
+    "consoleErrors": 0,
+    "videoDuration": 5.916667,
+    "videoDimensions": [
+      1918,
+      1080
+    ],
+    "seekVerified": true,
+    "sampledTimes": [
+      0,
+      2,
+      4,
+      5.8
+    ]
+  },
+  "videoFinding": "5.916667 秒、1918×1080。首尾及 2 秒、4 秒画面已检查；约 2 秒帘布遮住人物，后续应缩短遮挡、强化连续让路。尚未完成逐帧连续性验收。样片独立于 48 秒静态预演。",
+  "mobile": "Prior version responsive QA passed; new motion-sample block not separately checked on mobile.",
+  "liveSite": "not_deployed"
+}

@@ -1,0 +1,69 @@
+{
+  "userChoice": "跨越不同世界：保留场景差异，但用环境构图与运动自然接续",
+  "previousPropTransitions": "superseded",
+  "pairs": [
+    {
+      "id": "E1-arches",
+      "from": "01-arrival-club",
+      "to": "02-vampire",
+      "name": "会所拱廊 → 古堡回廊",
+      "prompt": "Create a cinematic ENVIRONMENT MATCH-CUT STORYBOARD, exactly TWO equal wide 16:9 panels stacked vertically, total aspect ratio8:9, 1536x1728. TOP panel is outgoing world, BOTTOM panel incoming world. NO labels, no text, no borders. The two worlds must be recognizably different places, NOT identical rooms. The connection is architectural framing, vanishing point, light direction and camera motion, NOT a handheld prop or a magic portal. No masks/helmets/mirrors/candle macro in foreground, no person holding anything at the lens. Semi-real premium romantic CG environments, warm amber/neutral black/ivory with restrained grey-blue or natural green, no purple. Both frames share eye-level camera and identical perspective anchors as specified; no tilt/roll. TOP: a luxurious private evening club after a gala, dark polished timber, burgundy curtains at sides, distant adults softly blurred, amber wall lamps, an open archway ahead leading to a rainlit terrace. BOTTOM: a distinctly GOTHIC vampire castle corridor, old grey stone ribs, tall pointed arches and cool moonlight beyond, silver-haired adult vampire small at frame right by burgundy chaise. MATCH: strong near-black architectural pillar at left x0–22% in BOTH, central open arch extending x34–78% and y10–90%, eye-level/vanishing point exactly x56%,y48%, warm practical lamp at x80%,y38% in both. Floor diagonals converge to same point; key light from upper left. Foreground pillar can briefly pass lens as camera glides forward and right. All connection comes from built environment. Do NOT put an ornate framed portal in center.",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-f3c4b720-36cb-4169-8320-d6824d4d17d5.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-c29a03e0-69d6-4b8d-8ee0-4ac6106e822b.png"
+      ],
+      "file": "transitions/E1-arches/environment-pair-v7.png"
+    },
+    {
+      "id": "E2-horizon",
+      "from": "02-vampire",
+      "to": "03-athletes",
+      "name": "古堡海面 → 别墅海景",
+      "prompt": "Create a cinematic ENVIRONMENT MATCH-CUT STORYBOARD, exactly TWO equal wide 16:9 panels stacked vertically, total aspect ratio8:9, 1536x1728. TOP panel is outgoing world, BOTTOM panel incoming world. NO labels, no text, no borders. The two worlds must be recognizably different places, NOT identical rooms. The connection is architectural framing, vanishing point, light direction and camera motion, NOT a handheld prop or a magic portal. No masks/helmets/mirrors/candle macro in foreground, no person holding anything at the lens. Semi-real premium romantic CG environments, warm amber/neutral black/ivory with restrained grey-blue or natural green, no purple. Both frames share eye-level camera and identical perspective anchors as specified; no tilt/roll. TOP: castle's open seaside stone balcony at blue hour, gothic balustrade low in foreground, stone door jamb at extreme right, vast dark silver-blue ocean and distant low coast. BOTTOM: modern airy athlete seaside loft, clean rectangular floor-to-ceiling sliding opening, warm oak floor, grey low sofa with burgundy blanket and a sports bag, THREE adult housemates small silhouettes at right interior edge, view of same-feeling silver-blue ocean. MATCH: horizon precisely44% down in both, same diagonal coastline descends left-to-right, a narrow vertical dark jamb at x78% in both; bright horizontal silver reflection on water x45–60% at y55% in both, identical eyeheight and forward-right travel. Distinct gothic stone versus contemporary glass/oak architecture. No moon disc close-up, no giant lamp, no sports object centered. Ocean remains a believable landscape in both shots.",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-c29a03e0-69d6-4b8d-8ee0-4ac6106e822b.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-cc53b345-cc90-4994-9746-cd3dfa3504c5.png"
+      ],
+      "file": "transitions/E2-horizon/environment-pair-v7.png"
+    },
+    {
+      "id": "E3-rain-door",
+      "from": "03-athletes",
+      "to": "04-garage",
+      "name": "别墅雨夜门口 → 车库入口",
+      "prompt": "Create a cinematic ENVIRONMENT MATCH-CUT STORYBOARD, exactly TWO equal wide 16:9 panels stacked vertically, total aspect ratio8:9, 1536x1728. TOP panel is outgoing world, BOTTOM panel incoming world. NO labels, no text, no borders. The two worlds must be recognizably different places, NOT identical rooms. The connection is architectural framing, vanishing point, light direction and camera motion, NOT a handheld prop or a magic portal. No masks/helmets/mirrors/candle macro in foreground, no person holding anything at the lens. Semi-real premium romantic CG environments, warm amber/neutral black/ivory with restrained grey-blue or natural green, no purple. Both frames share eye-level camera and identical perspective anchors as specified; no tilt/roll. TOP: contemporary athlete loft entrance hall, oak floor and sports bags at left, a cream hoodie hangs naturally on wall, open dark rectangular exterior door ahead onto wet blue-grey night street, one athlete has just walked offscreen toward the exit. BOTTOM: brick motorcycle workshop entrance, dark rectangular open roller-bay aperture ahead at exact same position, tools and amber lamps at left, black parked motorcycle side at right, wet lane outside. MATCH: open dark rectangle edges x24% and78%, top20%, floor88%, vanishing point x52%,y47%; one diagonal warm light reflection on damp floor from bottom-left toward center in BOTH. Brightness and blue exterior temperature identical. Camera moves FORWARD through room toward rainlit doorway, not pulling out. No offered helmet, no mirror, no magical transition geometry.",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-cc53b345-cc90-4994-9746-cd3dfa3504c5.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6db45cbf-8280-4dce-ab12-d2c60d8746a0.png"
+      ],
+      "file": "transitions/E3-rain-door/environment-pair-v7.png"
+    },
+    {
+      "id": "E4-forest",
+      "from": "04-garage",
+      "to": "05-queen",
+      "name": "车库外林径 → 精灵庭院",
+      "prompt": "Create a cinematic ENVIRONMENT MATCH-CUT STORYBOARD, exactly TWO equal wide 16:9 panels stacked vertically, total aspect ratio8:9, 1536x1728. TOP panel is outgoing world, BOTTOM panel incoming world. NO labels, no text, no borders. The two worlds must be recognizably different places, NOT identical rooms. The connection is architectural framing, vanishing point, light direction and camera motion, NOT a handheld prop or a magic portal. No masks/helmets/mirrors/candle macro in foreground, no person holding anything at the lens. Semi-real premium romantic CG environments, warm amber/neutral black/ivory with restrained grey-blue or natural green, no purple. Both frames share eye-level camera and identical perspective anchors as specified; no tilt/roll. TOP: view from open motorcycle garage toward an ordinary tree-lined wet country lane at night, rough brick jamb just visible left, realistic dark tree branches forming overhead canopy and warm streetlamps far along road; do not show a mirror. BOTTOM: elven private garden, graceful ivory stone arches intermixed with organic trees and hanging amber lanterns, distant adult blonde elf queen small at right, flagstone path wet with moonlight. MATCH: both paths centered, vanishing point x50%,y46%; two overhead branch/arch diagonals frame an inverted V beginning x10%,y10% andx90%,y10%, meeting atx50%,y22%; three distant amber lights atx43/50/57%,y45/40/45%, SAME height and spread. Natural dark green foliage and muted blue-grey sky, same soft light direction. BOTTOM becomes subtly more fantastical without a glowing portal. Camera continues FORWARD, near left trunk crosses lens during cut. Never enlarge a handheld object.",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6db45cbf-8280-4dce-ab12-d2c60d8746a0.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-dbed1174-2e10-443b-a24c-ca357e474521.png"
+      ],
+      "file": "transitions/E4-forest/environment-pair-v7.png"
+    },
+    {
+      "id": "E5-warm-room",
+      "from": "05-queen",
+      "to": "06-roommates",
+      "name": "王庭暖光内室 → 室友餐桌",
+      "prompt": "Create a cinematic ENVIRONMENT MATCH-CUT STORYBOARD, exactly TWO equal wide 16:9 panels stacked vertically, total aspect ratio8:9, 1536x1728. TOP panel is outgoing world, BOTTOM panel incoming world. NO labels, no text, no borders. The two worlds must be recognizably different places, NOT identical rooms. The connection is architectural framing, vanishing point, light direction and camera motion, NOT a handheld prop or a magic portal. No masks/helmets/mirrors/candle macro in foreground, no person holding anything at the lens. Semi-real premium romantic CG environments, warm amber/neutral black/ivory with restrained grey-blue or natural green, no purple. Both frames share eye-level camera and identical perspective anchors as specified; no tilt/roll. TOP: POV entering an elven queen's warm private chamber from a moonlit garden, pale carved stone doorway, a map table with one discreet candle and a small crown sitting naturally, ivory gauze drape near left, queen at far right in profile walking toward table. BOTTOM: POV entering a cozy contemporary roommates' dining apartment from its entry hall, simple warm off-white doorway, wood dining table with exactly THREE dinner settings and one modest candle, a soft cream curtain near left; auburn-haired woman in burgundy blouse pulling a foreground empty chair while black-bob-haired woman in ivory places third dinner at far right. MATCH: same doorway opening occupying x20–80%, upper edge y12%, identical table-front diagonal from x18%,y78% to x87%,y68%, eye-level vanishing point x54%,y45%, amber pool of light from upperleft. TOP palace stone/scrolls, BOTTOM simple lived-in domestic wood/dishes distinctly different. No flame close-up, no face close-up, no prop lifted. Camera moves forward through threshold toward seat with same direction and speed.",
+      "refs": [
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-dbed1174-2e10-443b-a24c-ca357e474521.png",
+        "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6eee3a1e-86f3-40da-b83d-e1d025089710.png"
+      ],
+      "file": "transitions/E5-warm-room/environment-pair-v7.png"
+    }
+  ],
+  "status": "not_selected",
+  "supersededBy": "v8 道具近景推进方案",
+  "reason": "用户反馈环境对接不如之前道具衔接自然，镜头感不足。"
+}

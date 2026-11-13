@@ -1,0 +1,99 @@
+[
+  {
+    "id": "01-arrival-club",
+    "file": "scenes/01-arrival-club/storyboard-v8.png",
+    "sha256": "5736c1ab359323614c4122a868ae2cfb87afcaf8392f129cec7af216431f1d45",
+    "width": 1670,
+    "height": 942
+  },
+  {
+    "id": "02-vampire",
+    "file": "scenes/02-vampire/storyboard-v8.png",
+    "sha256": "f26cd5d08f000debad140d0c55fe28609310541840d5794622899e2284c1bbd1",
+    "width": 1671,
+    "height": 941
+  },
+  {
+    "id": "03-athletes",
+    "file": "scenes/03-athletes/storyboard-v8.png",
+    "sha256": "ff8bf342ef70d6282501869979086aed184bcd3a329efbd3c5a89d39771909ea",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "04-garage",
+    "file": "scenes/04-garage/storyboard-v8.png",
+    "sha256": "34b70ff9161c9ad429d6d940dd6fae6656264b57934a6a46282c284628f10cb4",
+    "width": 1671,
+    "height": 941
+  },
+  {
+    "id": "05-queen",
+    "file": "scenes/05-queen/storyboard-v8.png",
+    "sha256": "12ad13e8a69b17326b40b801d52a6dbd142d61936566780e5853a395838f1a41",
+    "width": 1671,
+    "height": 941
+  },
+  {
+    "id": "06-roommates",
+    "file": "scenes/06-roommates/storyboard-v6.png",
+    "sha256": "f68562c4110f3454c7e5bad49884f3656f5a3ae8e938faf3f3fe4aad4c1dab92",
+    "width": 1672,
+    "height": 940
+  },
+  {
+    "id": "T1-mask",
+    "file": "seams/T1-mask/shared-v6.png",
+    "sha256": "90d140f5e9bef20e9ab2b49d97f7d9f14e1053b73cafe05e42e7bc4284066089",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "T2-pearl-disc",
+    "file": "seams/T2-pearl-disc/shared-v6.png",
+    "sha256": "713e253a5c394e06f77b8fd6d7d6fb92d7e8e83711c44c2f4cd02c2f77da7f75",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "T3-visor",
+    "file": "seams/T3-visor/shared-v6.png",
+    "sha256": "50aeb68fc38c6ab76006e6dcc2505861d6da211fac0db230cde05db4168e4552",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "T4-round-mirror",
+    "file": "seams/T4-round-mirror/shared-v6.png",
+    "sha256": "752f61981a4b66674b45e2f71fa737107eb47ff6011f70153f8ec5bcc31f902b",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "id": "T5-flame",
+    "file": "seams/T5-flame/shared-v6.png",
+    "sha256": "89dbd7000b1c4b6ca2e4649f5c8682ac5a7a93f2be3e8bd32228315fa4e36074",
+    "width": 1672,
+    "height": 941
+  },
+  {
+    "file": "props/venetian-mask/design-v6.png",
+    "bytes": 2656762,
+    "sha256": "1ffb448241478d39bb4cd60c1d2dbfbdb53e53fb20de3af5bb2117158b216549"
+  },
+  {
+    "file": "scenes/01-arrival-club/keyframes/KF01-curtain-start.png",
+    "bytes": 1926105,
+    "sha256": "39e4491a89bf773c5b87e1479faea513838d4c70053630ce4755cb0f9b9399ad"
+  },
+  {
+    "file": "scenes/01-arrival-club/keyframes/KF02-curtain-open.png",
+    "bytes": 2165491,
+    "sha256": "1907a609d7b3ce794e7430b2d9178dc6b21ee0158883bf13e80152fec71f8a16"
+  },
+  {
+    "file": "video-production/P01-arrival/P01-arrival-v6-hailuo02.mp4",
+    "bytes": 2931959,
+    "sha256": "935aa922753dabd48c66c4e41e46137c3537e12af5ce75c6feeff78a52ffe44d"
+  }
+]

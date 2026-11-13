@@ -1,0 +1,38 @@
+[
+  {
+    "id": "T1-mask",
+    "name": "鎏金面具眼孔",
+    "prompt": "Use case: stylized-concept. Generate ONE 16:9 extreme close-up cinematic match-cut boundary, landscape 1536x864. A SINGLE left eye opening of a thin elegant antique-gold masquerade mask. Perfectly horizontal almond shaped opening centered at x50%,y50%, spanning 76% of image width and 46% of image height. Pitch black interior. Thin burnished gold rim, small bright warm highlight on its upper-left edge, deep burgundy shadow outside mask. Front-facing optical axis, zero roll, no perspective skew. Only one eye opening, no face, no second eye, no ornate feathers. This exact frame will be reused as both end and start of adjacent videos. Art direction: refined romantic semi-realistic character CG, NOT ordinary photographic models, NOT flat anime. References are style only. Adult cast 25+, graceful idealized faces and natural expressive anatomy. Low saturation burgundy, deep warm black, ivory, amber candlelight with restrained neutral steel blue. Absolutely no violet/purple/magenta lighting. Crisp cinematic material rendering. No text, typography, logos, watermark. All future frames are 16:9.",
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-2288591b-dd15-4689-8ee1-dbd95d62e852.png",
+    "file": "seams/T1-mask.png"
+  },
+  {
+    "id": "T2-pearl-disc",
+    "name": "月轮／乳白球灯",
+    "prompt": "Use case: stylized-concept. Generate ONE 16:9 cinematic match-cut boundary, landscape 1536x864. Perfectly centered pearl-white luminous circular disc at x50%,y50%, diameter 62% of image height, on almost black slightly cool charcoal background. Circle must be exact, front-on, zero elliptical distortion. Soft faint grey mottling can read either as a distant full moon or frosted spherical ceiling lamp; no explicit lunar craters. Thin silver-grey rim, gentle neutral white glow, upper-left brighter. No stars, no cables, no room visible. This shared frame matches a castle full moon to a frosted globe pendant lamp in an athlete loft. Art direction: refined romantic semi-realistic character CG, NOT ordinary photographic models, NOT flat anime. References are style only. Adult cast 25+, graceful idealized faces and natural expressive anatomy. Low saturation burgundy, deep warm black, ivory, amber candlelight with restrained neutral steel blue. Absolutely no violet/purple/magenta lighting. Crisp cinematic material rendering. No text, typography, logos, watermark. All future frames are 16:9.",
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-6d8847b4-2410-45af-8ccd-83acf4502d0a.png",
+    "file": "seams/T2-pearl-disc.png"
+  },
+  {
+    "id": "T3-visor",
+    "name": "黑色镜片与琥珀反光",
+    "prompt": "Use case: stylized-concept. Generate ONE 16:9 cinematic match-cut boundary, landscape 1536x864. Extreme close-up of a glossy black motorcycle helmet visor, directly front-on and zero roll. Rounded horizontal visor silhouette fills 86% of width and 72% of height, centered. A SINGLE narrow amber horizontal light reflection runs from x20% to80% across y44%, softly curved upward toward ends. Two tiny dark steel hinge points at x8% and92%, y50%. All surrounding helmet shell matte black, no logos, no face inside, no red LED. This exact visor will bridge athlete invitation and garage rider. Art direction: refined romantic semi-realistic character CG, NOT ordinary photographic models, NOT flat anime. References are style only. Adult cast 25+, graceful idealized faces and natural expressive anatomy. Low saturation burgundy, deep warm black, ivory, amber candlelight with restrained neutral steel blue. Absolutely no violet/purple/magenta lighting. Crisp cinematic material rendering. No text, typography, logos, watermark. All future frames are 16:9.",
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-a60ed039-4c32-40da-9646-401d69999690.png",
+    "file": "seams/T3-visor.png",
+    "refinementPrompt": "Edit this visor image only. Preserve exact black helmet silhouette, visor geometry and orientation, and the thin gently curved amber highlight line through the middle. REMOVE ALL room/window/candle/curtain reflections from the visor, replacing them with uniform glossy near-black smoke glass and ONLY the single warm amber horizontal light strip. Replace all background beyond helmet with near-black charcoal. No room elements, no figures, no other reflections, no violet. It must match between a contemporary sports loft and a motorcycle garage. Keep 16:9. Photoreal CG materials."
+  },
+  {
+    "id": "T4-round-mirror",
+    "name": "圆镜中的金色林径",
+    "prompt": "Use case: stylized-concept. Generate ONE 16:9 cinematic match-cut boundary, landscape 1536x864. One perfectly circular motorcycle rearview mirror face, centered at x50%,y50%, diameter 84% of image height, viewed square front-on. A THIN neutral silver rim surrounds the reflection: a dark forest pathway receding centrally toward THREE small vertically elongated warm amber lights arranged across the distance, middle light slightly higher. Dark desaturated green foliage, silver moon haze, black outside the circle. No mirror stalk visible at this magnification. No person, no hands, no text. This shared frame matches a motorcycle mirror reflection to an identical round silver-framed looking glass in an elven garden. Art direction: refined romantic semi-realistic character CG, NOT ordinary photographic models, NOT flat anime. References are style only. Adult cast 25+, graceful idealized faces and natural expressive anatomy. Low saturation burgundy, deep warm black, ivory, amber candlelight with restrained neutral steel blue. Absolutely no violet/purple/magenta lighting. Crisp cinematic material rendering. No text, typography, logos, watermark. All future frames are 16:9.",
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-3aae23a3-5f2e-45fa-b70a-bfd3c32e2d4d.png",
+    "file": "seams/T4-round-mirror.png"
+  },
+  {
+    "id": "T5-flame",
+    "name": "同形烛焰",
+    "prompt": "Use case: stylized-concept. Generate ONE 16:9 cinematic match-cut boundary, landscape 1536x864. A single luminous upright teardrop candle flame centered at x50%,y50%, flame height 58% of image height and max width18% of image height. Thin tip leans to the RIGHT by just five degrees. White ivory core and amber envelope, no blue base. Wick and barely visible cream candle top at y85%, background near black with diffuse warm brown. No candleholder, no secondary flames, no hands. Exact shared boundary frame between queen's private candle and roommates' dinner candle. Art direction: refined romantic semi-realistic character CG, NOT ordinary photographic models, NOT flat anime. References are style only. Adult cast 25+, graceful idealized faces and natural expressive anatomy. Low saturation burgundy, deep warm black, ivory, amber candlelight with restrained neutral steel blue. Absolutely no violet/purple/magenta lighting. Crisp cinematic material rendering. No text, typography, logos, watermark. All future frames are 16:9.",
+    "source": "/Users/rongyu/.codex/generated_images/01a1d350-e720-72d0-bacd-5c52ec3884b7/exec-25391cb1-9f0c-44c2-9fdb-52c27013119c.png",
+    "file": "seams/T5-flame.png"
+  }
+]
