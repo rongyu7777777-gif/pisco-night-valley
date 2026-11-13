@@ -1,11 +1,7 @@
 # Pisco — Behind the Curtain
 
-Public cinematic roleplay preview with six ambient videos, scroll-driven image tearing, and gesture-driven typography.
+Public cinematic roleplay preview with six worlds, continuously playing characters, gesture-controlled camera movement, luminous tearing and uppercase titles.
 
-This repository contains the deployable static website. GitHub Pages publishes the root of the `main` branch.
+This repository contains the runtime static website. GitHub Pages publishes the root of main. The full production archive, storyboard, source project and full-film exports are not included in this release.
 
-## Update
-
-Build the current site, replace the static HTML and assets, then push to `main`. The `.nojekyll` file keeps the static output unchanged.
-
-Inria Serif is distributed under the SIL Open Font License; see `FONT-LICENSE.txt`.
+Current revision: v10-share-20261113. Logo: exact user-supplied r6 SVG. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
