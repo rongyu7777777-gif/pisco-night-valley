@@ -1,0 +1,14 @@
+{
+  "folder": "04-athlete-house",
+  "title": "海边运动员之家",
+  "storyboard": [
+    "scenes/04-athlete-house/storyboard-r2/07-athlete-house.png",
+    "scenes/04-athlete-house/storyboard-r2/08-helmet-crossing.png"
+  ],
+  "studies": [
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/04-athlete-house/studies/01-previous-style.png"
+    }
+  ]
+}

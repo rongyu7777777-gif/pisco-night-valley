@@ -1,0 +1,14 @@
+{
+  "folder": "05-midnight-garage",
+  "title": "午夜车库",
+  "storyboard": [
+    "scenes/05-midnight-garage/storyboard-r2/09-midnight-garage.png",
+    "scenes/05-midnight-garage/storyboard-r2/10-mirror-crossing.png"
+  ],
+  "studies": [
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/05-midnight-garage/studies/01-previous-style.png"
+    }
+  ]
+}

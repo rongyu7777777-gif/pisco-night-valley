@@ -1,0 +1,14 @@
+{
+  "folder": "07-roommates",
+  "title": "室友 · 为你留的位置",
+  "storyboard": [
+    "scenes/07-roommates/storyboard-r2/13-roommates.png",
+    "scenes/07-roommates/storyboard-r2/14-reserved-place.png"
+  ],
+  "studies": [
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/07-roommates/studies/01-previous-style.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Generated scene assets
+
+Built-in ImageGen, 2026-11-11. User brief: https://xgenlabs.feishu.cn/wiki/OBXhw6nafi6cyikWZTAcpJETnEh
+
+## Elven court
+
+Use case: ads-marketing. A wide 16:9 cinematic live-action romantic fantasy film still for a full-screen interactive website, no text, no logos, no interface. First-person viewpoint in an elven queen's private sitting room. A clearly adult 22-year-old queen with pale blonde long hair, a delicate crown and pointed ears sits sideways on the edge of a map table, wearing an elegant fully clothed ivory and muted gold court gown. One hand braces on the table, the other gently raises the viewer's chin toward her; only a small part of the viewer's hand is visible at the lower edge, resting over the back of her hand. She has an amused raised eyebrow and warm direct eye contact, no sexual activity. Guard gloves rest beside the map, a formal cloak further back. White stone arch windows show suspension bridges connecting an illuminated elven city at night. Realistic human face and anatomy, natural skin texture, photoreal film lighting, not anime or illustration. Frame queen to center-right with clear face, deep room perspective and darker quieter space center-left for webpage title. Moonlight, soft warm practical lamps, sophisticated intimate atmosphere. Landscape 16:9, detailed high resolution.
+
+## Roommates
+
+Use case: ads-marketing. A wide 16:9 cinematic live-action still for an interactive romance story website, no text, logos, interface or collage. First-person viewpoint seated on a living-room sofa. Two clearly adult women: one age 20 with golden brown hair sits at the near front side with her hand resting lightly on viewer's forearm, smiling with relaxed direct eye contact; a second age 22 with black hair leans slightly from the other side, one hand on cushion, other hand palm-up offered toward viewer. Their body positions make a welcoming conversational circle and their smiles show shared understanding. Both fully clothed in tasteful ordinary casual outfits, natural realistic anatomy, no sexual activity, no lingerie. In background three dinner plates on dining table, soft blanket, warm lamp and university town at night through window. Photoreal high quality movie still, warm practical lighting, subtle cinematic grain, believable adult faces, keep subjects well separated. Landscape 16:9 high resolution with darker quiet area across lower center for webpage copy, show enough apartment depth for camera movement.
+

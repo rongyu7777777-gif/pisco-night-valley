@@ -1,0 +1,36 @@
+{
+  "shot": "13",
+  "output": "studies/01-previous-style.png",
+  "source": "storyboard-r2/13-roommates.png",
+  "prompt": "Use case: style-transfer with strict identity preservation. Asset: single cinematic 16:9 roleplay narrative still, shot 13. Image 1 is the edit target and authoritative source for both adult women's facial identities, original contemporary clothing, apartment and all story props. Image 2 is ONLY a reference for bold cinematic lighting, rich tactile detail and charismatic eye contact/asymmetrical posing; do not copy its characters, costumes or locations. Edit image 1 to give this intimate warm welcome more dramatic, characterful cinematic tension and depth. Preserve exactly the same two adult women with recognizably identical face shape, eyes, hair and age: left long loose golden-brown hair and freckles, cream V-neck knitted sweater and blue jeans; right black hair loosely tied up, original dark brown buttoned long-sleeve top, blue jeans, original jewelry. Keep neckline, clothes coverage and contemporary styling unchanged. Create varied natural performance: left woman stays close in foreground, shoulder gently angled toward viewer, chin slightly lowered, vivid attentive eyes and a small playful asymmetric closed-mouth smile; right woman remains a little farther back and half-turned on sofa, looking back directly at viewer with a quietly knowing expression, subtly lifted eyebrow and less of a generic smile. Believable warmth with anticipation, not anger, fear or seductive costume display. Make their eye lines and shoulders feel spontaneous, not a symmetrical posed photo. Keep natural human hands belonging only to the two women resting on sofa/own legs, not reaching toward viewer. Slightly more intimate seated eye-level composition with cinematic depth but retain the original apartment layout: gray textured sofa, books and warm kitchen left, large rectangular city-night window right, and original wooden dining table clearly visible between them. On this table preserve EXACTLY THREE served dinner plates, candles, flowers, and the same upright small black/gold crescent invitation showing the warm rectangular window and three meals. This is a crucial story clue and must stay visible. Use warm amber candle/practical light sculpting their faces, subtle cool violet-blue night rim from window, deep rich shadows with detail, natural skin texture and believable fabric weave, refined film grain. Tone and contrast inspired by image 2 without changing the domestic scene into a palace, masquerade or fantasy. Keep original story continuity and identities as first priority. No third person, no first-person viewer hands/arms/legs, no extra or floating hands, no nude bodies, no new props, no text, logo, UI, collage panels or borders. One continuous high-detail photoreal 16:9 frame.",
+  "qa": [
+    "Visually inspected generated output.",
+    "Exactly two adult women with original hair, freckles, wardrobe and apartment identity.",
+    "Left foreground tilted chin and playful gaze; right farther back with restrained knowing expression.",
+    "Exactly three dinner plates remain clearly visible.",
+    "Black gold crescent invitation, candles, flowers and rectangular night window retained.",
+    "No viewer body or arm; own hands natural and rested.",
+    "More cinematic warm practical light, cool violet edges and deeper contrast."
+  ],
+  "limitations": [
+    "Generated redraw has small face and fabric variation.",
+    "Faces remain near baseline rather than importing collage cast or fantasy costume."
+  ],
+  "sha256": "efbd082dda4ae5e29cda6fcff29c6748fe7f544490c5ed966b4d4236bfbd9a0e",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 2706225,
+  "style_reference": "../../references/previous-style-collage.png",
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/13-roommates.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ]
+}

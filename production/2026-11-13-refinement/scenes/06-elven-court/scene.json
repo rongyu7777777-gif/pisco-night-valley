@@ -1,0 +1,14 @@
+{
+  "folder": "06-elven-court",
+  "title": "精灵王庭",
+  "storyboard": [
+    "scenes/06-elven-court/storyboard-r2/11-elven-court.png",
+    "scenes/06-elven-court/storyboard-r2/12-map-crossing.png"
+  ],
+  "studies": [
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/06-elven-court/studies/01-previous-style.png"
+    }
+  ]
+}

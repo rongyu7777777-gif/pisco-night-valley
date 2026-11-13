@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-13",
+  "baseline_content_unchanged": true,
+  "original_dialogues_unchanged": true,
+  "six_scenes": 6,
+  "added_teaser_lines": 12,
+  "interaction_tests": {
+    "passed": 28,
+    "failed": 0
+  },
+  "new_castle_media": "ImageGen still, no new video",
+  "status": "local preview and independent production branch; public main not changed",
+  "browser_qa": {
+    "desktop": "verified",
+    "mobile_layout_width": 354,
+    "horizontal_overflow": false,
+    "story_cards": 6,
+    "about_navigation": "passed",
+    "roommates_selection": "passed",
+    "console_errors": 0,
+    "review_images_loaded": 8
+  }
+}

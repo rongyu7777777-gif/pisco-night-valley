@@ -1,0 +1,36 @@
+{
+  "shot": "07",
+  "output": "studies/01-previous-style.png",
+  "source": "storyboard-r2/07-athlete-house.png",
+  "prompt": "Use case: style-transfer with strict identity preservation. Asset: single 16:9 cinematic still for a roleplay story, shot 07. Image 1 is the edit target and the authoritative source of ALL three adult men, their distinct facial identities, hair, unchanged contemporary clothing, the room and story props. Image 2 is ONLY a lighting, tactile photograph and charismatic expression reference, NOT a source of people, costumes or location. Transform image 1 into a more emotionally charged intimate cinematic ensemble without changing its story. Preserve exactly three men: left black tank top on sofa with his same face and body, center deep green V-neck long-sleeve sweater and gray pants, right cream cable-knit V-neck sweater and jeans holding tortoiseshell glasses near his face, not wearing them. Faces must remain recognizably those of image 1. Give the left man a relaxed diagonal shoulder and quiet confident half-smile; center lowers his chin slightly with intent eyes up at the viewer and a tiny closed-mouth playful challenge instead of his broad toothy smile; right sits a little back with a subtle amused eyebrow, retaining his glasses gesture. Keep all three distinct positions and natural anatomy, no repeated pose, with comfortable clear silhouette separations. Slightly closer, low seated eye-level cinematic perspective but keep their faces uncut and the key props in frame. Keep exactly the same coastal modern home: framed jerseys 23/17/9 left, kitchen back, ocean sunset windows right, black helmet and keys on wooden side table between center and right, parked motorcycle outside far-right window. The helmet visor and bike must remain visible. Sculpt faces with warm amber practical light, subtle cool violet-blue shadow fill and deeper rich shadows with readable detail; tactile knit, dark cotton, skin pores, controlled film grain, strong warm and cool separation inspired by image 2. Retain outdoor sunset geography and believable practical illumination, avoid purple wash over skin. Natural alluring cinematic tension through eyes and posture, no nudity or costume changes. No viewer body, no first-person hand, no reaching hand toward lens, no floating hands, no new characters. Keep hands that belong to the three men natural and rested. No text, UI, logo, borders, panels, montage or fantasy props. One continuous photorealistic 16:9 frame.",
+  "qa": [
+    "Visually inspected generated output.",
+    "Exactly three men retained with recognizable face, hair and clothing continuity.",
+    "Center no longer broad toothy smile: lowered chin and restrained direct gaze.",
+    "Left and right retain individual relaxed expressions.",
+    "Helmet, keys and exterior motorcycle remain visible.",
+    "No viewer hand or arm. Own hands anatomically plausible.",
+    "Stronger amber rim and violet blue shadow contrast; architecture unchanged."
+  ],
+  "limitations": [
+    "Generated redraw rather than pixel-locked composite; tiny facial and texture differences remain.",
+    "Composition deliberately stays near original for continuity; strongest change is performance and lighting."
+  ],
+  "sha256": "2420e44387edb29fe1eb6bfa077ed1159306ca23ecda16056b499d41b8be9152",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 2459953,
+  "style_reference": "../../references/previous-style-collage.png",
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/07-athlete-house.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ]
+}

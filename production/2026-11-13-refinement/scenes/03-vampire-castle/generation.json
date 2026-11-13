@@ -1,0 +1,17 @@
+{
+  "created": "2026-11-13",
+  "tool": "Built-in ImageGen",
+  "status": "visual proposal; not approved video input",
+  "output": "studies/02-gothic-couture-v3.png",
+  "prompt": "gothic-couture-v3.prompt.txt",
+  "references": [
+    "../../references/current-style-collage.png",
+    "storyboard-r2/05-vampire-castle.png"
+  ],
+  "visual_qa": [
+    "Single adult vampire; dark hair, red eyes and fangs retained.",
+    "White poet shirt, embroidered waistcoat and burgundy velvet replace the earlier conventional costume.",
+    "Diagonal reclining pose, direct gaze and gold mask visible; no viewer limbs or baked text.",
+    "Adjacent transition frames still show the prior costume; do not use mismatched first and last frames."
+  ]
+}

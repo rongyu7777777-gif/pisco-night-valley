@@ -1,0 +1,256 @@
+[
+  {
+    "id": "private-club",
+    "t": "The Private Club",
+    "image": "private-club.webp",
+    "cat": "Modern romance · After the gala",
+    "role": "The Guest He Waited For",
+    "tone": "Tension / honesty / a private invitation",
+    "lead": "Beyond the gala, a rainlit city waits. Across a low table, a twenty-eight-year-old man finally has your attention.",
+    "s1": "You sit on a leather sofa, the end of his loosened tie resting lightly between your fingers. His rolled sleeves reveal a tattoo and a watch.",
+    "s2": "Guests drift past the glass doors. A teasing question leaves room for an honest answer.",
+    "quote": "You love it when I get jealous, don’t you?",
+    "beats": [
+      "You leave the gala behind and settle into a leather sofa. Rain draws silver lines down the windows of the private club.",
+      "He leans against the low table in a black shirt, sleeves rolled to his elbows. You gently catch his loosened tie; his attention settles on you.",
+      "Beyond the glass doors, the last guests exchange goodbyes. He notices your smile and waits for you to close the distance in your own time.",
+      "You love it when I get jealous, don’t you?"
+    ],
+    "choices": [
+      "Ask what he really wants",
+      "Invite him onto the terrace"
+    ],
+    "ends": [
+      [
+        "You let the tie slip from your fingers. “Tell me what you were hoping I would say.” His teasing expression softens.",
+        "He admits that he spent the evening inventing reasons to find you. You tell him he could have simply asked for your company.",
+        "He moves to the other end of the sofa, leaving you room. The conversation becomes easier once neither of you has to perform.",
+        "The gala ends behind the glass. Here, your evening is beginning with an invitation you can answer for yourself."
+      ],
+      [
+        "You nod toward the covered terrace. He offers his hand, and you take it when you are ready.",
+        "Under the awning, the rain quiets the city. You tell him what you enjoyed about the evening and what you would rather leave behind.",
+        "He listens, then asks a simpler question: “Would you like to see me again?” You watch the lights reflected in his glass.",
+        "You have the whole walk back to decide what comes next. He is happy to match your pace."
+      ]
+    ],
+    "teaser": [
+      "The gala is over. He still hasn’t said what he came to say.",
+      "Rain at the window. A loosened tie. His attention, entirely yours."
+    ]
+  },
+  {
+    "id": "vampire-castle",
+    "t": "The Vampire’s Ball",
+    "image": "vampire-castle.webp",
+    "cat": "Gothic romance · A moonlit terrace",
+    "role": "The Guest Who Stayed",
+    "tone": "Moonlight / curiosity / unexpected tenderness",
+    "lead": "At the edge of a candlelit ball, a vampire with the appearance of a twenty-eight-year-old man invites you to stay a little longer.",
+    "s1": "His burgundy velvet jacket catches the candlelight. Dark hair, pale skin and red eyes emerge from behind the mask in his hand.",
+    "s2": "The forest stretches beneath the castle terrace. You decide how close this encounter becomes.",
+    "quote": "You know vampires don’t need sleep. Still want me in your bed?",
+    "beats": [
+      "You step onto the castle terrace. Behind you, a candlelit ballroom turns slowly through its final dance; ahead, moonlight rests on the forest.",
+      "He follows in a burgundy velvet jacket, his mask loose in one hand. Without it, his dark red eyes seem more curious than guarded.",
+      "Your finger rests lightly before his lips, pausing a clever reply. His smile reveals the smallest glimpse of fangs, and he waits for your answer.",
+      "You know vampires don’t need sleep. Still want me in your bed?"
+    ],
+    "choices": [
+      "Ask him to stay and talk",
+      "Suggest a walk in the moonlight"
+    ],
+    "ends": [
+      [
+        "“Stay and keep me company,” you say. He nods, letting you decide what the invitation means.",
+        "You settle by the open window with a blanket and two cups of tea. He asks which part of the evening you wish had lasted longer.",
+        "You trade small, true stories until the music downstairs fades. When you grow quiet, he asks whether you would like him to stay.",
+        "Dawn is still hours away. For once, neither of you is in a hurry to make the night into anything more than this."
+      ],
+      [
+        "You point toward the moonlit path below. He offers you his arm and lets you choose the way.",
+        "The castle grows smaller behind you. He tells you which trees flower at night, and you tell him why you came to the ball.",
+        "At a stone bridge, you stop to listen to the water. He asks what would make you return, then waits without trying to answer for you.",
+        "The path bends back toward the castle. You can keep walking, or turn this shared silence into the beginning of another conversation."
+      ]
+    ],
+    "teaser": [
+      "The last dance ends. He takes off his mask.",
+      "Beyond the candlelight, the night belongs to neither of you. Yet."
+    ]
+  },
+  {
+    "id": "athlete-house",
+    "t": "The Athlete House",
+    "image": "athlete-house.webp",
+    "cat": "Campus romance · Three possible evenings",
+    "role": "The Guest at the Centre",
+    "tone": "Playful rivalry / warmth / choosing your company",
+    "lead": "Three college housemates, all twenty-one or older, have cleared an evening for you in their seaside athlete house.",
+    "s1": "Sports bags and jerseys gather by the kitchen. Sunset catches the sofa, a low stool and the glasses one of them has just taken off.",
+    "s2": "Their invitations are different. Choose whose conversation you want to follow.",
+    "quote": "Who do you wanna spend the night with?",
+    "beats": [
+      "You arrive as the sea outside turns gold. Sports bags sit beside the kitchen, and three housemates make room for you after training.",
+      "The dark-haired athlete rests an arm along the sofa back. Beside you, a playful housemate on a low stool loosely holds your hand.",
+      "The curly-haired one removes his glasses and opens his other palm in invitation. Their friendly rivalry quiets when they look to you.",
+      "Who do you wanna spend the night with?"
+    ],
+    "choices": [
+      "Stay beside the athlete",
+      "Follow the playful housemate",
+      "Take the open hand"
+    ],
+    "ends": [
+      [
+        "You settle beside the dark-haired athlete. The others accept your choice with a smile and return to the kitchen.",
+        "He tells you about a match he still thinks about. You ask what he loves about the game when nobody is watching.",
+        "His answer has little to do with winning. You trade stories while the sea outside becomes a dark line under the sky.",
+        "He asks whether you would like to walk down to the shore. The next part of the evening is yours to choose together."
+      ],
+      [
+        "You turn toward the housemate on the low stool. His bright smile softens as he asks what you feel like doing.",
+        "You choose the balcony. He brings two drinks and admits he rehearsed several impressive ways to welcome you.",
+        "You ask him to try a simple hello instead. He does, and you both laugh at how much easier the conversation becomes.",
+        "The kitchen lights glow behind you. Out here, a playful introduction is becoming a reason to stay."
+      ],
+      [
+        "You place your hand in his open palm. He puts his glasses safely aside and asks if you would like a quieter corner.",
+        "You sit by the window, sharing the last of the sunset. He asks about the thing you have been most excited to tell someone.",
+        "He listens closely, then offers a story of his own. The house settles around you while the conversation keeps finding new paths.",
+        "When the others call that dinner is ready, he waits for your answer. You can join them now, or finish this thought together."
+      ]
+    ],
+    "teaser": [
+      "Training is over. Three housemates have other plans for the evening.",
+      "A shared sofa. Three different smiles. One question for you."
+    ]
+  },
+  {
+    "id": "midnight-garage",
+    "t": "The Midnight Garage",
+    "image": "midnight-garage.webp",
+    "cat": "City romance · After midnight",
+    "role": "The Unexpected Passenger",
+    "tone": "Rain / possibility / a softer kind of adventure",
+    "lead": "At twenty-seven, he knows every late-night corner of the city. Tonight, he wants to know which one you would choose.",
+    "s1": "A warm garage lamp falls across his white vest and dark jeans. His motorcycle is parked, both feet on the ground, his leather jacket over the handlebar.",
+    "s2": "Your hand rests on his shoulder. Blue rain fills the doorway as the night opens into a question.",
+    "quote": "How wild do you wanna get tonight?",
+    "beats": [
+      "You step out of the blue rain and into the warm light of the garage. He looks up from the parked motorcycle with a smile.",
+      "Both of his feet rest on the ground. His leather jacket hangs from the handlebar; you place a hand on his shoulder as he turns toward you.",
+      "He tells you the city has more than one kind of adventure. The engine stays off while he waits to hear what you have in mind.",
+      "How wild do you wanna get tonight?"
+    ],
+    "choices": [
+      "Find somewhere new together",
+      "Stay here until the rain stops"
+    ],
+    "ends": [
+      [
+        "You ask for somewhere neither of you has been. He laughs and opens a map, giving you the first choice.",
+        "A tiny all-night café catches your eye. You make a plan over the sound of rain, discovering how differently you each choose a route.",
+        "When the weather clears, he brings you a spare helmet and checks that it fits. You tell him you would like to take the slow way.",
+        "The garage door opens onto a quiet street. The destination is simple; getting to know each other is the adventure."
+      ],
+      [
+        "“Right here sounds good,” you say. He switches off the work light and pulls two chairs into the warmer glow by the doorway.",
+        "With the motorcycle safely parked, he brings hot drinks. You ask what he usually thinks about when the city finally becomes quiet.",
+        "The answer turns into a story, then another. Your hand finds his only after he offers it across the space between your chairs.",
+        "The rain begins to ease, but neither of you moves immediately. You can leave whenever you like; staying has become a choice of its own."
+      ]
+    ],
+    "teaser": [
+      "Midnight rain. A waiting motorcycle. Nowhere you have to be.",
+      "He has a spare helmet. You get to choose where the night goes."
+    ]
+  },
+  {
+    "id": "elven-court",
+    "t": "The Elven Court",
+    "image": "elven-court.webp",
+    "cat": "Fantasy romance · Beyond the throne",
+    "role": "The Queen’s Confidant",
+    "tone": "Trust / quiet authority / a name without a title",
+    "lead": "The twenty-two-year-old elven queen has dismissed the court. In her private chamber, she asks you to meet the person behind the crown.",
+    "s1": "Blonde hair falls beside pointed ears and a small crown. She sits on the edge of a map table, your guard gloves and cloak set nearby.",
+    "s2": "Beyond the white arches, her city glows. Here, the most consequential thing you can offer is an honest word.",
+    "quote": "It’s just you and me. Say my name.",
+    "beats": [
+      "You enter the queen’s private chamber and set down your guard gloves and cloak. The illuminated elven city fills the white arches beyond the balcony.",
+      "She sits on the edge of the map table, a small crown resting in her blonde hair. The council’s careful formality has left the room.",
+      "She gently tips your chin, then lets her hand fall, giving you space to meet her eyes. For this moment, she asks to hear your own voice.",
+      "It’s just you and me. Say my name."
+    ],
+    "choices": [
+      "Say her name softly",
+      "Ask what she wants you to know"
+    ],
+    "ends": [
+      [
+        "You say her name without the title. Her shoulders ease, and the smile that follows belongs only to this quiet room.",
+        "She asks how your day really went. You tell her a small story from the city that never found its way into a council report.",
+        "Together, you move a candle aside and trace a route across the map. She asks whether you would show her that place someday.",
+        "Beyond the arches, the city is still awake. Beside the map, a promise begins with a name and the freedom to answer honestly."
+      ],
+      [
+        "You ask what she would tell you if she had no crown to wear. She considers the question before inviting you to sit beside her.",
+        "She speaks about a garden she misses and a song she has forgotten. You share a memory that has stayed with you just as quietly.",
+        "The maps remain open, but the conversation has moved beyond borders. She asks whether you would return simply to talk.",
+        "You answer in your own time. For tonight, being heard is enough to make the chamber feel different."
+      ]
+    ],
+    "teaser": [
+      "The court is dismissed. She asks you to stay.",
+      "Beyond the crown and the kingdom, there is a name only you can say."
+    ]
+  },
+  {
+    "id": "roommates",
+    "t": "The Roommates",
+    "image": "roommates.webp",
+    "cat": "Campus romance · A place at the table",
+    "role": "The Housemate They Missed",
+    "tone": "Familiar warmth / honest feelings / mutual choice",
+    "lead": "Your two adult roommates, twenty and twenty-two, have saved dinner for you. Tonight, a familiar welcome carries a new possibility.",
+    "s1": "Three dinners wait beneath a warm lamp. One roommate’s golden-brown hair brushes your shoulder as her hand settles lightly on your forearm; the other offers an open palm.",
+    "s2": "A blanket lies across the sofa, and the university city glows outside. Everyone gets a say in what happens next.",
+    "quote": "Her or me? Or do you want us both?",
+    "beats": [
+      "You come home to three dinners and a warm lamp. Beyond the window, the university city is settling into the night.",
+      "Your golden-brown-haired roommate greets you with a light touch on your forearm. Across the sofa, your dark-haired roommate offers an open hand.",
+      "You sit between them, the folded blanket at your knees. The teasing grows quiet enough for all three of you to speak honestly.",
+      "Her or me? Or do you want us both?"
+    ],
+    "choices": [
+      "Spend time with the first roommate",
+      "Take the other roommate’s hand",
+      "Ask them both to stay and talk"
+    ],
+    "ends": [
+      [
+        "You turn toward the roommate beside your shoulder and ask if she would like to take a walk after dinner. She smiles and says yes.",
+        "Your other roommate wishes you both a good evening. You make sure the choice feels comfortable for everyone before making plans.",
+        "On the quiet street, you talk about when familiar company started to feel like something more. Neither of you needs a perfect answer.",
+        "The apartment lights remain warm above you. You have room to discover this new possibility at a pace you both enjoy."
+      ],
+      [
+        "You take the offered hand and ask your dark-haired roommate to sit with you by the window. She checks that the others are comfortable, then joins you.",
+        "Dinner becomes a long conversation about little things you have noticed in each other. The city moves quietly beyond the glass.",
+        "You admit what you have been hoping to say. She shares her own feelings, leaving room for questions and an unhurried answer.",
+        "When you return to the table, home still feels like home. A new connection can begin without anyone having to rush."
+      ],
+      [
+        "You ask whether they would both like to stay and talk. Each answers for herself, and you agree that nobody has to decide more tonight.",
+        "You share dinner and explain what you each want, what feels comfortable and what you are still figuring out.",
+        "The teasing gives way to a conversation all three of you can take part in. You agree to keep asking rather than assume.",
+        "The blanket is unfolded, the dishes can wait, and the next choice belongs to all of you. For now, you are happy to stay together."
+      ]
+    ],
+    "teaser": [
+      "Three dinners on the table. Your seat is still waiting.",
+      "You know this room by heart. Tonight, something feels different."
+    ]
+  }
+]

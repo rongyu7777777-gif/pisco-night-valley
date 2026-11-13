@@ -1,0 +1,30 @@
+{
+  "shot": "09",
+  "output": "studies/01-previous-style.png",
+  "prompt": "Use case: style-transfer.\nAsset: one landscape 16:9 photoreal cinematic roleplay storyboard still.\nInput1 is the EDIT TARGET: preserve this exact adult man's face, identity, brown tousled hair, stubble, muscular build, white cotton vest, charcoal jeans, thin chain necklace and bracelet; preserve his black motorcycle, draped black leather jacket and the SAME garage, rainy street to left, workbench/tools/warm lamp to right. Input2 is STYLE ONLY: character charisma through asymmetrical body angle, intimate framing, deep cinematic shadows and warm/cool atmospheric contrast. Do not import another face, masquerade clothing or castle.\n\nTransform the character acting away from the current broad friendly teeth-showing smile: he turns his shoulders and looks back toward the viewer from the motorcycle, chin slightly lowered, eyes steady and intent, relaxed brow with a faint confident challenge, lips nearly closed with a very subtle one-sided almost-smile. The moment feels like a private invitation to an adventure. His expression is charismatic, human and nuanced, not angry or threatening. Slightly lower and closer camera than the original, face and near shoulder larger in frame, dynamic diagonal torso rather than posed straight portrait; still include enough motorcycle and workshop for this to be the same scene. He rests his OWN arm casually over the bike, relaxed natural hands, no reaching toward the viewer.\n\nUse the style reference's richness as realistic garage photography: tungsten honey-gold lamp grazes cheek/shoulder, cool indigo-violet rainy street rim light outlines hair and leather, deep neutral blacks with detail, pinpoint chrome reflections, natural skin texture with a subtle believable sheen, tactile cotton, worn leather and metal. Strong cinematic depth, softly blurred distant street, restrained analog grain. Avoid smooth plastic skin and over-sharpened HDR.\nStory continuity is mandatory: same round rearview mirror visible on left and the parchment route map clearly recognizable on right workbench, showing a thin red route from round mirror to white arched bridge to warm rectangular window with three plates. Same black helmet on bench, no new objects. Do not crop out this map. Keep room architecture intact. No first-person viewer hand or arm, no touching his shoulder, no extra people. No wounds or blood. No visible text, watermark, logo or UI. A single full-frame movie still.\n",
+  "qa": [
+    "Closer lower camera and restrained challenge instead of broad smile. Same bike, mirror, helmet and map preserved.",
+    "Visually inspected. No viewer hands or arms; own hands rest on furniture or motorcycle."
+  ],
+  "limitations": [
+    "Generated style redraw; small facial and material changes remain. Adjacent shots need lighting and pose alignment before video use."
+  ],
+  "source": "storyboard-r2/09-midnight-garage.png",
+  "style_reference": "../../references/previous-style-collage.png",
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/09-midnight-garage.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ],
+  "sha256": "7f019d7e16e053f0dcf9fe92389a75c949d8a001f9d45ec712fdf269e0631fad",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 2269232
+}

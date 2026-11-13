@@ -1,0 +1,31 @@
+{
+  "shot": "11",
+  "prompt": "Use case: style-transfer.\nCreate ONE widescreen 16:9 photorealistic cinematic still, not a collage.\nInput image 1 is the EDIT TARGET and strict character identity, original costume, architecture and story prop reference. Input image 2 is ONLY a reference for charismatic photographic attitude, elegant dramatic body language, amber versus violet night colors and tactile materials. Do not adopt its characters or costumes.\nRevise shot 11, the elf queen beside the royal map, to feel more arresting, knowing and emotionally charged. Preserve exactly the same adult blonde queen's facial identity and recognizably same features from image 1: green-hazel eyes, freckles, naturally wavy light-blonde hair, pointed ears, original fine gold leaf crown with central pale oval jewel. Preserve her original fully dressed high-neck, long-sleeved ivory gown with intricate raised gold leaf embroidery and gold belt. No neckline or costume change.\nMake a deliberate pose change while preserving the same place and story: she is perched sideways on the SAME dark wood map table, her torso turned slightly away, near shoulder making a strong diagonal, and she turns her head back toward the lens. Her gaze is calm, assessing and commanding, with chin just slightly lowered, lips relaxed in a very small asymmetric hint of a smile; she has something the viewer wants and waits for them to come closer. Not a broad hospitality smile. Medium-close, intimate eye-level lens, face near center, enough gown and table visible to anchor her in this scene. Natural proportions and realistic skin. Her own hands relaxed and anatomically credible, one resting on the table and the other on her lap; no reaching toward viewer.\nPreserve all continuity: dark private library and sofa left, pale vine-covered arches, moonlit blue elven city with white arch bridges and waterfall on the right, golden lantern. The original large parchment map stays CLEARLY VISIBLE on the right half of the table with its thin red route connecting a round mirror symbol, small white bridge and RECTANGULAR amber window with THREE small dinner plates. Keep the original silver-gold leaf gauntlets beside it. Do not replace map with generic decoration.\nCinematic jewel-tone lighting inspired by image 2: soft honey-amber key from practical lamp sculpting her face and gold embroidery, restrained blue-violet moonlight outlining hair and shoulder, deep spacious velvety shadows, luminous but realistic skin, textured ivory fabric, refined specular gold rather than flat beige illumination. A palpable moment of expectant eye contact and elegant off-axis body language. Photographic editorial film still, shallow focus but map icon story details legible. Preserve her recognizable identity above stylistic exaggeration.\nNo viewer hands, arms or legs; no added characters; no exposed cleavage or changed neckline; no blood, new props, door, portal, text, logo, watermark, UI, borders or montage.",
+  "style_reference": "../../references/previous-style-collage.png",
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/11-elven-court.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ],
+  "output": "studies/01-previous-style.png",
+  "sha256": "389af2b9551de1c5b9f82779d68b819bfaab308d117208f4d607a4955b2a9c43",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "qa": [
+    "Visually inspected generated result: one adult blonde elf queen, green-hazel eyes, freckles, leaf crown and fully covered ivory/gold gown retained.",
+    "Pose changed to a sideways seat with over-shoulder appraising gaze and restrained smile, as requested for added emotional tension.",
+    "Own hands remain on table/lap with natural placement, no viewer limbs.",
+    "Map remains on right table: mirror, white bridge, rectangular warm window and exactly three plate symbols connected by a red route. Gauntlets retained.",
+    "Library left, night city bridges and waterfall right remain. Amber key and violet moonlight are stronger.",
+    "Regenerated style exploration with changed pose and slightly reframed environment; adjoining shot12 would need continuity matching after style selection, not a claim of pixel-exact identity preservation."
+  ],
+  "source": "storyboard-r2/11-elven-court.png",
+  "bytes": 2671216
+}

@@ -1,0 +1,30 @@
+{
+  "shot": "05",
+  "prompt": "Use case: style-transfer.\nCreate ONE finished widescreen 16:9 photorealistic cinematic still, not a collage.\nInput image 1 is the EDIT TARGET and strict identity / costume / setting / prop reference. Input image 2 is ONLY a reference for charismatic photographic attitude, dramatic color, tactile material and intimate cinematic mood. Do not copy its people or costumes.\nRevise shot 05, the vampire at the gothic ball, into a more arresting dramatic character encounter. Keep exactly the adult pale, lean, black wavy-haired man's facial identity from image 1: same bone structure, dark eyebrows, red irises and small visible fangs. Preserve his black button-up shirt and plain burgundy velvet lapel jacket, with no costume redesign. Keep him very close to the viewer, but make the pose more asymmetric: body slightly side-on, one shoulder closer to lens, chin subtly lowered, eyes meeting the lens from under the brow, a restrained one-corner half-smile. This feels like a private, knowing challenge, not a friendly greeting or toothy smile. Natural convincing anatomy, detailed skin, no retouch-plastic skin.\nKeep the original gothic candlelit hall on the left and moonlit forest terrace on the right, the SAME gold and black castle-engraved mask resting clearly visible on the right stone balustrade. Preserve all story props and the geographic relationship of hall, terrace and mask.\nUse stronger chiaroscuro and jewel tones inspired by image 2: rich wine-red velvet folds, honey amber candle highlights across one cheek and black hair, soft restrained violet-blue moon rim on the opposite side, deep textured shadows without crushing the face. Amber/violet color separation, practical candles in depth, lens falloff and cinematic microcontrast. Focus strongest on eyes and face; mask and castle engraving remain recognizable. Natural 35mm movie still with a palpable diagonal lean and emotional tension. Keep enough setting to connect this shot to the established story.\nNo viewer body, no viewer hands, no touching lips or face, no new characters, no gore, no blood, no new doors or portals, no text, logo, watermark, UI, borders or split panels. Maintain original identity and story above all.",
+  "style_reference": "../../references/previous-style-collage.png",
+  "output": "studies/01-previous-style.png",
+  "qa": [
+    "Visually inspected generated result: one adult vampire, consistent face silhouette, black shirt and burgundy velvet jacket retained.",
+    "More pronounced diagonal shoulder, chin lowered, restrained asymmetric half-smile and direct eye contact.",
+    "Castle-engraved gold mask remains on right balustrade; candle hall left and moon forest right remain.",
+    "No viewer limbs, gore, text or UI.",
+    "This is a regenerated style exploration; precise face pixels and pose differ, so adjoining transition shots would require harmonization after user selects this direction."
+  ],
+  "sha256": "f67500e5fac91a69fc4e96b9728bd15f283efdc8fb25353179fe2664d38e295b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/05-vampire-castle.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ],
+  "source": "storyboard-r2/05-vampire-castle.png",
+  "bytes": 2177149
+}

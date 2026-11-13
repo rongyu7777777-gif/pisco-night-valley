@@ -1,0 +1,9 @@
+{
+  "folder": "01-opening",
+  "title": "开场 · 门缝与开门",
+  "storyboard": [
+    "scenes/01-opening/storyboard-r2/01-door-ajar.png",
+    "scenes/01-opening/storyboard-r2/02-door-open.png"
+  ],
+  "studies": []
+}

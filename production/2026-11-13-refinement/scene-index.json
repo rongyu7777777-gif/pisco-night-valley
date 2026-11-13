@@ -1,0 +1,99 @@
+[
+  {
+    "folder": "01-opening",
+    "title": "开场 · 门缝与开门",
+    "storyboard": [
+      "scenes/01-opening/storyboard-r2/01-door-ajar.png",
+      "scenes/01-opening/storyboard-r2/02-door-open.png"
+    ],
+    "studies": []
+  },
+  {
+    "folder": "02-private-club",
+    "title": "私人会所",
+    "storyboard": [
+      "scenes/02-private-club/storyboard-r2/03-private-club.png",
+      "scenes/02-private-club/storyboard-r2/04-mask-crossing.png"
+    ],
+    "studies": [
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/02-private-club/studies/01-previous-style.png"
+      }
+    ]
+  },
+  {
+    "folder": "03-vampire-castle",
+    "title": "吸血鬼古堡",
+    "storyboard": [
+      "scenes/03-vampire-castle/storyboard-r2/05-vampire-castle.png",
+      "scenes/03-vampire-castle/storyboard-r2/06-coastal-reflection.png"
+    ],
+    "studies": [
+      {
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/03-vampire-castle/studies/02-gothic-couture-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/03-vampire-castle/studies/01-previous-style.png"
+      }
+    ]
+  },
+  {
+    "folder": "04-athlete-house",
+    "title": "海边运动员之家",
+    "storyboard": [
+      "scenes/04-athlete-house/storyboard-r2/07-athlete-house.png",
+      "scenes/04-athlete-house/storyboard-r2/08-helmet-crossing.png"
+    ],
+    "studies": [
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/04-athlete-house/studies/01-previous-style.png"
+      }
+    ]
+  },
+  {
+    "folder": "05-midnight-garage",
+    "title": "午夜车库",
+    "storyboard": [
+      "scenes/05-midnight-garage/storyboard-r2/09-midnight-garage.png",
+      "scenes/05-midnight-garage/storyboard-r2/10-mirror-crossing.png"
+    ],
+    "studies": [
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/05-midnight-garage/studies/01-previous-style.png"
+      }
+    ]
+  },
+  {
+    "folder": "06-elven-court",
+    "title": "精灵王庭",
+    "storyboard": [
+      "scenes/06-elven-court/storyboard-r2/11-elven-court.png",
+      "scenes/06-elven-court/storyboard-r2/12-map-crossing.png"
+    ],
+    "studies": [
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/06-elven-court/studies/01-previous-style.png"
+      }
+    ]
+  },
+  {
+    "folder": "07-roommates",
+    "title": "室友 · 为你留的位置",
+    "storyboard": [
+      "scenes/07-roommates/storyboard-r2/13-roommates.png",
+      "scenes/07-roommates/storyboard-r2/14-reserved-place.png"
+    ],
+    "studies": [
+      {
+        "label": "上一轮风格样张（待重做）",
+        "path": "scenes/07-roommates/studies/01-previous-style.png"
+      }
+    ]
+  }
+]

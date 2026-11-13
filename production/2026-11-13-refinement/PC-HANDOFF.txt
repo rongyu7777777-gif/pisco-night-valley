@@ -1,0 +1,45 @@
+PISCO — 官网内容优化与场景归档 / 2026-11-13
+
+本轮完成：
+1. 六个世界分别新增两句短引子，保留六句原始对白及旧故事正文。
+2. Stories 列表增加类型、故事引子和用户角色；About 重新说明体验。
+3. 手机端恢复 Stories / About 入口，窄屏列表改为单列。
+4. 14 张 r2 分镜与 7 张风格图，按 7 个场景目录分别保存。
+5. 古堡新增一张按最新参考重做的静态样张，服装、姿态、构图都已调整。
+
+打开 review.html 查看全部素材和两种官网预览：
+website/index.html — 新文案 + 现有六条视频。
+website/art-study.html#vampire-castle — 新文案 + 新古堡静态样张。
+新古堡预览有网站的光影与景深运动，没有新生成的人物视频。
+
+目录：
+scenes/01-opening/ — 01 门缝、02 开门
+scenes/02-private-club/ — 03 会所、04 假面过渡
+scenes/03-vampire-castle/ — 05 古堡、06 海岸过渡、新古堡样张与实际提示词
+scenes/04-athlete-house/ — 07 运动员之家、08 头盔过渡
+scenes/05-midnight-garage/ — 09 车库、10 后视镜过渡
+scenes/06-elven-court/ — 11 女王、12 地图过渡
+scenes/07-roommates/ — 13 室友、14 留好的位置
+每个场景内 storyboard-r2 保存剧情参考，studies 保存风格探索。
+references/ 是共用风格参考；brand/ 是最新 Logo 和字体。
+assets-manifest.json 保存素材 SHA256；scene-index.json 是素材路径索引。
+website-source/ 保留完整可重建的官网源文件、视频、字体与检查。
+
+重要版本状态：
+上一轮六张风格样张未获用户认可，本轮只有古堡已按新方向重做。
+其余五幕仍标为待重做；相邻转场图尚未统一新版服装与道具位置。
+新古堡没有写入旧视频首尾帧计划，没有消耗新的 TapNow 点数。
+公开 main / GitHub Pages 未更新。本包同步至独立工作分支供 PC 接续。
+
+PC 预览（在当前目录打开终端）：
+py -m http.server 4198 --bind 127.0.0.1
+浏览器打开 http://127.0.0.1:4198/review.html
+
+重建官网：
+py website-source/src/assemble.py
+生成 website-source/dist/index.html 和 art-study.html。
+重建素材目录页：py build_review.py
+交互检查：node --test website-source/tests/camera-travel.test.mjs website-source/tests/scene-motion.test.mjs
+
+本轮图像工具：内置 ImageGen。
+新图提示词：scenes/03-vampire-castle/gothic-couture-v3.prompt.txt

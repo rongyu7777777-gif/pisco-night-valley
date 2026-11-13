@@ -1,0 +1,30 @@
+{
+  "shot": "03",
+  "output": "studies/01-previous-style.png",
+  "prompt": "Use case: style-transfer.\nCreate a new cinematic 16:9 full-frame photographic style variant of Image 1, not a collage. Image 1 is the EDIT TARGET and strict identity/costume/location/story reference. Image 2 is ONLY a reference for charismatic character acting, rich material texture, stronger atmospheric amber-violet lighting and intimate movie-poster tension. Do not copy any character or costume from Image 2.\n\nKeep the very same adult man from Image 1: dark wavy hair, moustache and stubble, exact facial proportions; same rolled black shirt, loose grey tie, leaf and compass forearm tattoos and watch. Same private club, rainy city window left, warm lamp, brown leather seating, black glass divider and defocused gala behind. The invitation and castle-engraved masquerade mask must still be clearly visible on the lower-right black marble table. Preserve the card's gold crescent and picture of a wide rectangular warm window with THREE dinner plates.\n\nChange the acting and cinematography decisively: shoulder angled toward camera and body leaning diagonally, head slightly tilted and chin lower, direct sustained eye contact from under relaxed brows, one corner of his closed mouth raised in a knowing, testing almost-smile rather than a welcoming smile. He has just paused a private conversation, confident and magnetic. Keep natural believable anatomy, not a dramatic angry scowl. Face is the visual focal point and close enough to feel the viewer's personal space, with foreground/background depth and asymmetric framing. His own hands remain naturally supported on furniture and table, unobtrusive rather than reaching toward lens.\n\nBring the drama of the style reference into this same contemporary room: warmer candle-gold highlights on cheek and glass, deeper wine-brown leather shadows, cool muted violet-blue rim light from the rainy window, concentrated pools of practical light, glossy black marble and silky shirt highlights. Tactile pores, fine hair, filmic contrast, controlled saturation, premium photoreal cinematic editorial image. Retain legibility of key face and invitation; do not crush blacks. No fantasy costumes or new architecture. No camera shake or motion blur. NO viewer hand, no viewer arm, no touching his body or tie, no extra foreground person. No lettering, no logo, no UI, no watermark. A single landscape movie still, not a webpage.\n",
+  "qa": [
+    "More forward diagonal lean, closed-mouth knowing gaze. Grey tie, tattoos, same mask and invitation with three plates preserved.",
+    "Visually inspected. No viewer hands or arms; own hands rest on furniture or motorcycle."
+  ],
+  "limitations": [
+    "Generated style redraw; small facial and material changes remain. Adjacent shots need lighting and pose alignment before video use."
+  ],
+  "source": "storyboard-r2/03-private-club.png",
+  "style_reference": "../../references/previous-style-collage.png",
+  "input_references": [
+    {
+      "role": "character_and_story_reference",
+      "path": "storyboard-r2/03-private-club.png"
+    },
+    {
+      "role": "style_reference",
+      "path": "../../references/previous-style-collage.png"
+    }
+  ],
+  "sha256": "6c283c7ce5b99089a604b042a3deb9d4bd99d8bbd664b79c2b7b754926885f89",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 2201705
+}

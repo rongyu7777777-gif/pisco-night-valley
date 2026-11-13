@@ -1,0 +1,18 @@
+{
+  "folder": "03-vampire-castle",
+  "title": "吸血鬼古堡",
+  "storyboard": [
+    "scenes/03-vampire-castle/storyboard-r2/05-vampire-castle.png",
+    "scenes/03-vampire-castle/storyboard-r2/06-coastal-reflection.png"
+  ],
+  "studies": [
+    {
+      "label": "本轮新样张 · 造型与构图重做",
+      "path": "scenes/03-vampire-castle/studies/02-gothic-couture-v3.png"
+    },
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/03-vampire-castle/studies/01-previous-style.png"
+    }
+  ]
+}

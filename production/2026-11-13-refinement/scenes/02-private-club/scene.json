@@ -1,0 +1,14 @@
+{
+  "folder": "02-private-club",
+  "title": "私人会所",
+  "storyboard": [
+    "scenes/02-private-club/storyboard-r2/03-private-club.png",
+    "scenes/02-private-club/storyboard-r2/04-mask-crossing.png"
+  ],
+  "studies": [
+    {
+      "label": "上一轮风格样张（待重做）",
+      "path": "scenes/02-private-club/studies/01-previous-style.png"
+    }
+  ]
+}

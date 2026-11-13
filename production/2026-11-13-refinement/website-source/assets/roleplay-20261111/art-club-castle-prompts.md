@@ -1,0 +1,15 @@
+# Private club and vampire castle scene assets
+
+Generated using the built-in ImageGen tool on 2026-11-11 from the user-linked Feishu roleplay brief. These are fictional adult characters, created as cinematic website background plates.
+
+Both generated source PNGs are 1672 × 941 pixels (approximately 16:9). WebP copies use quality 90 with no resize or content changes. Original PNGs and built-in outputs are preserved. Visually checked subject age, clothing, viewpoint, gestures, scene depth and absence of text/UI.
+
+Assets: `private-club.png`, `private-club.webp`, `vampire-castle.png`, `vampire-castle.webp`.
+
+## Private club
+
+Use case: ads-marketing. Asset type: wide 16:9 cinematic website scene, 2048x1152 preferred. Photoreal live-action adult romantic drama still, not illustration. First-person camera seated on a dark leather sofa inside an exclusive private club. A handsome 28-year-old adult man stands close in front of the viewer, framed mostly center-right, with a black shirt, loosened dark tie, sleeves rolled neatly to reveal subtle forearm tattoos and a wristwatch. Only the adult viewer's hand appears at the lower edge, lightly holding the end of his tie. He leans forward naturally with one hand resting on a low table, looking directly at the camera with a restrained jealous expression and a slight playful smile. Keep realistic hand anatomy and an elegant fully clothed interaction. Through a glass partition behind him, softly blurred evening gala guests; through tall windows beyond, a rainy city at night. Warm amber lamps, charcoal shadows, nuanced skin texture, shallow cinematic depth, sophisticated film grain. Leave some darker quiet space toward center-left for website typography, while keeping the subject large and emotionally readable. No writing, no captions, no logo, no watermark, no interface, no collage, no nudity.
+
+## Vampire castle
+
+Use case: ads-marketing. Asset type: wide 16:9 cinematic website scene, 2048x1152 preferred. Photoreal live-action adult fantasy romantic drama, not anime or illustration. First-person viewpoint on the stone terrace of a gothic castle. A handsome clearly adult 28-year-old vampire with pale skin, black hair and subtle deep ruby irises wears a fully closed burgundy velvet dinner jacket over a black shirt. Framed mostly center-right, he leans toward the viewer, pauses and raises his eyes to meet the camera. Only the adult viewer's raised hand is visible in the lower foreground, one finger gently poised just in front of his lips. His lips are only slightly parted, showing a hint of small canines; one of his hands holds an elegant removed masquerade mask. A glowing candlelit banquet hall recedes behind him on the left, and a moonlit forest beyond the terrace creates depth on the right. Cool silver moonlight on his face with amber candle edge-light, rich velvet detail, believable anatomy, sophisticated cinematic color and subtle grain. Quiet dark space at center-left for website text. Tasteful fully clothed, emotionally intimate encounter. No writing, no captions, no logo, no watermark, no interface, no collage, no nudity.
