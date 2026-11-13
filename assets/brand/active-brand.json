@@ -1,24 +1,20 @@
 {
-  "revision": "latest-20261113-r2",
+  "revision": "latest-20261113-r3",
   "source": "https://www.figma.com/design/X1qgc2OkRj5ns4XARQpqAW?node-id=205-886",
   "frameId": "205:886",
+  "exportedGroupId": "213:1036",
   "colors": {
     "brand": "#E5DFBA",
     "background": "#000000"
   },
   "wordmarkViewBox": [
-    231,
-    182.5,
-    1469.5,
-    404
+    0,
+    0,
+    1490,
+    433
   ],
-  "markViewBox": [
-    231,
-    182.5,
-    437.75,
-    404
-  ],
-  "geometry": "Native Figma SVG paths unchanged; transparent negative spaces; only viewBox cropped with 1px margin",
-  "sourceSHA256": "c2697f05405f39cda30a0d40d4882778771f0356d02d3e5770d4428e485029d0",
+  "geometry": "Unmodified native Figma SVG export of the visible wordmark group; transparent background and negative spaces",
+  "sourceSHA256": "4e89f73b88e03f0ab8c045bc7596ef88f5d1086dcdc39acb5e578c6009a64e90",
+  "wordmarkSHA256": "caa69c9768d0c1afa236e09b8ea9f7cb53f698f5855439b8c5b731b451d5aadf",
   "websiteLogoAsset": "assets/pisco-logo-latest.svg"
 }
