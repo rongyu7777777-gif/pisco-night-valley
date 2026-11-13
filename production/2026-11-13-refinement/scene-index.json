@@ -17,7 +17,11 @@
     ],
     "studies": [
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/02-private-club/studies/02-editorial-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/02-private-club/studies/01-previous-style.png"
       }
     ]
@@ -35,7 +39,7 @@
         "path": "scenes/03-vampire-castle/studies/02-gothic-couture-v3.png"
       },
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/03-vampire-castle/studies/01-previous-style.png"
       }
     ]
@@ -49,7 +53,11 @@
     ],
     "studies": [
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/04-athlete-house/studies/02-editorial-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/04-athlete-house/studies/01-previous-style.png"
       }
     ]
@@ -63,7 +71,11 @@
     ],
     "studies": [
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/05-midnight-garage/studies/02-editorial-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/05-midnight-garage/studies/01-previous-style.png"
       }
     ]
@@ -77,7 +89,11 @@
     ],
     "studies": [
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/06-elven-court/studies/02-editorial-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/06-elven-court/studies/01-previous-style.png"
       }
     ]
@@ -91,7 +107,11 @@
     ],
     "studies": [
       {
-        "label": "上一轮风格样张（待重做）",
+        "label": "本轮新样张 · 造型与构图重做",
+        "path": "scenes/07-roommates/studies/02-editorial-v3.png"
+      },
+      {
+        "label": "上一轮风格样张（存档）",
         "path": "scenes/07-roommates/studies/01-previous-style.png"
       }
     ]

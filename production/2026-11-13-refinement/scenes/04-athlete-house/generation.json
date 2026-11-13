@@ -1,0 +1,32 @@
+{
+  "created": "2026-11-13",
+  "tool": "Built-in ImageGen",
+  "status": "static art study; not video footage",
+  "output": "studies/02-editorial-v3.png",
+  "prompt": "editorial-v3.prompt.txt",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "21db13b8552b141c712596598867c6f6c219ae780fe5c917c730f2a07d591b04",
+  "visual_qa": [
+    "Exactly three adult men; distinct seated/reclining/leaning levels and outfits.",
+    "Sports jerseys, helmet and handheld glasses visible.",
+    "No viewer limbs, burned-in captions or added logos.",
+    "Adjacent storyboard frames retain older costumes; update continuity before video production."
+  ],
+  "input_references": [
+    {
+      "role": "primary_style",
+      "path": "../../references/current-style-collage.png"
+    },
+    {
+      "role": "supporting_art_direction",
+      "path": "../03-vampire-castle/studies/02-gothic-couture-v3.png"
+    },
+    {
+      "role": "cast_and_story",
+      "path": "storyboard-r2/07-athlete-house.png"
+    }
+  ]
+}

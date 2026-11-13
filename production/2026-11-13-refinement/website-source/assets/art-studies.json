@@ -1,0 +1,8 @@
+{
+  "private-club": {"image": "scenes/private-club/studies/editorial-v3.png", "focus": 0.2},
+  "vampire-castle": {"image": "scenes/vampire-castle/studies/gothic-couture-v3.png", "focus": 0.24},
+  "athlete-house": {"image": "scenes/athlete-house/studies/editorial-v3.png", "focus": 0.08},
+  "midnight-garage": {"image": "scenes/midnight-garage/studies/editorial-v3.png", "focus": 0.2},
+  "elven-court": {"image": "scenes/elven-court/studies/editorial-v3.png", "focus": 0.15},
+  "roommates": {"image": "scenes/roommates/studies/editorial-v3.png", "focus": -0.2}
+}

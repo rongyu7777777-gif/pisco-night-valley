@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "02-private-club",
+    "image": "scenes/02-private-club/studies/02-editorial-v3.png",
+    "generation": "scenes/02-private-club/generation.json",
+    "prompt": "scenes/02-private-club/editorial-v3.prompt.txt"
+  },
+  {
+    "scene": "03-vampire-castle",
+    "image": "scenes/03-vampire-castle/studies/02-gothic-couture-v3.png",
+    "generation": "scenes/03-vampire-castle/generation.json",
+    "prompt": "scenes/03-vampire-castle/gothic-couture-v3.prompt.txt"
+  },
+  {
+    "scene": "04-athlete-house",
+    "image": "scenes/04-athlete-house/studies/02-editorial-v3.png",
+    "generation": "scenes/04-athlete-house/generation.json",
+    "prompt": "scenes/04-athlete-house/editorial-v3.prompt.txt"
+  },
+  {
+    "scene": "05-midnight-garage",
+    "image": "scenes/05-midnight-garage/studies/02-editorial-v3.png",
+    "generation": "scenes/05-midnight-garage/generation.json",
+    "prompt": "scenes/05-midnight-garage/editorial-v3.prompt.txt"
+  },
+  {
+    "scene": "06-elven-court",
+    "image": "scenes/06-elven-court/studies/02-editorial-v3.png",
+    "generation": "scenes/06-elven-court/generation.json",
+    "prompt": "scenes/06-elven-court/editorial-v3.prompt.txt"
+  },
+  {
+    "scene": "07-roommates",
+    "image": "scenes/07-roommates/studies/02-editorial-v3.png",
+    "generation": "scenes/07-roommates/generation.json",
+    "prompt": "scenes/07-roommates/editorial-v3.prompt.txt"
+  }
+]

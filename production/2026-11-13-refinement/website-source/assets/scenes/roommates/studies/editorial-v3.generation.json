@@ -1,0 +1,18 @@
+{
+  "created": "2026-11-13",
+  "tool": "Built-in ImageGen",
+  "status": "static art study; not video footage",
+  "output": "studies/02-editorial-v3.png",
+  "prompt": "editorial-v3.prompt.txt",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "2444101cf31a2accd5dc161f6d8abb63903267fd3f71b314df3907e58c577c28",
+  "visual_qa": [
+    "Exactly two adult women in satin, lace and velvet eveningwear; asymmetric poses.",
+    "Exactly three dinner settings, invitation and empty sofa space visible.",
+    "No viewer limbs, burned-in captions or added logos.",
+    "Adjacent storyboard frames retain older costumes; update continuity before video production."
+  ]
+}

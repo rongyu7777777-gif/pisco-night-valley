@@ -18,6 +18,14 @@
     "about_navigation": "passed",
     "roommates_selection": "passed",
     "console_errors": 0,
-    "review_images_loaded": 8
+    "review_images_loaded": 8,
+    "six_art_stills_loaded": true,
+    "art_preview_console_errors": 0
+  },
+  "new_scene_media": {
+    "tool": "Built-in ImageGen",
+    "latest_stills": 6,
+    "new_in_this_turn": 5,
+    "video_elements_in_art_preview": 0
   }
 }

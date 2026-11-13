@@ -35,18 +35,30 @@ html=(source/'interface.html').read_text().replace('/* EMBED_FONTS */',fonts).re
 (root/'dist/index.html').write_text(html)
 print('Built six-world roleplay version:',len(html.encode()),'bytes')
 
-# Keep the new still as a reviewable website variant until its adjoining
-# storyboard frames and replacement motion have been produced.
-study=assets/'scenes/vampire-castle/studies/gothic-couture-v3.png'
-if study.exists():
+# Keep the coordinated artwork as a separate static website preview.
+# New costumes must not flash back to the previous videos during playback.
+study_manifest=assets/'art-studies.json'
+if study_manifest.exists():
+    studies=json.loads(study_manifest.read_text())
     study_scenes=[dict(scene) for scene in scenes]
-    castle=next(scene for scene in study_scenes if scene['id']=='vampire-castle')
-    castle['src']=uri(study,'image/png')
-    castle['focus']=.24
-    castle.pop('video',None)
+    if set(studies)!=set(scene['id'] for scene in scenes):
+        raise ValueError('The art preview requires one approved-for-review still for each of the six worlds.')
+    study_output=root/'dist/assets/art'
+    study_output.mkdir(parents=True,exist_ok=True)
+    for scene in study_scenes:
+        item=studies[scene['id']]
+        study=(assets/item['image']).resolve()
+        if assets.resolve() not in study.parents or not study.is_file():
+            raise ValueError(f'Invalid art study: {item["image"]}')
+        digest=hashlib.sha256(study.read_bytes()).hexdigest()[:12]
+        filename=f'{scene["id"]}-{digest}{study.suffix.lower()}'
+        shutil.copy2(study,study_output/filename)
+        scene['src']=f'assets/art/{filename}'
+        scene['focus']=item['focus']
+        scene.pop('video',None)
     study_engine=engine.replace('const PISCO_SCENES='+json.dumps(scenes)+';', 'const PISCO_SCENES='+json.dumps(study_scenes)+';',1)
     study_html=html.replace(re.sub(r'</script',r'<\\/script',engine,flags=re.I),re.sub(r'</script',r'<\\/script',study_engine,flags=re.I),1)
-    study_html=study_html.replace('<title>Pisco — Behind the Curtain</title>','<title>Pisco — Gothic art study</title>')
-    study_html=study_html.replace('<body data-view="hero"', '<body data-art-study="gothic-couture-v3" data-view="hero"',1)
+    study_html=study_html.replace('<title>Pisco — Behind the Curtain</title>','<title>Pisco — Six-world art studies</title>')
+    study_html=study_html.replace('<body data-view="hero"', '<body data-art-study="editorial-v3" data-view="hero"',1)
     (root/'dist/art-study.html').write_text(study_html)
-    print('Built art-study.html with the new castle still; original castle video excluded.')
+    print('Built art-study.html with six new stills; previous videos excluded from this art preview.')

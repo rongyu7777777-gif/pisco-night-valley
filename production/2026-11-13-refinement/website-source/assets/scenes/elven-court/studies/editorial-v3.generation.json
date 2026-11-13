@@ -1,0 +1,18 @@
+{
+  "created": "2026-11-13",
+  "tool": "Built-in ImageGen",
+  "status": "static art study; not video footage",
+  "output": "studies/02-editorial-v3.png",
+  "prompt": "editorial-v3.prompt.txt",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "00d977a9df961e3c5b18b119871e9063cb4f06f9ee001f51fa679d1fc50f983e",
+  "visual_qa": [
+    "Over-shoulder pose; embroidered off-shoulder gown, lace and pearl details.",
+    "Crown, pointed ears, parchment map, guard gloves and cloak visible.",
+    "No viewer limbs, burned-in captions or added logos.",
+    "Adjacent storyboard frames retain older costumes; update continuity before video production."
+  ]
+}

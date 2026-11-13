@@ -1,0 +1,18 @@
+{
+  "created": "2026-11-13",
+  "tool": "Built-in ImageGen",
+  "status": "static art study; not video footage",
+  "output": "studies/02-editorial-v3.png",
+  "prompt": "editorial-v3.prompt.txt",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "533fd3f56d033bc576638ee57dc99bb4080a881864e02988fc6f9d7a9755123a",
+  "visual_qa": [
+    "Leather jacket and henley; lower wider camera and restrained gaze.",
+    "Motorcycle, helmet, map and boots visible.",
+    "No viewer limbs, burned-in captions or added logos.",
+    "Adjacent storyboard frames retain older costumes; update continuity before video production."
+  ]
+}
