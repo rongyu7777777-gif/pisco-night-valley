@@ -1,7 +1,12 @@
-# Pisco — A night of possibilities
+# Pisco — Four chapters
 
-Public cinematic roleplay preview. Revision: v11-coffee-r8-20261116.
+Revision: v12-four-chapters-r8-20261116.
 
-The first scene uses the supplied coffee preview with the exact R8 SVG logo. The other five scenes retain their existing videos. Scroll, drag and arrow keys control the camera and luminous tear independently from video playback.
+1. The Coffee Date
+2. The Mafia Club — Coming soon (placeholder; video pending)
+3. The Motorcycle Ride
+4. The Ballroom
 
-This repository contains only the deployable static website. GitHub Pages publishes the root of main. Developer source is delivered separately. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
+The supplied coffee, motorcycle and ballroom preview files play in full. The exact R8 SVG logo is preserved. Previous worlds and their media have been removed from this runtime. Scroll, drag and arrow keys control camera travel independently from playback, wrapping from chapter four to chapter one.
+
+GitHub Pages publishes this runtime from the root of main. Developer source is delivered separately. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
