@@ -1,15 +1,6 @@
 {
-  "revision": "user-supplied-r6-20261113",
-  "colors": {
-    "brand": "#E5DFBA",
-    "background": "#000000"
-  },
-  "wordmarkViewBox": [
-    225,
-    158.5,
-    1477.5,
-    404
-  ],
-  "geometry": "User-supplied SVG copied byte-for-byte; no path or aspect-ratio edits",
-  "wordmarkSHA256": "0e70f327b6474b4e7248f02580b2e63a07825c589a9f38d83b6d075c6a553907"
+  "revision": "user-supplied-r8-20261116",
+  "wordmarkSHA256": "6e126a198d8f3cb68925778ad6a2dc289062da6e063e73225f3cd92de72e3199",
+  "websiteLogoAsset": "assets/brand/pisco-logo-latest.svg",
+  "releaseVersion": "v11-coffee-r8-20261116"
 }

@@ -1,7 +1,7 @@
-# Pisco — Behind the Curtain
+# Pisco — A night of possibilities
 
-Public cinematic roleplay preview with six worlds, continuously playing characters, gesture-controlled camera movement, luminous tearing and uppercase titles.
+Public cinematic roleplay preview. Revision: v11-coffee-r8-20261116.
 
-This repository contains the runtime static website. GitHub Pages publishes the root of main. The full production archive, storyboard, source project and full-film exports are not included in this release.
+The first scene uses the supplied coffee preview with the exact R8 SVG logo. The other five scenes retain their existing videos. Scroll, drag and arrow keys control the camera and luminous tear independently from video playback.
 
-Current revision: v10-share-20261113. Logo: exact user-supplied r6 SVG. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
+This repository contains only the deployable static website. GitHub Pages publishes the root of main. Developer source is delivered separately. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
