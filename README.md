@@ -1,13 +1,13 @@
 # Pisco — Four video previews
 
-Revision: v16-poker-table-faster-scenes-20261117.
+Revision: v17-two-scenes-1p5x-20261117.
 
 1. The Coffee Date — 1×
-2. The Winter Lodge — 1.2×
-3. The Poker Table — 1.2×
+2. The Winter Lodge — 1.5×
+3. The Poker Table — 1.5×
 4. The Ballroom — 1×
 
-The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 20% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio. Site playback remains muted.
+The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio. Site playback remains muted.
 
 The exact R9 SVG artwork and aspect ratio are preserved. Header logo widths remain 92 px on desktop, 74 px on mobile portrait and 64 px on small-screen landscape.
 
