@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v19-original-video-audio-20261118.
+Revision: v20-winter-lodge-replacement-20261118.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -8,6 +8,8 @@ Revision: v19-original-video-audio-20261118.
 4. The Ballroom — 1×
 
 The first chapter now uses the user-supplied countdown footage from 2026-11-18, with matching start/end images. Its complete 302-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4; the original AAC audio packets are copied unchanged. First-scene playback remains 1x. First-scene titles, teaser, accessibility text and Stories card now match the countdown scene. The stable coffee-date scene ID remains for existing deep links.
+
+The Winter Lodge now uses the user-supplied 2026-11-18 16:27 video with matching start/end images. Its complete 362-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4, with unchanged original AAC audio packets. Native playback remains 1.5x.
 
 The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio.
 
