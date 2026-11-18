@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v20-winter-lodge-replacement-20261118.
+Revision: v21-social-navigation-20261118.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -20,3 +20,5 @@ The exact R9 SVG artwork and aspect ratio are preserved. Header logo widths rema
 This is a current preview release; updated footage is expected later. Scroll, drag and arrow keys control camera travel independently from native playback. Chapter four wraps to chapter one, including reverse travel.
 
 GitHub Pages publishes this runtime from the root of main. Developer source is delivered separately. Inria Serif is distributed under the SIL Open Font License; see FONT-LICENSE.txt.
+
+The header links to the supplied TikTok, X and Discord destinations in new tabs, using locally embedded Simple Icons brand marks. Stories, About and the 18+ header label are removed. The logo now uses a 20-32 px desktop left inset and 16 px mobile left inset while preserving the original artwork and size.
