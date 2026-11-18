@@ -1,11 +1,13 @@
 # Pisco — Four video previews
 
-Revision: v17-two-scenes-1p5x-20261117.
+Revision: v18-countdown-opening-20261118.
 
-1. The Coffee Date — 1×
+1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
 3. The Poker Table — 1.5×
 4. The Ballroom — 1×
+
+The first chapter now uses the user-supplied countdown footage from 2026-11-18, with matching start/end images. Its complete 302-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4; the original AAC audio packets are copied unchanged. First-scene playback remains 1x and site playback remains muted. First-scene titles, teaser, accessibility text and Stories card now match the countdown scene. The stable coffee-date scene ID remains for existing deep links.
 
 The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio. Site playback remains muted.
 
