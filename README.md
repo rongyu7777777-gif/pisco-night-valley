@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v35-remove-loading-copy-20261119.
+Revision: v36-remove-bottom-progress-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -17,7 +17,7 @@ The Sound control plays the original embedded audio of the current chapter. It i
 
 The exact R9 SVG artwork and aspect ratio are preserved. Header logo widths remain 92 px on desktop, 74 px on mobile portrait and 64 px on small-screen landscape.
 
-The temporary “Setting the scene…” loading label has been removed. Media initialization and chapter deep links remain unchanged.
+The temporary “Setting the scene…” loading label and the thin progress bar at the very bottom edge have been removed. Chapter navigation and the animated scroll hint remain available. Media initialization, camera travel and chapter deep links are unchanged.
 
 This is a current preview release; updated footage is expected later. Scroll, drag and arrow keys control camera travel independently from native playback. Chapter four wraps to chapter one, including reverse travel.
 
