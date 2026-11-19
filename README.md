@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v34-linear-volume-icons-20261119.
+Revision: v35-remove-loading-copy-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -16,6 +16,8 @@ The third chapter replaces the previous motorcycle clip with the newly supplied 
 The Sound control plays the original embedded audio of the current chapter. It is available on desktop and mobile. Videos start muted for browser autoplay; click the speaker icon beside the social links to enable original audio. Audio follows the active chapter during transitions, keeping background/preloaded chapters muted. The synthetic oscillator soundtrack has been removed. The current Ballroom asset and its pre-repair export contain no audio track; restoring that chapter's original soundtrack requires a source file with audio. Native pitch preservation remains enabled for the 1.5x scenes.
 
 The exact R9 SVG artwork and aspect ratio are preserved. Header logo widths remain 92 px on desktop, 74 px on mobile portrait and 64 px on small-screen landscape.
+
+The temporary “Setting the scene…” loading label has been removed. Media initialization and chapter deep links remain unchanged.
 
 This is a current preview release; updated footage is expected later. Scroll, drag and arrow keys control camera travel independently from native playback. Chapter four wraps to chapter one, including reverse travel.
 
