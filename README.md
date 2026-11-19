@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v32-animated-scroll-cue-20261119.
+Revision: v33-desktop-logo-inset-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -21,7 +21,7 @@ This is a current preview release; updated footage is expected later. Scroll, dr
 
 GitHub Pages publishes this self-contained static site from the root of main. Typography uses Bodoni Moda for headlines and Manrope for body/UI, self-hosted as WOFF2. Both are licensed under SIL OFL 1.1; full notices are included in assets/fonts/.
 
-The header links to the supplied TikTok, X and Discord destinations in new tabs, using locally embedded Tabler outline brand marks. Stories, About and the 18+ header label are removed. The logo now uses a 20-32 px desktop left inset and 16 px mobile left inset while preserving the original artwork and size.
+The header links to the supplied TikTok, X and Discord destinations in new tabs, using locally embedded Tabler outline brand marks. Stories, About and the 18+ header label are removed. The logo uses a 28-40 px desktop left inset (8 px more breathing room from the left edge) and a 16 px mobile left inset, preserving the original artwork and size.
 
 Social links are icon-only on all screen sizes, with optically balanced brand sizes and 44 px touch targets. The original-audio toggle sits beside them and switches between muted-speaker and sound-wave icons, with accessible state labels and keyboard focus.
 
