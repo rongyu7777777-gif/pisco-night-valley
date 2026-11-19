@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v31-scene-composition-20261118.
+Revision: v32-animated-scroll-cue-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -25,7 +25,7 @@ The header links to the supplied TikTok, X and Discord destinations in new tabs,
 
 Social links are icon-only on all screen sizes, with optically balanced brand sizes and 44 px touch targets. The original-audio toggle sits beside them and switches between muted-speaker and sound-wave icons, with accessible state labels and keyboard focus.
 
-This revision includes the approved typography, outline icons and individual scene compositions.
+This revision preserves the latest typography, outline icons and individual scene compositions. The desktop scroll hint now has a gently floating arrow: a 1.8-second cycle, 6 px of downward travel and subtle opacity change. Its text stays still. The animation is disabled when reduced motion is requested; the existing mobile hint visibility is unchanged.
 
 Header icons use a unified outline style in brand gold (#E5DFBA), matching the original Pisco logo. Every icon shares a 1.5 px non-scaling stroke, round caps and round joins; optical sizes and the speaker offset balance their visual centers. Social marks and the mute cross come from Tabler Icons (MIT; assets/icons/TABLER-LICENSE.txt).
 
