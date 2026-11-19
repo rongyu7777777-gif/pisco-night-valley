@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v37-scene-marketing-copy-20261119.
+Revision: v38-wider-scene-headlines-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -54,6 +54,8 @@ The headline and supporting text use the following supplied pairs. Existing head
 - The Winter Lodge (option 3): **Softly intoxicating. Uniquely yours.** — Step into stories where your daydreams come alive.
 - The Poker Table (option 5): **Some stories begin after midnight.** — What happens next is yours to decide.
 - The Ballroom (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
+
+Desktop headline containers now use up to 760 px / 60vw, replacing the narrower per-scene limits. Headlines use the full container width without an additional em-based cap. Font sizes, copy, scene anchors and alignments are preserved; supporting text retains its narrower 30ch measure, and mobile text remains bounded by the available screen width.
 
 ## Run locally
 
