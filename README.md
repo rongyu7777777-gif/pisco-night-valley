@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v33-desktop-logo-inset-20261119.
+Revision: v34-linear-volume-icons-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -27,9 +27,9 @@ Social links are icon-only on all screen sizes, with optically balanced brand si
 
 This revision preserves the latest typography, outline icons and individual scene compositions. The desktop scroll hint now has a gently floating arrow: a 1.8-second cycle, 6 px of downward travel and subtle opacity change. Its text stays still. The animation is disabled when reduced motion is requested; the existing mobile hint visibility is unchanged.
 
-Header icons use a unified outline style in brand gold (#E5DFBA), matching the original Pisco logo. Every icon shares a 1.5 px non-scaling stroke, round caps and round joins; optical sizes and the speaker offset balance their visual centers. Social marks and the mute cross come from Tabler Icons (MIT; assets/icons/TABLER-LICENSE.txt).
+Header icons use a unified outline style in brand gold (#E5DFBA), matching the original Pisco logo. Every icon shares a 1.5 px non-scaling stroke, round caps and round joins; optical sizes and the speaker offset balance their visual centers. Social marks come from Tabler Icons (MIT; assets/icons/TABLER-LICENSE.txt).
 
-The volume control now uses a wider simplified speaker, one sound arc, and a compact Tabler mute cross beside the intact speaker, while preserving the shared brand gold and audio behavior.
+The volume control follows the supplied mute/unmute references with custom linear artwork: a compact outlined speaker, an X for muted playback, and two curved sound waves when enabled. Both states use the same unfilled, 1.5 px rounded gold stroke as the header icons, preserving the existing 44 px touch target, accessible labels and original-audio toggle behavior.
 
 Header icon sizes are calibrated for visual weight: TikTok 25 px, X 26 px, Discord 25 px and both sound states 29 px. Click targets remain 44 px. The group sits 12 px farther right on narrow screens; desktop right inset is 16-24 px.
 
