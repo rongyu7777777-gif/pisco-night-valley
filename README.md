@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v36-remove-bottom-progress-20261119.
+Revision: v37-scene-marketing-copy-20261119.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -45,6 +45,15 @@ Each desktop scene has its own copy composition and camera approach, tuned again
 - Poker Table: upper-left copy, focus toward the lower table, zoom 1.025 to 1.18.
 - Ballroom: lower-left copy, focus toward the right, zoom 1.025 to 1.14.
 Text keeps the original travel and scale formulas unchanged: -128 px approach travel plus the original exit travel, and the original 1.28 approach / 1.52 exit scale. Each scene changes only its starting composition and transform origin. Camera crop positions are clamped to keep the canvas covered, and the incoming transition uses the next scene's starting camera. Portrait text stays separate from the video, retaining its original 0.45 travel and 0.2 scale multipliers. Reduced-motion mode keeps the camera/text composition static.
+
+## Current scene copy
+
+The headline and supporting text use the following supplied pairs. Existing headline capitalization and scene composition are preserved. On desktop viewports at most 640 px tall, the opening copy starts at 42vh to keep the longer headline clear of chapter navigation.
+
+- The Countdown (option 6): **A little danger. An undeniable spark.** — Meet the character you’ll think about tomorrow.
+- The Winter Lodge (option 3): **Softly intoxicating. Uniquely yours.** — Step into stories where your daydreams come alive.
+- The Poker Table (option 5): **Some stories begin after midnight.** — What happens next is yours to decide.
+- The Ballroom (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
 
 ## Run locally
 
