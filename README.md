@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v38-wider-scene-headlines-20261119.
+Revision: v39-semantic-lines-earlier-tear-20261120.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -44,7 +44,7 @@ Each desktop scene has its own copy composition and camera approach, tuned again
 - Winter Lodge: upper-right copy, upward focus, zoom 1.025 to 1.12.
 - Poker Table: upper-left copy, focus toward the lower table, zoom 1.025 to 1.18.
 - Ballroom: lower-left copy, focus toward the right, zoom 1.025 to 1.14.
-Text keeps the original travel and scale formulas unchanged: -128 px approach travel plus the original exit travel, and the original 1.28 approach / 1.52 exit scale. Each scene changes only its starting composition and transform origin. Camera crop positions are clamped to keep the canvas covered, and the incoming transition uses the next scene's starting camera. Portrait text stays separate from the video, retaining its original 0.45 travel and 0.2 scale multipliers. Reduced-motion mode keeps the camera/text composition static.
+Text keeps the -128 px approach travel and original exit travel. Scaling is restrained to 1.08 during approach and 1.12 at exit, reducing coverage of the characters while keeping gesture-linked depth. Each scene retains its starting composition and transform origin. Camera crop positions are clamped to keep the canvas covered, and the incoming transition uses the next scene's starting camera. Portrait text stays separate from the video, retaining its original 0.45 travel and 0.2 scale multipliers. Reduced-motion mode keeps the camera/text composition static.
 
 ## Current scene copy
 
@@ -56,6 +56,10 @@ The headline and supporting text use the following supplied pairs. Existing head
 - The Ballroom (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
 
 Desktop headline containers now use up to 760 px / 60vw, replacing the narrower per-scene limits. Headlines use the full container width without an additional em-based cap. Font sizes, copy, scene anchors and alignments are preserved; supporting text retains its narrower 30ch measure, and mobile text remains bounded by the available screen width.
+
+The Countdown headline breaks after “danger.” and the Ballroom headline after “taste,” so “An” and “and” begin their next phrases. Explicit line breaks are preserved while narrow screens can still wrap naturally.
+
+The tear transition now starts after 646 px of wheel travel per scene instead of 1,292 px; its visible opening follows the existing rendering curve. The opening itself retains its original 1,216 px travel, shape and reversible progression; native video timing is unchanged.
 
 ## Run locally
 
