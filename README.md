@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v40-red-brand-preview-20261120.
+Revision: v41-red-logo-white-ui-20261120.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -29,9 +29,9 @@ Social links are icon-only on all screen sizes, with optically balanced brand si
 
 This revision preserves the latest typography, outline icons and individual scene compositions. The desktop scroll hint now has a gently floating arrow: a 1.8-second cycle, 6 px of downward travel and subtle opacity change. Its text stays still. The animation is disabled when reduced motion is requested; the existing mobile hint visibility is unchanged.
 
-Header icons use a unified outline style in the reference red (#EA0B1B), matching the recolored Pisco logo. Every icon shares a 1.5 px non-scaling stroke, round caps and round joins; optical sizes and the speaker offset balance their visual centers. Social marks come from Tabler Icons (MIT; assets/icons/TABLER-LICENSE.txt).
+Header icons use a unified white (#FFFFFF) outline style; the Pisco logo retains the reference red (#EA0B1B). Every icon shares a 1.5 px non-scaling stroke, round caps and round joins; optical sizes and the speaker offset balance their visual centers. Social marks come from Tabler Icons (MIT; assets/icons/TABLER-LICENSE.txt).
 
-The volume control follows the supplied mute/unmute references with custom linear artwork: a compact outlined speaker, an X for muted playback, and two curved sound waves when enabled. Both states use the same unfilled, 1.5 px rounded red stroke as the header icons, preserving the existing 44 px touch target, accessible labels and original-audio toggle behavior.
+The volume control follows the supplied mute/unmute references with custom linear artwork: a compact outlined speaker, an X for muted playback, and two curved sound waves when enabled. Both states use the same unfilled, 1.5 px rounded white stroke as the header icons, preserving the existing 44 px touch target, accessible labels and original-audio toggle behavior.
 
 Header icon sizes are calibrated for visual weight: TikTok 25 px, X 26 px, Discord 25 px and both sound states 29 px. Click targets remain 44 px. The group sits 12 px farther right on narrow screens; desktop right inset is 16-24 px.
 
@@ -61,9 +61,9 @@ The Countdown headline breaks after “danger.” and the Ballroom headline afte
 
 The tear transition now starts after 646 px of wheel travel per scene instead of 1,292 px; its visible opening follows the existing rendering curve. The opening itself retains its original 1,216 px travel, shape and reversible progression; native video timing is unchanged.
 
-## Red color preview
+## Red logo and white interface
 
-The supplied logo reference was sampled as RGB(234, 11, 27), #EA0B1B. This color is applied to the logo asset and its embedded copy, all formerly gold or cream interface text and icons, focus indicators, separators, chapter marks, the WebGL tear fibers/core/bloom/dust, its Canvas fallback and ambient particles/glow. Existing opacity, layout, typography, semantic line breaks, scroll distances and restrained text scaling remain in place. Video and poster artwork retain their original colors.
+The Pisco logo alone keeps the supplied reference red, RGB(234, 11, 27), #EA0B1B. Its embedded and external SVG copies are identical. Headlines, body copy, outline icons, focus indicators, separators and chapter marks use white (#FFFFFF); chapter labels and the scroll hint use softly muted white. The WebGL tear fibers, core, bloom and dust, Canvas fallback and ambient particles/glow are white, restoring a bright luminous opening. Existing light intensity, geometry, layout, typography, semantic line breaks, scroll distances and restrained text scaling are preserved. Video and poster artwork retain their original colors.
 
 ## Run locally
 
