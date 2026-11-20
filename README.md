@@ -1,17 +1,17 @@
 # Pisco — Four video previews
 
-Revision: v44-new-fourth-video-20261120.
+Revision: v45-chapter-labels-20261120.
 
 1. The Countdown — 1×
-2. The Winter Lodge — 1.5×
-3. The Poker Table — 1.5×
-4. The Surprise Party — 1×
+2. A Pack of Temptations — 1.5×
+3. High Stakes — 1.5×
+4. The Private Party — 1×
 
 The first chapter now uses the user-supplied countdown footage from 2026-11-18, with matching start/end images. Its complete 302-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4; the original AAC audio packets are copied unchanged. First-scene playback remains 1x. First-scene titles, teaser, accessibility text and Stories card now match the countdown scene. The stable coffee-date scene ID remains for existing deep links.
 
-The Winter Lodge now uses the user-supplied 2026-11-18 16:27 video with matching start/end images. Its complete 362-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4, with unchanged original AAC audio packets. Native playback remains 1.5x.
+A Pack of Temptations now uses the user-supplied 2026-11-18 16:27 video with matching start/end images. Its complete 362-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4, with unchanged original AAC audio packets. Native playback remains 1.5x.
 
-The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio.
+The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. A Pack of Temptations and High Stakes now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio.
 
 The fourth chapter now uses the supplied 2026-11-20 21:12 surprise-party video. Its complete 241-frame, 1920x1080, 24 fps timeline is preserved in a web-compatible H.264 MP4 with fast-start metadata, and the original stereo AAC packets are copied unchanged. The full 10.08-second media duration includes the audio tail. New start/end posters are extracted from this web video. Playback stays at 1x; the stable ballroom scene ID preserves existing deep links. The previous fourth-chapter video and posters have been removed from the current source package.
 
@@ -53,19 +53,21 @@ Text keeps the -128 px approach travel and original exit travel. Scaling is rest
 The headline and supporting text use the following supplied pairs. Existing headline capitalization and scene composition are preserved. On desktop viewports at most 640 px tall, the opening copy starts at 42vh to keep the longer headline clear of chapter navigation.
 
 - The Countdown (option 6): **A little danger. An undeniable spark.** — Meet the character you’ll think about tomorrow.
-- The Winter Lodge (option 3): **Softly intoxicating. Uniquely yours.** — Step into stories where your daydreams come alive.
-- The Poker Table (option 5): **Some stories begin after midnight.** — What happens next is yours to decide.
-- The Surprise Party (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
+- A Pack of Temptations (option 3): **Softly intoxicating. Uniquely yours.** — Step into stories where your daydreams come alive.
+- High Stakes (option 5): **Some stories begin after midnight.** — What happens next is yours to decide.
+- The Private Party (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
 
 Desktop headline containers now use up to 760 px / 60vw, replacing the narrower per-scene limits. Headlines use the full container width without an additional em-based cap. Font sizes, copy, scene anchors and alignments are preserved; supporting text retains its narrower 30ch measure, and mobile text remains bounded by the available screen width.
 
-The Countdown headline breaks after “danger.” and the Surprise Party headline after “taste,” so “An” and “and” begin their next phrases. Explicit line breaks are preserved while narrow screens can still wrap naturally.
+The Countdown headline breaks after “danger.” and the Private Party headline after “taste,” so “An” and “and” begin their next phrases. Explicit line breaks are preserved while narrow screens can still wrap naturally.
 
 The tear transition now starts after 646 px of wheel travel per scene instead of 1,292 px; its visible opening follows the existing rendering curve. The opening itself retains its original 1,216 px travel, shape and reversible progression; native video timing is unchanged.
 
 ## Red logo and white interface
 
 The Pisco logo keeps the supplied reference red, RGB(234, 11, 27), #EA0B1B. Its embedded and external SVG copies are identical. Headlines, body copy, outline icons and active chapter marks use white at 65% opacity, with 65% white for chapter labels and the scroll hint. Inactive chapter marks and separators use 20% white. Header icons brighten to full white on hover or focus. The logo and tear-light opacity are independent of this softer interface styling. The tear keeps a bright white core and white fibers, with a red (#EA0B1B) outer halo and a sparse red accent among the edge particles (approximately 25% selected without increasing particle density). The Canvas fallback uses the same white edge and red shadow. Ambient lighting remains white. White-core intensity, geometry, layout, typography, semantic line breaks, scroll distances and restrained text scaling are preserved. Video and poster artwork retain their original colors.
+
+The bottom chapter labels are “The Countdown”, “A Pack of Temptations”, “High Stakes” and “The Private Party”, in that order. Chapter navigation accessibility labels use the same names. The idle scroll prompt reads “Scroll to get closer”; the existing transition prompt remains “Keep moving closer”.
 
 ## Run locally
 
