@@ -1,11 +1,11 @@
 # Pisco — Four video previews
 
-Revision: v43-ui-opacity-65-20261120.
+Revision: v44-new-fourth-video-20261120.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
 3. The Poker Table — 1.5×
-4. The Ballroom — 1×
+4. The Surprise Party — 1×
 
 The first chapter now uses the user-supplied countdown footage from 2026-11-18, with matching start/end images. Its complete 302-frame, 1920x1080, 30 fps timeline is preserved in a fast-start H.264 MP4; the original AAC audio packets are copied unchanged. First-scene playback remains 1x. First-scene titles, teaser, accessibility text and Stories card now match the countdown scene. The stable coffee-date scene ID remains for existing deep links.
 
@@ -13,7 +13,9 @@ The Winter Lodge now uses the user-supplied 2026-11-18 16:27 video with matching
 
 The third chapter replaces the previous motorcycle clip with the newly supplied private poker-table footage, matching cover images and copy. The Winter Lodge and The Poker Table now play 50% faster through native per-scene playbackRate. The video files retain their full original timelines; speed is not baked into the MP4s. A web-optimized H.264 third clip preserves original frame timestamps and AAC audio.
 
-The Sound control plays the original embedded audio of the current chapter. It is available on desktop and mobile. Videos start muted for browser autoplay; click the speaker icon beside the social links to enable original audio. Audio follows the active chapter during transitions, keeping background/preloaded chapters muted. The synthetic oscillator soundtrack has been removed. The current Ballroom asset and its pre-repair export contain no audio track; restoring that chapter's original soundtrack requires a source file with audio. Native pitch preservation remains enabled for the 1.5x scenes.
+The fourth chapter now uses the supplied 2026-11-20 21:12 surprise-party video. Its complete 241-frame, 1920x1080, 24 fps timeline is preserved in a web-compatible H.264 MP4 with fast-start metadata, and the original stereo AAC packets are copied unchanged. The full 10.08-second media duration includes the audio tail. New start/end posters are extracted from this web video. Playback stays at 1x; the stable ballroom scene ID preserves existing deep links. The previous fourth-chapter video and posters have been removed from the current source package.
+
+The Sound control plays the original embedded audio of the current chapter. It is available on desktop and mobile. Videos start muted for browser autoplay; click the speaker icon beside the social links to enable original audio. Audio follows the active chapter during transitions, keeping background/preloaded chapters muted. The synthetic oscillator soundtrack has been removed. The new fourth chapter includes its original AAC audio, controlled by the same Sound toggle. Native pitch preservation remains enabled for the 1.5x scenes.
 
 The R9 SVG paths and aspect ratio are preserved; its fills now use the supplied reference red (#EA0B1B). Header logo widths remain 92 px on desktop, 74 px on mobile portrait and 64 px on small-screen landscape.
 
@@ -43,7 +45,7 @@ Each desktop scene has its own copy composition and camera approach, tuned again
 - Countdown: compact middle-left copy, slight upper-left focus, zoom 1.025 to 1.08.
 - Winter Lodge: upper-right copy, upward focus, zoom 1.025 to 1.12.
 - Poker Table: upper-left copy, focus toward the lower table, zoom 1.025 to 1.18.
-- Ballroom: lower-left copy, focus toward the right, zoom 1.025 to 1.14.
+- Surprise Party: lower-left copy, focus toward the right, zoom 1.025 to 1.14.
 Text keeps the -128 px approach travel and original exit travel. Scaling is restrained to 1.08 during approach and 1.12 at exit, reducing coverage of the characters while keeping gesture-linked depth. Each scene retains its starting composition and transform origin. Camera crop positions are clamped to keep the canvas covered, and the incoming transition uses the next scene's starting camera. Portrait text stays separate from the video, retaining its original 0.45 travel and 0.2 scale multipliers. Reduced-motion mode keeps the camera/text composition static.
 
 ## Current scene copy
@@ -53,11 +55,11 @@ The headline and supporting text use the following supplied pairs. Existing head
 - The Countdown (option 6): **A little danger. An undeniable spark.** — Meet the character you’ll think about tomorrow.
 - The Winter Lodge (option 3): **Softly intoxicating. Uniquely yours.** — Step into stories where your daydreams come alive.
 - The Poker Table (option 5): **Some stories begin after midnight.** — What happens next is yours to decide.
-- The Ballroom (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
+- The Surprise Party (option 4): **One taste, and reality can wait.** — Stay for the spark. Come back for the chemistry.
 
 Desktop headline containers now use up to 760 px / 60vw, replacing the narrower per-scene limits. Headlines use the full container width without an additional em-based cap. Font sizes, copy, scene anchors and alignments are preserved; supporting text retains its narrower 30ch measure, and mobile text remains bounded by the available screen width.
 
-The Countdown headline breaks after “danger.” and the Ballroom headline after “taste,” so “An” and “and” begin their next phrases. Explicit line breaks are preserved while narrow screens can still wrap naturally.
+The Countdown headline breaks after “danger.” and the Surprise Party headline after “taste,” so “An” and “and” begin their next phrases. Explicit line breaks are preserved while narrow screens can still wrap naturally.
 
 The tear transition now starts after 646 px of wheel travel per scene instead of 1,292 px; its visible opening follows the existing rendering curve. The opening itself retains its original 1,216 px travel, shape and reversible progression; native video timing is unchanged.
 
