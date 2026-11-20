@@ -1,6 +1,6 @@
 # Pisco — Four video previews
 
-Revision: v41-red-logo-white-ui-20261120.
+Revision: v42-red-white-glow-soft-ui-20261120.
 
 1. The Countdown — 1×
 2. The Winter Lodge — 1.5×
@@ -63,7 +63,7 @@ The tear transition now starts after 646 px of wheel travel per scene instead of
 
 ## Red logo and white interface
 
-The Pisco logo alone keeps the supplied reference red, RGB(234, 11, 27), #EA0B1B. Its embedded and external SVG copies are identical. Headlines, body copy, outline icons, focus indicators, separators and chapter marks use white (#FFFFFF); chapter labels and the scroll hint use softly muted white. The WebGL tear fibers, core, bloom and dust, Canvas fallback and ambient particles/glow are white, restoring a bright luminous opening. Existing light intensity, geometry, layout, typography, semantic line breaks, scroll distances and restrained text scaling are preserved. Video and poster artwork retain their original colors.
+The Pisco logo keeps the supplied reference red, RGB(234, 11, 27), #EA0B1B. Its embedded and external SVG copies are identical. Headlines, body copy, outline icons and active chapter marks use white at 85% opacity, with 65% white for chapter labels and the scroll hint. Inactive chapter marks and separators use 20% white. Header icons brighten to full white on hover or focus. The logo and tear-light opacity are independent of this softer interface styling. The tear keeps a bright white core and white fibers, with a red (#EA0B1B) outer halo and a sparse red accent among the edge particles (approximately 25% selected without increasing particle density). The Canvas fallback uses the same white edge and red shadow. Ambient lighting remains white. White-core intensity, geometry, layout, typography, semantic line breaks, scroll distances and restrained text scaling are preserved. Video and poster artwork retain their original colors.
 
 ## Run locally
 
